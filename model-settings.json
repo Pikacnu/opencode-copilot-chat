@@ -1,0 +1,70 @@
+[
+  {
+    "name": "OpenCode Zen",
+    "vendor": "customendpoint",
+    "apiKey": "replace_with_your_api_key",
+    "models": [
+      {
+        "id": "mimo-v2.5-free",
+        "name": "MiMo V2.5 Free",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      {
+        "id": "deepseek-v4-flash-free",
+        "name": "DeepSeek V4 Flash Free",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 200000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "max"
+        ]
+      },
+      {
+        "id": "nemotron-3-super-free",
+        "name": "Nemotron 3 Super Free",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 204800,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      {
+        "id": "big-pickle",
+        "name": "Big Pickle",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 200000,
+        "maxOutputTokens": 32000,
+        "supportsReasoningEffort": []
+      }
+    ]
+  }
+]
