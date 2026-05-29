@@ -63,7 +63,7 @@ const providorModelInfo: ProvidorInfo[] = providors.data.providers
           thinking: model.capabilities.reasoning,
           maxInputTokens: model.limit.context,
           maxOutputTokens: model.limit.output,
-          ...(model.variants
+          ...(model.variants && Object.keys(model.variants).length > 0
             ? {
                 supportsReasoningEffort: Object.keys(model.variants),
               }

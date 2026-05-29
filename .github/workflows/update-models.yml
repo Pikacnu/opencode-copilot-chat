@@ -1,11 +1,14 @@
 name: Update Models
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # Run daily at 00:00 UTC
     - cron: "0 0 * * *"
   workflow_dispatch:
-    # Allow manual trigger from GitHub UI
+    # Allow manual trigger from GitHub
 
 permissions:
   contents: write
