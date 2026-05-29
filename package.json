@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@opencode-ai/sdk": "^1.15.12",
+    "@types/node": "^25.9.1"
+  },
+  "name": "opencode-vscode",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

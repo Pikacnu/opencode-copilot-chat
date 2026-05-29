@@ -1,0 +1,61 @@
+name: Update Models
+
+on:
+  schedule:
+    # Run daily at 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update-models:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Run model updater
+        run: bun run scripts/update-json.ts
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet -- model-settings.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add model-settings.json
+          git commit -m "chore: update model-settings.json"
+          git push
+
+      - name: Print summary
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          echo "### Model Updates Detected! 🔄" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`diff" >> $GITHUB_STEP_SUMMARY
+          git diff HEAD~1 -- model-settings.json >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+
+      - name: No changes summary
+        if: steps.check_changes.outputs.changed == 'false'
+        run: |
+          echo "### No Changes ✅" >> $GITHUB_STEP_SUMMARY
+          echo "All models are up to date." >> $GITHUB_STEP_SUMMARY
