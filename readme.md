@@ -19,11 +19,11 @@ This project provides a guide and settings JSON to add opencode's models to your
 
 ## VSCode Configuration
 
-- [`chat.exploreAgent.defaultModel`](vscode://settings/chat.exploreAgent.defaultModel): Select the default language model to use for the Explore subagent from the available providers.
+- [chat.exploreAgent.defaultModel](vscode://settings/chat.exploreAgent.defaultModel): Select the default language model to use for the Explore subagent from the available providers.
 
-- [`chat.utilityModel`](vscode://settings/chat.utilityModel): Override the language model used by built-in utility flows. Leave empty to use the default model.
+- [chat.utilityModel](vscode://settings/chat.utilityModel): Override the language model used by built-in utility flows. Leave empty to use the default model.
 
-- [`chat.utilitySmallModel`](vscode://settings/chat.utilitySmallModel): Override the language model used by built-in small/fast utility flows. A fast and inexpensive model is recommended. Leave empty to use the default model.
+- [chat.utilitySmallModel](vscode://settings/chat.utilitySmallModel): Override the language model used by built-in small/fast utility flows. A fast and inexpensive model is recommended. Leave empty to use the default model.
 
 ## Automated Updates
 
