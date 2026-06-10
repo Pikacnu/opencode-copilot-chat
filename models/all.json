@@ -822,6 +822,23 @@
       ]
     },
     {
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "max"
+      ]
+    },
+    {
       "id": "kimi-k2.5",
       "name": "Kimi K2.5",
       "url": "https://opencode.ai/zen/v1",
