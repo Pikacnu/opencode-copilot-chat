@@ -47,6 +47,41 @@ if (!providors.data || !providors.data.providers) {
   process.exit(1);
 }
 
+const zenFreeModelsId: string[] = await fetch(
+  'https://opencode.ai/zen/v1/models',
+)
+  .then((res) => {
+    if (!res.ok) {
+      throw new Error(`Failed to fetch Zen Free models: ${res.statusText}`);
+    }
+    return res.json();
+  })
+  .catch((err) => {
+    console.error(err);
+    return [];
+  })
+  .then((resData) => {
+    const resModelsId =
+      (
+        resData as {
+          object: string;
+          data: Array<{
+            id: string;
+            object: string;
+            created: number;
+            owned_by: string;
+          }>;
+        }
+      ).data || [];
+    const bigPickleModelIndex = resModelsId.findIndex((model) =>
+      model.id.includes('big-pickle'),
+    );
+    const freeModelsIds = resModelsId
+      .slice(bigPickleModelIndex)
+      .map((model) => model.id);
+    return freeModelsIds;
+  });
+
 const providorModelInfo: ProvidorInfo[] = providors.data.providers
   .map((provider) => {
     if (!provider.models) {
@@ -55,6 +90,7 @@ const providorModelInfo: ProvidorInfo[] = providors.data.providers
     }
     const models = Object.entries(provider.models).map(
       ([modelId, model]: [string, ExtenedModelInfoType]) => {
+        console.log(modelId);
         return {
           id: modelId,
           name: model.name,
@@ -121,6 +157,29 @@ if (await exists(modelDir)) {
     await file(join(modelDir, 'all.json')).write(
       fileContent.substring(1, fileContent.length - 1),
     );
+  }
+  if (zenFreeModelsId.length > 0) {
+    const providorZen = (providorModelInfo
+      .filter((provider) => provider.name === 'Zen')
+      .flat() || [])[0];
+    if (!providorZen) {
+      console.error('Zen provider not found, skipping Zen Free models update');
+    } else {
+      const zenModels = providorZen.models;
+      const zenFreeModelInfo: VSCodeModelsInfo[] = zenModels.filter((model) =>
+        zenFreeModelsId.includes(model.id),
+      );
+      const fileContent = JSON.stringify(
+        {
+          models: zenFreeModelInfo,
+        },
+        null,
+        2,
+      );
+      await file(join(modelDir, 'zen-free.json')).write(
+        fileContent.substring(1, fileContent.length - 1),
+      );
+    }
   }
 }
 
