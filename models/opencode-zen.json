@@ -423,24 +423,6 @@
       "maxOutputTokens": 65536
     },
     {
-      "id": "claude-fable-5",
-      "name": "Claude Fable 5",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "messages",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ]
-    },
-    {
       "id": "claude-haiku-4-5",
       "name": "Claude Haiku 4.5",
       "url": "https://opencode.ai/zen/v1",
