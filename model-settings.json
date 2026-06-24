@@ -423,6 +423,21 @@
         ]
       },
       {
+        "id": "glm-5.2",
+        "name": "GLM-5.2",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 131072,
+        "supportsReasoningEffort": [
+          "high",
+          "max"
+        ]
+      },
+      {
         "id": "gpt-5.1-codex",
         "name": "GPT-5.1 Codex",
         "url": "https://opencode.ai/zen/v1",
