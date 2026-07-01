@@ -95,7 +95,7 @@
     },
     {
       "id": "minimax-m3",
-      "name": "MiniMax M3 (3x usage)",
+      "name": "MiniMax-M3 (3x usage)",
       "url": "https://opencode.ai/zen/go/v1",
       "apiType": "messages",
       "toolCalling": true,
@@ -110,7 +110,7 @@
     },
     {
       "id": "minimax-m2.7",
-      "name": "MiniMax M2.7",
+      "name": "MiniMax-M2.7",
       "url": "https://opencode.ai/zen/go/v1",
       "apiType": "messages",
       "toolCalling": true,
