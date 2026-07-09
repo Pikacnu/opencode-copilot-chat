@@ -609,6 +609,17 @@
         "maxOutputTokens": 131072
       },
       {
+        "id": "grok-4.5",
+        "name": "Grok 4.5",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 500000,
+        "maxOutputTokens": 500000
+      },
+      {
         "id": "north-mini-code-free",
         "name": "North Mini Code Free",
         "url": "https://opencode.ai/zen/v1",
