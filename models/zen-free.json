@@ -72,7 +72,7 @@
       "toolCalling": true,
       "vision": false,
       "thinking": true,
-      "maxInputTokens": 256000,
+      "maxInputTokens": 190000,
       "maxOutputTokens": 64000,
       "supportsReasoningEffort": [
         "low",

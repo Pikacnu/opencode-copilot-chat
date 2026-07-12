@@ -456,6 +456,24 @@
       ]
     },
     {
+      "id": "gpt-5.6-luna",
+      "name": "GPT-5.6 Luna",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ]
+    },
+    {
       "id": "claude-opus-4-1",
       "name": "Claude Opus 4.1",
       "url": "https://opencode.ai/zen/v1",
@@ -498,6 +516,24 @@
       "maxOutputTokens": 65536
     },
     {
+      "id": "gpt-5.6-terra",
+      "name": "GPT-5.6 Terra",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ]
+    },
+    {
       "id": "claude-fable-5",
       "name": "Claude Fable 5",
       "url": "https://opencode.ai/zen/v1",
@@ -523,7 +559,7 @@
       "toolCalling": true,
       "vision": false,
       "thinking": true,
-      "maxInputTokens": 256000,
+      "maxInputTokens": 190000,
       "maxOutputTokens": 64000,
       "supportsReasoningEffort": [
         "low",
@@ -713,6 +749,24 @@
       "thinking": true,
       "maxInputTokens": 204800,
       "maxOutputTokens": 131072
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "name": "GPT-5.6 Sol",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ]
     },
     {
       "id": "gpt-5-codex",
