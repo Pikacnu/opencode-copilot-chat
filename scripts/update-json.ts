@@ -1,7 +1,7 @@
 import { createOpencode } from '@opencode-ai/sdk';
 import type {
   VSCodeModelsInfo,
-  ExtenedModelInfoType,
+  ExtenedModelInfoType as ExtendedModelInfoType,
   ProvidorInfo,
 } from './type';
 import { file } from 'bun';
@@ -47,6 +47,9 @@ if (!providors.data || !providors.data.providers) {
   process.exit(1);
 }
 
+// Used to fetch the Zen Free models from OpenCode API
+// For some reason, it not working as expected, so we are hardcoding the Zen Free models for now
+//
 // const zenFreeModelsId: string[] = await fetch(
 //   'https://opencode.ai/zen/v1/models',
 // )
@@ -81,7 +84,26 @@ if (!providors.data || !providors.data.providers) {
 //       .map((model) => model.id);
 //     return freeModelsIds;
 //   });
+
 const zenFreeModelsId: string[] = ['big-pickle'];
+
+const numToPrice = (num: number): string => {
+  return `${num}$`;
+};
+
+const numToUnits = (num: number): string => {
+  return `${(num / 1000).toFixed(0)}k`;
+};
+
+const generateTooltip = (model: ExtendedModelInfoType): string => {
+  const basePriceTag = `Price Per 1M token -- Input ${numToPrice(model.cost?.input ?? 0)}, Output ${numToPrice(model.cost?.output ?? 0)}, Cache ${numToPrice(model.cost?.cache.read ?? 0)}${model.cost?.cache.write ? `, Cache ${numToPrice(model.cost?.cache.write ?? 0)}` : ''}`;
+  let overContextPriceTag = '';
+  if (model.cost?.experimentalOver200K) {
+    const overBasePriceTier = model.cost.tiers![0]!;
+    overContextPriceTag = ` | Price Over ${numToUnits(overBasePriceTier.tier.size)} tokens -- Input ${numToPrice(overBasePriceTier.input)}, Output ${numToPrice(overBasePriceTier.output)}, Cache ${numToPrice(overBasePriceTier.cache.read ?? 0)}${overBasePriceTier.cache.write ? `, Cache ${numToPrice(overBasePriceTier.cache.write ?? 0)}` : ''}`;
+  }
+  return `${basePriceTag}${overContextPriceTag}`;
+};
 
 const providorModelInfo: ProvidorInfo[] = providors.data.providers
   .map((provider) => {
@@ -90,7 +112,7 @@ const providorModelInfo: ProvidorInfo[] = providors.data.providers
       return null;
     }
     const models = Object.entries(provider.models).map(
-      ([modelId, model]: [string, ExtenedModelInfoType]) => {
+      ([modelId, model]: [string, ExtendedModelInfoType]) => {
         return {
           id: modelId,
           name: model.name,
@@ -101,11 +123,19 @@ const providorModelInfo: ProvidorInfo[] = providors.data.providers
           thinking: model.capabilities.reasoning,
           maxInputTokens: model.limit.context,
           maxOutputTokens: model.limit.output,
+          ...(model.family && model.family.includes('kimi')
+            ? {
+                modelOptions: {
+                  top_p: null,
+                },
+              }
+            : {}),
           ...(model.variants && Object.keys(model.variants).length > 0
             ? {
                 supportsReasoningEffort: Object.keys(model.variants),
               }
             : {}),
+          tooltip: generateTooltip(model),
         } as VSCodeModelsInfo;
       },
     );
@@ -149,6 +179,7 @@ for (const provider of providorModelInfo) {
     join(modelDir, `${provider.name.toLowerCase().replace(/ /g, '-')}.json`),
   ).write(fileContent.substring(1, fileContent.length - 1));
 }
+
 if (providorModelInfo.map((provider) => provider.models).flat().length > 0) {
   const fileContent = JSON.stringify(
     {
