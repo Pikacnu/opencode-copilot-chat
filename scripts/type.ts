@@ -15,6 +15,11 @@ export type VSCodeModelsInfo = {
   supportsReasoningEffort?: string[];
   requestHeaders?: Record<string, string>;
   reasoningEffortFormat?: string;
+  tooltip: string;
+  modelOptions?: {
+    temperature?: number;
+    top_p?: number;
+  };
 };
 
 export type ExtenedModelInfoType = Model & {
@@ -24,7 +29,28 @@ export type ExtenedModelInfoType = Model & {
       reasoningEffort?: string;
     }
   >;
+  family?: string;
+  cost: ExtendedCostInfo;
 };
+
+type CostInfo = {
+  input: number;
+  output: number;
+  cache: {
+    read: number;
+    write: number;
+  };
+};
+
+export type ExtendedCostInfo = Model['cost'] &
+  Partial<{
+    tiers: ({
+      tier: {
+        type: 'context';
+        size: number;
+      };
+    } & CostInfo)[];
+  }>;
 
 export type ProvidorInfo = {
   name: string;
