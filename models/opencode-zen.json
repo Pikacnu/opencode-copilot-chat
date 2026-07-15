@@ -1,19 +1,83 @@
 
   "models": [
     {
-      "id": "claude-opus-4-5",
-      "name": "Claude Opus 4.5",
+      "id": "deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
       "url": "https://opencode.ai/zen/v1",
-      "apiType": "messages",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ]
+    },
+    {
+      "id": "minimax-m2.5",
+      "name": "MiniMax-M2.5",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 204800,
+      "maxOutputTokens": 131072
+    },
+    {
+      "id": "mimo-v2.5-free",
+      "name": "MiMo V2.5 Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
       "maxInputTokens": 200000,
-      "maxOutputTokens": 64000,
+      "maxOutputTokens": 32000
+    },
+    {
+      "id": "nemotron-3-ultra-free",
+      "name": "Nemotron 3 Ultra Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000
+    },
+    {
+      "id": "gemini-3-flash",
+      "name": "Gemini 3 Flash",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 65536,
       "supportsReasoningEffort": [
+        "minimal",
         "low",
         "medium",
         "high"
+      ]
+    },
+    {
+      "id": "deepseek-v4-flash-free",
+      "name": "DeepSeek V4 Flash Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 200000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
       ]
     },
     {
@@ -32,61 +96,15 @@
       ]
     },
     {
-      "id": "claude-sonnet-4-6",
-      "name": "Claude Sonnet 4.6",
+      "id": "claude-opus-4-5",
+      "name": "Claude Opus 4.5",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "messages",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 1000000,
+      "maxInputTokens": 200000,
       "maxOutputTokens": 64000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high",
-        "max"
-      ]
-    },
-    {
-      "id": "grok-build-0.1",
-      "name": "Grok Build 0.1",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 256000,
-      "maxOutputTokens": 256000
-    },
-    {
-      "id": "gpt-5.2",
-      "name": "GPT-5.2",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 400000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "none",
-        "low",
-        "medium",
-        "high",
-        "xhigh"
-      ]
-    },
-    {
-      "id": "gpt-5-codex",
-      "name": "GPT-5 Codex",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 400000,
-      "maxOutputTokens": 128000,
       "supportsReasoningEffort": [
         "low",
         "medium",
@@ -111,121 +129,15 @@
       ]
     },
     {
-      "id": "claude-haiku-4-5",
-      "name": "Claude Haiku 4.5",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "messages",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 200000,
-      "maxOutputTokens": 64000,
-      "supportsReasoningEffort": [
-        "high",
-        "max"
-      ]
-    },
-    {
-      "id": "gpt-5.4-pro",
-      "name": "GPT-5.4 Pro",
+      "id": "gemini-3.5-flash",
+      "name": "Gemini 3.5 Flash",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 1050000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "medium",
-        "high",
-        "xhigh"
-      ]
-    },
-    {
-      "id": "gpt-5.4",
-      "name": "GPT-5.4",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1050000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "none",
-        "low",
-        "medium",
-        "high",
-        "xhigh"
-      ]
-    },
-    {
-      "id": "qwen3.5-plus",
-      "name": "Qwen3.5 Plus",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "messages",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 65536
-    },
-    {
-      "id": "gpt-5.5",
-      "name": "GPT-5.5",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1050000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "none",
-        "low",
-        "medium",
-        "high",
-        "xhigh"
-      ]
-    },
-    {
-      "id": "kimi-k2.6",
-      "name": "Kimi K2.6",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 65536
-    },
-    {
-      "id": "gpt-5.1",
-      "name": "GPT-5.1",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 400000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "none",
-        "low",
-        "medium",
-        "high"
-      ]
-    },
-    {
-      "id": "gpt-5-nano",
-      "name": "GPT-5 Nano",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 400000,
-      "maxOutputTokens": 128000,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 65536,
       "supportsReasoningEffort": [
         "minimal",
         "low",
@@ -234,18 +146,168 @@
       ]
     },
     {
-      "id": "claude-opus-4-1",
-      "name": "Claude Opus 4.1",
+      "id": "kimi-k2.7-code",
+      "name": "Kimi K2.7 Code",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 262144
+    },
+    {
+      "id": "glm-5.1",
+      "name": "GLM-5.1",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 204800,
+      "maxOutputTokens": 131072
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ]
+    },
+    {
+      "id": "claude-sonnet-4-5",
+      "name": "Claude Sonnet 4.5",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "messages",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 200000,
-      "maxOutputTokens": 32000,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 64000,
       "supportsReasoningEffort": [
         "high",
         "max"
+      ]
+    },
+    {
+      "id": "claude-opus-4-7",
+      "name": "Claude Opus 4.7",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ]
+    },
+    {
+      "id": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ]
+    },
+    {
+      "id": "gpt-5.4-nano",
+      "name": "GPT-5.4 Nano",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ]
+    },
+    {
+      "id": "glm-5.2",
+      "name": "GLM-5.2",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ]
+    },
+    {
+      "id": "minimax-m3",
+      "name": "MiniMax-M3",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 512000,
+      "maxOutputTokens": 128000
+    },
+    {
+      "id": "gpt-5.1-codex",
+      "name": "GPT-5.1 Codex",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    {
+      "id": "gpt-5.3-codex-spark",
+      "name": "GPT-5.3 Codex Spark",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh"
       ]
     },
     {
@@ -266,40 +328,8 @@
       ]
     },
     {
-      "id": "gpt-5.1-codex-mini",
-      "name": "GPT-5.1 Codex Mini",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 400000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ]
-    },
-    {
-      "id": "nemotron-3-ultra-free",
-      "name": "Nemotron 3 Ultra Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ]
-    },
-    {
-      "id": "claude-fable-5",
-      "name": "Claude Fable 5",
+      "id": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "messages",
       "toolCalling": true,
@@ -316,52 +346,23 @@
       ]
     },
     {
-      "id": "gemini-3-flash",
-      "name": "Gemini 3 Flash",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "minimal",
-        "low",
-        "medium",
-        "high"
-      ]
-    },
-    {
-      "id": "qwen3.6-plus",
-      "name": "Qwen3.6 Plus",
+      "id": "qwen3.5-plus",
+      "name": "Qwen3.5 Plus",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "messages",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 65536
-    },
-    {
-      "id": "mimo-v2.5-free",
-      "name": "MiMo V2.5 Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 200000,
-      "maxOutputTokens": 32000,
+      "maxOutputTokens": 65536,
       "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
+        "high",
+        "max"
       ]
     },
     {
-      "id": "gpt-5.4-nano",
-      "name": "GPT-5.4 Nano",
+      "id": "gpt-5.2",
+      "name": "GPT-5.2",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -396,26 +397,50 @@
       ]
     },
     {
-      "id": "gpt-5.3-codex-spark",
-      "name": "GPT-5.3 Codex Spark",
+      "id": "minimax-m2.7",
+      "name": "MiniMax-M2.7",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
       "thinking": true,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 128000,
+      "maxInputTokens": 204800,
+      "maxOutputTokens": 131072
+    },
+    {
+      "id": "grok-4.5",
+      "name": "Grok 4.5",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 500000,
+      "maxOutputTokens": 500000,
       "supportsReasoningEffort": [
-        "none",
         "low",
         "medium",
-        "high",
-        "xhigh"
+        "high"
       ]
     },
     {
-      "id": "gpt-5.5-pro",
-      "name": "GPT-5.5 Pro",
+      "id": "north-mini-code-free",
+      "name": "North Mini Code Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 256000,
+      "maxOutputTokens": 64000,
+      "supportsReasoningEffort": [
+        "none",
+        "high"
+      ]
+    },
+    {
+      "id": "gpt-5.6-luna",
+      "name": "GPT-5.6 Luna",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -424,64 +449,32 @@
       "maxInputTokens": 1050000,
       "maxOutputTokens": 128000,
       "supportsReasoningEffort": [
+        "none",
+        "low",
         "medium",
         "high",
-        "xhigh"
+        "xhigh",
+        "max"
       ]
     },
     {
-      "id": "gemini-3.1-pro",
-      "name": "Gemini 3.1 Pro Preview",
+      "id": "claude-opus-4-1",
+      "name": "Claude Opus 4.1",
       "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
+      "apiType": "messages",
       "toolCalling": true,
       "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ]
-    },
-    {
-      "id": "gemini-3.5-flash",
-      "name": "Gemini 3.5 Flash",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "minimal",
-        "low",
-        "medium",
-        "high"
-      ]
-    },
-    {
-      "id": "deepseek-v4-flash-free",
-      "name": "DeepSeek V4 Flash Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
       "thinking": true,
       "maxInputTokens": 200000,
-      "maxOutputTokens": 128000,
+      "maxOutputTokens": 32000,
       "supportsReasoningEffort": [
-        "low",
-        "medium",
         "high",
         "max"
       ]
     },
     {
-      "id": "gpt-5.2-codex",
-      "name": "GPT-5.2 Codex",
+      "id": "gpt-5.1-codex-mini",
+      "name": "GPT-5.1 Codex Mini",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -492,41 +485,42 @@
       "supportsReasoningEffort": [
         "low",
         "medium",
-        "high",
-        "xhigh"
+        "high"
       ]
     },
     {
-      "id": "minimax-m2.7",
-      "name": "MiniMax M2.7",
+      "id": "kimi-k2.5",
+      "name": "Kimi K2.5",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
-      "vision": false,
+      "vision": true,
       "thinking": true,
-      "maxInputTokens": 204800,
-      "maxOutputTokens": 131072
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 65536
     },
     {
-      "id": "deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash",
+      "id": "gpt-5.6-terra",
+      "name": "GPT-5.6 Terra",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
-      "vision": false,
+      "vision": true,
       "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 384000,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
       "supportsReasoningEffort": [
+        "none",
         "low",
         "medium",
         "high",
+        "xhigh",
         "max"
       ]
     },
     {
-      "id": "claude-opus-4-8",
-      "name": "Claude Opus 4.8",
+      "id": "claude-fable-5",
+      "name": "Claude Fable 5",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "messages",
       "toolCalling": true,
@@ -543,67 +537,47 @@
       ]
     },
     {
-      "id": "glm-5",
-      "name": "GLM-5",
+      "id": "hy3-free",
+      "name": "Hy3 Free",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
       "thinking": true,
-      "maxInputTokens": 204800,
-      "maxOutputTokens": 131072
+      "maxInputTokens": 190000,
+      "maxOutputTokens": 64000
     },
     {
-      "id": "gpt-5.1-codex",
-      "name": "GPT-5.1 Codex",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 400000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ]
-    },
-    {
-      "id": "big-pickle",
-      "name": "Big Pickle",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 200000,
-      "maxOutputTokens": 32000
-    },
-    {
-      "id": "minimax-m2.5",
-      "name": "MiniMax M2.5",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 204800,
-      "maxOutputTokens": 131072
-    },
-    {
-      "id": "claude-sonnet-4-5",
-      "name": "Claude Sonnet 4.5",
+      "id": "claude-haiku-4-5",
+      "name": "Claude Haiku 4.5",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "messages",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 1000000,
+      "maxInputTokens": 200000,
       "maxOutputTokens": 64000,
       "supportsReasoningEffort": [
         "high",
         "max"
+      ]
+    },
+    {
+      "id": "gpt-5.4",
+      "name": "GPT-5.4",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
       ]
     },
     {
@@ -625,6 +599,17 @@
       ]
     },
     {
+      "id": "kimi-k2.6",
+      "name": "Kimi K2.6",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 65536
+    },
+    {
       "id": "claude-opus-4-6",
       "name": "Claude Opus 4.6",
       "url": "https://opencode.ai/zen/v1",
@@ -642,15 +627,48 @@
       ]
     },
     {
-      "id": "deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro",
+      "id": "gpt-5-nano",
+      "name": "GPT-5 Nano",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
-      "vision": false,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    {
+      "id": "gpt-5.4-pro",
+      "name": "GPT-5.4 Pro",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "medium",
+        "high",
+        "xhigh"
+      ]
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
       "thinking": true,
       "maxInputTokens": 1000000,
-      "maxOutputTokens": 384000,
+      "maxOutputTokens": 64000,
       "supportsReasoningEffort": [
         "low",
         "medium",
@@ -659,27 +677,71 @@
       ]
     },
     {
-      "id": "kimi-k2.5",
-      "name": "Kimi K2.5",
+      "id": "gemini-3.1-pro",
+      "name": "Gemini 3.1 Pro Preview",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 65536
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ]
     },
     {
-      "id": "claude-opus-4-7",
-      "name": "Claude Opus 4.7",
+      "id": "big-pickle",
+      "name": "Big Pickle",
       "url": "https://opencode.ai/zen/v1",
-      "apiType": "messages",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 200000,
+      "maxOutputTokens": 32000
+    },
+    {
+      "id": "gpt-5.5-pro",
+      "name": "GPT-5.5 Pro",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 1000000,
+      "maxInputTokens": 1050000,
       "maxOutputTokens": 128000,
       "supportsReasoningEffort": [
+        "medium",
+        "high",
+        "xhigh"
+      ]
+    },
+    {
+      "id": "glm-5",
+      "name": "GLM-5",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 204800,
+      "maxOutputTokens": 131072
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "name": "GPT-5.6 Sol",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
         "low",
         "medium",
         "high",
@@ -688,29 +750,97 @@
       ]
     },
     {
-      "id": "north-mini-code-free",
-      "name": "North Mini Code Free",
+      "id": "gpt-5-codex",
+      "name": "GPT-5 Codex",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
-      "vision": false,
+      "vision": true,
       "thinking": true,
-      "maxInputTokens": 256000,
-      "maxOutputTokens": 64000,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
       "supportsReasoningEffort": [
-        "none",
+        "low",
+        "medium",
         "high"
       ]
     },
     {
-      "id": "glm-5.1",
-      "name": "GLM-5.1",
+      "id": "gpt-5.2-codex",
+      "name": "GPT-5.2 Codex",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
-      "vision": false,
+      "vision": true,
       "thinking": true,
-      "maxInputTokens": 204800,
-      "maxOutputTokens": 131072
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ]
+    },
+    {
+      "id": "qwen3.6-plus",
+      "name": "Qwen3.6 Plus",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ]
+    },
+    {
+      "id": "grok-build-0.1",
+      "name": "Grok Build 0.1",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 256000,
+      "maxOutputTokens": 256000
+    },
+    {
+      "id": "gpt-5.1",
+      "name": "GPT-5.1",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    {
+      "id": "gpt-5.5",
+      "name": "GPT-5.5",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ]
     }
   ]
