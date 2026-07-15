@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@opencode-ai/sdk": "^1.15.12",
-    "@types/node": "^25.9.1"
+    "@opencode-ai/sdk": "^1.18.1",
+    "@types/node": "^25.9.5"
   },
   "name": "opencode-vscode",
   "private": true,
@@ -9,6 +9,6 @@
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.9.3"
   }
 }
