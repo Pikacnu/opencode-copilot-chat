@@ -1,6 +1,46 @@
 
   "models": [
     {
+      "id": "hy3-free",
+      "name": "Hy3 Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 190000,
+      "maxOutputTokens": 64000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "north-mini-code-free",
+      "name": "North Mini Code Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 256000,
+      "maxOutputTokens": 64000,
+      "supportsReasoningEffort": [
+        "none",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "big-pickle",
+      "name": "Big Pickle",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 200000,
+      "maxOutputTokens": 32000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "mimo-v2.5-free",
       "name": "MiMo V2.5 Free",
       "url": "https://opencode.ai/zen/v1",
@@ -38,46 +78,6 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "north-mini-code-free",
-      "name": "North Mini Code Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 256000,
-      "maxOutputTokens": 64000,
-      "supportsReasoningEffort": [
-        "none",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "hy3-free",
-      "name": "Hy3 Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 190000,
-      "maxOutputTokens": 64000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "big-pickle",
-      "name": "Big Pickle",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 200000,
-      "maxOutputTokens": 32000,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     }
   ]

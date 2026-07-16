@@ -1,6 +1,45 @@
 
   "models": [
     {
+      "id": "mimo-v2.5-pro",
+      "name": "MiMo V2.5 Pro",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 1.74$, Output 3.48$, Cache 0.0145$"
+    },
+    {
+      "id": "kimi-k2.7-code",
+      "name": "Kimi K2.7 Code",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 262144,
+      "modelOptions": {
+        "top_p": null
+      },
+      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.19$"
+    },
+    {
+      "id": "mimo-v2.5",
+      "name": "MiMo V2.5",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
+    },
+    {
       "id": "deepseek-v4-flash",
       "name": "DeepSeek V4 Flash",
       "url": "https://opencode.ai/zen/go/v1",
@@ -15,6 +54,21 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
+    },
+    {
+      "id": "kimi-k2.6",
+      "name": "Kimi K2.6",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 65536,
+      "modelOptions": {
+        "top_p": null
+      },
+      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.16$"
     },
     {
       "id": "qwen3.7-plus",
@@ -33,6 +87,22 @@
       "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.04$, Cache 0.5$ | Price Over 256k tokens -- Input 1.2$, Output 4.8$, Cache 0.12$, Cache 1.5$"
     },
     {
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1.74$, Output 3.48$, Cache 0.0145$"
+    },
+    {
       "id": "qwen3.7-max",
       "name": "Qwen3.7 Max",
       "url": "https://opencode.ai/zen/go/v1",
@@ -49,47 +119,20 @@
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 7.5$, Cache 0.5$, Cache 3.125$"
     },
     {
-      "id": "kimi-k2.7-code",
-      "name": "Kimi K2.7 Code",
+      "id": "qwen3.6-plus",
+      "name": "Qwen3.6 Plus",
       "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
+      "apiType": "messages",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 262144,
-      "modelOptions": {
-        "top_p": null
-      },
-      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.19$"
-    },
-    {
-      "id": "glm-5.1",
-      "name": "GLM-5.1",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 202752,
-      "maxOutputTokens": 32768,
-      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
-    },
-    {
-      "id": "deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
       "maxInputTokens": 1000000,
-      "maxOutputTokens": 384000,
+      "maxOutputTokens": 65536,
       "supportsReasoningEffort": [
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.74$, Output 3.48$, Cache 0.0145$"
+      "tooltip": "Price Per 1M token -- Input 0.5$, Output 3$, Cache 0.05$, Cache 0.625$ | Price Over 256k tokens -- Input 2$, Output 6$, Cache 0.2$, Cache 2.5$"
     },
     {
       "id": "glm-5.2",
@@ -124,6 +167,18 @@
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$ | Price Over 512k tokens -- Input 0.6$, Output 2.4$, Cache 0.12$"
     },
     {
+      "id": "glm-5.1",
+      "name": "GLM-5.1",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 202752,
+      "maxOutputTokens": 32768,
+      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
+    },
+    {
       "id": "minimax-m2.7",
       "name": "MiniMax-M2.7",
       "url": "https://opencode.ai/zen/go/v1",
@@ -134,60 +189,5 @@
       "maxInputTokens": 204800,
       "maxOutputTokens": 131072,
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$"
-    },
-    {
-      "id": "mimo-v2.5",
-      "name": "MiMo V2.5",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
-    },
-    {
-      "id": "kimi-k2.6",
-      "name": "Kimi K2.6",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 65536,
-      "modelOptions": {
-        "top_p": null
-      },
-      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.16$"
-    },
-    {
-      "id": "mimo-v2.5-pro",
-      "name": "MiMo V2.5 Pro",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 1.74$, Output 3.48$, Cache 0.0145$"
-    },
-    {
-      "id": "qwen3.6-plus",
-      "name": "Qwen3.6 Plus",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "messages",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0.5$, Output 3$, Cache 0.05$, Cache 0.625$ | Price Over 256k tokens -- Input 2$, Output 6$, Cache 0.2$, Cache 2.5$"
     }
   ]
