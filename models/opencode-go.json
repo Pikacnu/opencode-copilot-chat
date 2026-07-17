@@ -40,6 +40,24 @@
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
     },
     {
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modelOptions": {
+        "top_p": null
+      },
+      "supportsReasoningEffort": [
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$"
+    },
+    {
       "id": "deepseek-v4-flash",
       "name": "DeepSeek V4 Flash",
       "url": "https://opencode.ai/zen/go/v1",
@@ -54,6 +72,23 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
+    },
+    {
+      "id": "grok-4.5",
+      "name": "Grok 4.5",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 500000,
+      "maxOutputTokens": 500000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
     },
     {
       "id": "kimi-k2.6",
