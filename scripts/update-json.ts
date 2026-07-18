@@ -181,9 +181,19 @@ for (const provider of providorModelInfo) {
 }
 
 if (providorModelInfo.map((provider) => provider.models).flat().length > 0) {
+  const allModels = providorModelInfo.map((provider) => provider.models).flat();
+
+  const modelSet = new Set<string>();
+
+  allModels.forEach((model) => modelSet.add(JSON.stringify(model)));
+
+  const uniqueModels = Array.from(modelSet).map((model) =>
+    JSON.parse(model),
+  ) as VSCodeModelsInfo[];
+
   const fileContent = JSON.stringify(
     {
-      models: providorModelInfo.map((provider) => provider.models).flat(),
+      models: uniqueModels,
     },
     null,
     2,
