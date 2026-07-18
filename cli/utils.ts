@@ -164,6 +164,10 @@ export type configType = {
   target: string;
   provider: string;
   source: SourceType;
+  overwrite?: {
+    base_url?: string;
+    models_source_list_key?: string;
+  };
 };
 
 export type VSCodeModelsInfo = {
@@ -192,5 +196,15 @@ export type VSCodeCustomModelConfig = {
   name: string;
   vendor: string;
   apiKey: string;
-  models: VSCodeCustomModelConfig;
+  models: VSCodeModelsInfo[];
 }[];
+
+export type CustomModelSourceResponse = {
+  object: 'list';
+  data: {
+    id: string;
+    type: 'model';
+    display_name: string;
+    created_at: string;
+  }[];
+};

@@ -11,6 +11,8 @@ import {
   uninstallSchedule,
   type configType,
   type VSCodeCustomModelConfig,
+  type VSCodeModelsInfo,
+  type CustomModelSourceResponse,
 } from './utils';
 
 const { values } = parseArgs.parseArgs({
@@ -47,6 +49,12 @@ const { values } = parseArgs.parseArgs({
       type: 'string',
       default: 'daily',
     },
+    overwrite_base_url: {
+      type: 'string',
+    },
+    overwrite_models_source_list_key: {
+      type: 'string',
+    },
   },
 });
 
@@ -60,6 +68,20 @@ if (await file(cliConfigPath).exists()) {
     target: getVSCodeConfigPath(),
     provider: 'opencode',
     source: SourceType.All,
+  };
+}
+
+if (values.overwrite_base_url) {
+  config.overwrite = {
+    ...config.overwrite,
+    base_url: values.overwrite_base_url as string,
+  };
+}
+
+if (values.overwrite_models_source_list_key) {
+  config.overwrite = {
+    ...config.overwrite,
+    models_source_list_key: values.overwrite_models_source_list_key as string,
   };
 }
 
@@ -128,31 +150,72 @@ if (values.sync) {
     `Syncing VS Code chatLanguageModels.json with source: ${sourceTypeMapping[config.source]} and provider: ${config.provider}`,
   );
   try {
+    let useOverWriteModelsSourceList =
+      !!config.overwrite?.models_source_list_key;
+    let modelsSourceList: string[] = [];
+
     const vsCodeConfig = (await file(
       config.target,
     ).json()) as VSCodeCustomModelConfig;
+
     const targetProvidor = vsCodeConfig.find(
       (vsc) => vsc.name === config.provider,
     );
+
     if (!targetProvidor) {
       console.error(`Provider not found: ${config.provider}`);
       process.exit(1);
     }
+
     if (targetProvidor?.vendor !== 'customendpoint') {
       console.error(`Invalid provider vendor: ${targetProvidor?.vendor}`);
       process.exit(1);
     }
+
     const sourceJson = `{${await (
-      await fetch(`${githubJsonFileBase}${sourceTypeMapping[config.source]}`)
+      await fetch(
+        `${githubJsonFileBase}${
+          useOverWriteModelsSourceList
+            ? sourceTypeMapping[SourceType.All]
+            : sourceTypeMapping[config.source]
+        }`,
+      )
     ).text()}}`;
-    const models = JSON.parse(sourceJson).models;
+
+    const models: VSCodeModelsInfo[] = JSON.parse(sourceJson).models;
+
+    if (useOverWriteModelsSourceList) {
+      modelsSourceList = (
+        (await (
+          await fetch(
+            `${config.overwrite?.base_url?.replace(/\/$/, '')}/v1/models`,
+            {
+              headers: {
+                Authorization: `Bearer ${config.overwrite?.models_source_list_key}`,
+              },
+            },
+          )
+        ).json()) as CustomModelSourceResponse
+      ).data.map((model) => model.id);
+    }
+
+    const filteredModels = useOverWriteModelsSourceList
+      ? models.filter((model) => modelsSourceList.includes(model.id))
+      : models;
+
     const processedModels = [
       ...vsCodeConfig.filter((vsc) => vsc.name !== config.provider),
       {
         ...targetProvidor,
-        models: models,
+        models: config.overwrite?.base_url
+          ? filteredModels.map((m) => ({
+              ...m,
+              url: `${config.overwrite?.base_url}`,
+            }))
+          : filteredModels,
       },
     ];
+
     await file(config.target).write(JSON.stringify(processedModels, null, 2));
     console.log(
       `Successfully synced VS Code chatLanguageModels.json with source: ${sourceTypeMapping[config.source]} and provider: ${config.provider}`,
