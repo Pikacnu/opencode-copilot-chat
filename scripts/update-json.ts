@@ -11,8 +11,7 @@ import { join } from 'path';
 const openCodeSessionKey = process.env.OPENCODE_API_KEY;
 
 if (!openCodeSessionKey) {
-  console.error('OPENCODE_API_KEY environment variable is not set');
-  process.exit(1);
+  console.warn('OPENCODE_API_KEY environment variable is not set.');
 }
 
 const openCode = await createOpencode();
@@ -23,7 +22,7 @@ openCode.client.auth.set({
   },
   body: {
     type: 'api',
-    key: openCodeSessionKey,
+    key: openCodeSessionKey || '',
   },
 });
 
