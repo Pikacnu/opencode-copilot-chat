@@ -70,6 +70,18 @@
       "tooltip": "Price Per 1M token -- Input 15$, Output 75$, Cache 1.5$, Cache 18.75$"
     },
     {
+      "id": "hy3-free",
+      "name": "Hy3 Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 190000,
+      "maxOutputTokens": 64000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "gpt-5.4",
       "name": "GPT-5.4",
       "url": "https://opencode.ai/zen/v1",
@@ -272,24 +284,6 @@
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 15$, Cache 0.25$, Cache 3.125$ | Price Over 272k tokens -- Input 5$, Output 22.5$, Cache 0.5$, Cache 6.25$"
     },
     {
-      "id": "gemini-3.6-flash",
-      "name": "Gemini 3.6 Flash",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "minimal",
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0.15$"
-    },
-    {
       "id": "kimi-k2.7-code",
       "name": "Kimi K2.7 Code",
       "url": "https://opencode.ai/zen/v1",
@@ -456,24 +450,6 @@
         "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
-    },
-    {
-      "id": "gemini-3.5-flash-lite",
-      "name": "Gemini 3.5 Flash Lite",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "minimal",
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0.3$, Output 2.5$, Cache 0.03$"
     },
     {
       "id": "qwen3.5-plus",
@@ -839,23 +815,6 @@
       "maxInputTokens": 512000,
       "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$"
-    },
-    {
-      "id": "laguna-s-2.1-free",
-      "name": "Laguna S 2.1 Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 256000,
-      "maxOutputTokens": 32000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "claude-sonnet-4-5",

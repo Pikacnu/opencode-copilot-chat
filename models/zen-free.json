@@ -1,6 +1,18 @@
 
   "models": [
     {
+      "id": "hy3-free",
+      "name": "Hy3 Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 190000,
+      "maxOutputTokens": 64000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "north-mini-code-free",
       "name": "North Mini Code Free",
       "url": "https://opencode.ai/zen/v1",
@@ -65,23 +77,6 @@
       "supportsReasoningEffort": [
         "high",
         "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "laguna-s-2.1-free",
-      "name": "Laguna S 2.1 Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 256000,
-      "maxOutputTokens": 32000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
       ],
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     }
