@@ -5,27 +5,8 @@
     "apiKey": "replace_with_your_api_key",
     "models": [
       {
-        "id": "claude-opus-4-8",
-        "name": "Claude Opus 4.8",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "messages",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
-      },
-      {
-        "id": "gpt-5-codex",
-        "name": "GPT-5 Codex",
+        "id": "gpt-5.1-codex-mini",
+        "name": "GPT-5.1 Codex Mini",
         "url": "https://opencode.ai/zen/v1",
         "apiType": "chat-completions",
         "toolCalling": true,
@@ -38,179 +19,7 @@
           "medium",
           "high"
         ],
-        "tooltip": "Price Per 1M token -- Input 1.07$, Output 8.5$, Cache 0.107$"
-      },
-      {
-        "id": "gpt-5.5-pro",
-        "name": "GPT-5.5 Pro",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1050000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "tooltip": "Price Per 1M token -- Input 30$, Output 180$, Cache 30$"
-      },
-      {
-        "id": "claude-opus-4-1",
-        "name": "Claude Opus 4.1",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "messages",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 200000,
-        "maxOutputTokens": 32000,
-        "supportsReasoningEffort": [
-          "high",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 15$, Output 75$, Cache 1.5$, Cache 18.75$"
-      },
-      {
-        "id": "hy3-free",
-        "name": "Hy3 Free",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 190000,
-        "maxOutputTokens": 64000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "gpt-5.4",
-        "name": "GPT-5.4",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1050000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "tooltip": "Price Per 1M token -- Input 2.5$, Output 15$, Cache 0.25$ | Price Over 272k tokens -- Input 5$, Output 22.5$, Cache 0.5$"
-      },
-      {
-        "id": "gpt-5.4-pro",
-        "name": "GPT-5.4 Pro",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1050000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "tooltip": "Price Per 1M token -- Input 30$, Output 180$, Cache 30$"
-      },
-      {
-        "id": "north-mini-code-free",
-        "name": "North Mini Code Free",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 256000,
-        "maxOutputTokens": 64000,
-        "supportsReasoningEffort": [
-          "none",
-          "high"
-        ],
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "big-pickle",
-        "name": "Big Pickle",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 200000,
-        "maxOutputTokens": 32000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "gemini-3.1-pro",
-        "name": "Gemini 3.1 Pro Preview",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 65536,
-        "supportsReasoningEffort": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "tooltip": "Price Per 1M token -- Input 2$, Output 12$, Cache 0.2$ | Price Over 200k tokens -- Input 4$, Output 18$, Cache 0.4$"
-      },
-      {
-        "id": "gemini-3.5-flash",
-        "name": "Gemini 3.5 Flash",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 65536,
-        "supportsReasoningEffort": [
-          "minimal",
-          "low",
-          "medium",
-          "high"
-        ],
-        "tooltip": "Price Per 1M token -- Input 1.5$, Output 9$, Cache 0.15$"
-      },
-      {
-        "id": "claude-sonnet-4",
-        "name": "Claude Sonnet 4",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "messages",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 64000,
-        "supportsReasoningEffort": [
-          "high",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$, Cache 3.75$ | Price Over 200k tokens -- Input 6$, Output 22.5$, Cache 0.6$, Cache 7.5$"
-      },
-      {
-        "id": "mimo-v2.5-free",
-        "name": "MiMo V2.5 Free",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 200000,
-        "maxOutputTokens": 32000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+        "tooltip": "Price Per 1M token -- Input 0.25$, Output 2$, Cache 0.025$"
       },
       {
         "id": "claude-sonnet-4-6",
@@ -231,6 +40,53 @@
         "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$, Cache 3.75$"
       },
       {
+        "id": "gpt-5.5-pro",
+        "name": "GPT-5.5 Pro",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "tooltip": "Price Per 1M token -- Input 30$, Output 180$, Cache 30$"
+      },
+      {
+        "id": "glm-5",
+        "name": "GLM-5",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 204800,
+        "maxOutputTokens": 131072,
+        "tooltip": "Price Per 1M token -- Input 1$, Output 3.2$, Cache 0.2$"
+      },
+      {
+        "id": "gemini-3.5-flash",
+        "name": "Gemini 3.5 Flash",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 65536,
+        "supportsReasoningEffort": [
+          "minimal",
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.5$, Output 9$, Cache 0.15$"
+      },
+      {
         "id": "gpt-5.3-codex-spark",
         "name": "GPT-5.3 Codex Spark",
         "url": "https://opencode.ai/zen/v1",
@@ -249,144 +105,6 @@
         "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
       },
       {
-        "id": "gpt-5.4-mini",
-        "name": "GPT-5.4 Mini",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 400000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "tooltip": "Price Per 1M token -- Input 0.75$, Output 4.5$, Cache 0.075$"
-      },
-      {
-        "id": "gpt-5.6-terra",
-        "name": "GPT-5.6 Terra",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1050000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 2.5$, Output 15$, Cache 0.25$, Cache 3.125$ | Price Over 272k tokens -- Input 5$, Output 22.5$, Cache 0.5$, Cache 6.25$"
-      },
-      {
-        "id": "kimi-k2.7-code",
-        "name": "Kimi K2.7 Code",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 262144,
-        "maxOutputTokens": 262144,
-        "modelOptions": {
-          "top_p": null
-        },
-        "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.19$"
-      },
-      {
-        "id": "gpt-5.3-codex",
-        "name": "GPT-5.3 Codex",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 400000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
-      },
-      {
-        "id": "gpt-5.1-codex-max",
-        "name": "GPT-5.1 Codex Max",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 400000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "tooltip": "Price Per 1M token -- Input 1.25$, Output 10$, Cache 0.125$"
-      },
-      {
-        "id": "gemini-3-flash",
-        "name": "Gemini 3 Flash",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1048576,
-        "maxOutputTokens": 65536,
-        "supportsReasoningEffort": [
-          "minimal",
-          "low",
-          "medium",
-          "high"
-        ],
-        "tooltip": "Price Per 1M token -- Input 0.5$, Output 3$, Cache 0.05$"
-      },
-      {
-        "id": "gpt-5.1-codex",
-        "name": "GPT-5.1 Codex",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 400000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "tooltip": "Price Per 1M token -- Input 1.07$, Output 8.5$, Cache 0.107$"
-      },
-      {
-        "id": "grok-build-0.1",
-        "name": "Grok Build 0.1",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 256000,
-        "maxOutputTokens": 256000,
-        "tooltip": "Price Per 1M token -- Input 1$, Output 2$, Cache 0.2$"
-      },
-      {
         "id": "claude-haiku-4-5",
         "name": "Claude Haiku 4.5",
         "url": "https://opencode.ai/zen/v1",
@@ -403,57 +121,21 @@
         "tooltip": "Price Per 1M token -- Input 1$, Output 5$, Cache 0.1$, Cache 1.25$"
       },
       {
-        "id": "gpt-5.4-nano",
-        "name": "GPT-5.4 Nano",
+        "id": "gpt-5.4-pro",
+        "name": "GPT-5.4 Pro",
         "url": "https://opencode.ai/zen/v1",
         "apiType": "chat-completions",
         "toolCalling": true,
         "vision": true,
         "thinking": true,
-        "maxInputTokens": 400000,
+        "maxInputTokens": 1050000,
         "maxOutputTokens": 128000,
         "supportsReasoningEffort": [
-          "none",
-          "low",
           "medium",
           "high",
           "xhigh"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.2$, Output 1.25$, Cache 0.02$"
-      },
-      {
-        "id": "deepseek-v4-flash",
-        "name": "DeepSeek V4 Flash",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 384000,
-        "supportsReasoningEffort": [
-          "high",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.028$"
-      },
-      {
-        "id": "gpt-5.2-codex",
-        "name": "GPT-5.2 Codex",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 400000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
+        "tooltip": "Price Per 1M token -- Input 30$, Output 180$, Cache 30$"
       },
       {
         "id": "qwen3.5-plus",
@@ -470,383 +152,6 @@
           "max"
         ],
         "tooltip": "Price Per 1M token -- Input 0.2$, Output 1.2$, Cache 0.02$, Cache 0.25$"
-      },
-      {
-        "id": "gpt-5.1-codex-mini",
-        "name": "GPT-5.1 Codex Mini",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 400000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "tooltip": "Price Per 1M token -- Input 0.25$, Output 2$, Cache 0.025$"
-      },
-      {
-        "id": "gpt-5",
-        "name": "GPT-5",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 400000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "minimal",
-          "low",
-          "medium",
-          "high"
-        ],
-        "tooltip": "Price Per 1M token -- Input 1.07$, Output 8.5$, Cache 0.107$"
-      },
-      {
-        "id": "grok-4.5",
-        "name": "Grok 4.5",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 500000,
-        "maxOutputTokens": 500000,
-        "supportsReasoningEffort": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
-      },
-      {
-        "id": "nemotron-3-ultra-free",
-        "name": "Nemotron 3 Ultra Free",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "gpt-5.1",
-        "name": "GPT-5.1",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 400000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "none",
-          "low",
-          "medium",
-          "high"
-        ],
-        "tooltip": "Price Per 1M token -- Input 1.07$, Output 8.5$, Cache 0.107$"
-      },
-      {
-        "id": "kimi-k2.6",
-        "name": "Kimi K2.6",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 262144,
-        "maxOutputTokens": 65536,
-        "modelOptions": {
-          "top_p": null
-        },
-        "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.16$"
-      },
-      {
-        "id": "minimax-m2.5",
-        "name": "MiniMax-M2.5",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 204800,
-        "maxOutputTokens": 131072,
-        "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$"
-      },
-      {
-        "id": "deepseek-v4-pro",
-        "name": "DeepSeek V4 Pro",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 384000,
-        "supportsReasoningEffort": [
-          "high",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 1.74$, Output 3.84$, Cache 0.145$"
-      },
-      {
-        "id": "claude-fable-5",
-        "name": "Claude Fable 5",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "messages",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$"
-      },
-      {
-        "id": "claude-sonnet-5",
-        "name": "Claude Sonnet 5",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "messages",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
-      },
-      {
-        "id": "claude-opus-4-5",
-        "name": "Claude Opus 4.5",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "messages",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 200000,
-        "maxOutputTokens": 64000,
-        "supportsReasoningEffort": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
-      },
-      {
-        "id": "qwen3.6-plus",
-        "name": "Qwen3.6 Plus",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "messages",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 262144,
-        "maxOutputTokens": 65536,
-        "supportsReasoningEffort": [
-          "high",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 0.5$, Output 3$, Cache 0.05$, Cache 0.625$"
-      },
-      {
-        "id": "gpt-5-nano",
-        "name": "GPT-5 Nano",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 400000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "minimal",
-          "low",
-          "medium",
-          "high"
-        ],
-        "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.4$, Cache 0.005$"
-      },
-      {
-        "id": "glm-5.2",
-        "name": "GLM-5.2",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 131072,
-        "supportsReasoningEffort": [
-          "high",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
-      },
-      {
-        "id": "gpt-5.2",
-        "name": "GPT-5.2",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 400000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
-      },
-      {
-        "id": "deepseek-v4-flash-free",
-        "name": "DeepSeek V4 Flash Free",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 200000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "high",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
-        "id": "gpt-5.6-luna",
-        "name": "GPT-5.6 Luna",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1050000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 1$, Output 6$, Cache 0.1$, Cache 1.25$ | Price Over 272k tokens -- Input 2$, Output 9$, Cache 0.2$, Cache 2.5$"
-      },
-      {
-        "id": "claude-opus-4-7",
-        "name": "Claude Opus 4.7",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "messages",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
-      },
-      {
-        "id": "kimi-k2.5",
-        "name": "Kimi K2.5",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 262144,
-        "maxOutputTokens": 65536,
-        "modelOptions": {
-          "top_p": null
-        },
-        "tooltip": "Price Per 1M token -- Input 0.6$, Output 3$, Cache 0.08$"
-      },
-      {
-        "id": "claude-opus-4-6",
-        "name": "Claude Opus 4.6",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "messages",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "low",
-          "medium",
-          "high",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
-      },
-      {
-        "id": "minimax-m3",
-        "name": "MiniMax-M3",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 512000,
-        "maxOutputTokens": 128000,
-        "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$"
-      },
-      {
-        "id": "claude-sonnet-4-5",
-        "name": "Claude Sonnet 4.5",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "messages",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 64000,
-        "supportsReasoningEffort": [
-          "high",
-          "max"
-        ],
-        "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$, Cache 3.75$ | Price Over 200k tokens -- Input 6$, Output 22.5$, Cache 0.6$, Cache 7.5$"
-      },
-      {
-        "id": "glm-5",
-        "name": "GLM-5",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 204800,
-        "maxOutputTokens": 131072,
-        "tooltip": "Price Per 1M token -- Input 1$, Output 3.2$, Cache 0.2$"
       },
       {
         "id": "gpt-5.6-sol",
@@ -869,6 +174,262 @@
         "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$, Cache 6.25$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$, Cache 12.5$"
       },
       {
+        "id": "glm-5.1",
+        "name": "GLM-5.1",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 204800,
+        "maxOutputTokens": 131072,
+        "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
+      },
+      {
+        "id": "gemini-3.5-flash-lite",
+        "name": "Gemini 3.5 Flash Lite",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 65536,
+        "supportsReasoningEffort": [
+          "minimal",
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 2.5$, Cache 0.03$"
+      },
+      {
+        "id": "claude-opus-4-6",
+        "name": "Claude Opus 4.6",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
+      },
+      {
+        "id": "claude-fable-5",
+        "name": "Claude Fable 5",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$"
+      },
+      {
+        "id": "gemini-3.1-pro",
+        "name": "Gemini 3.1 Pro Preview",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 65536,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 2$, Output 12$, Cache 0.2$ | Price Over 200k tokens -- Input 4$, Output 18$, Cache 0.4$"
+      },
+      {
+        "id": "deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 384000,
+        "supportsReasoningEffort": [
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.028$"
+      },
+      {
+        "id": "kimi-k2.5",
+        "name": "Kimi K2.5",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 65536,
+        "modelOptions": {
+          "top_p": null
+        },
+        "tooltip": "Price Per 1M token -- Input 0.6$, Output 3$, Cache 0.08$"
+      },
+      {
+        "id": "minimax-m2.7",
+        "name": "MiniMax-M2.7",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 204800,
+        "maxOutputTokens": 131072,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$"
+      },
+      {
+        "id": "claude-opus-4-8",
+        "name": "Claude Opus 4.8",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
+      },
+      {
+        "id": "north-mini-code-free",
+        "name": "North Mini Code Free",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 256000,
+        "maxOutputTokens": 64000,
+        "supportsReasoningEffort": [
+          "none",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "glm-5.2",
+        "name": "GLM-5.2",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 131072,
+        "supportsReasoningEffort": [
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
+      },
+      {
+        "id": "ling-3.0-flash-free",
+        "name": "Ling-3.0-flash Free",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 32768,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "laguna-s-2.1-free",
+        "name": "Laguna S 2.1 Free",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 256000,
+        "maxOutputTokens": 32000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "deepseek-v4-flash-free",
+        "name": "DeepSeek V4 Flash Free",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 200000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "gemini-3-flash",
+        "name": "Gemini 3 Flash",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 65536,
+        "supportsReasoningEffort": [
+          "minimal",
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0.5$, Output 3$, Cache 0.05$"
+      },
+      {
+        "id": "kimi-k2.6",
+        "name": "Kimi K2.6",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 65536,
+        "modelOptions": {
+          "top_p": null
+        },
+        "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.16$"
+      },
+      {
         "id": "gpt-5.5",
         "name": "GPT-5.5",
         "url": "https://opencode.ai/zen/v1",
@@ -888,20 +449,212 @@
         "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$"
       },
       {
-        "id": "glm-5.1",
-        "name": "GLM-5.1",
+        "id": "claude-opus-4-1",
+        "name": "Claude Opus 4.1",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 200000,
+        "maxOutputTokens": 32000,
+        "supportsReasoningEffort": [
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 15$, Output 75$, Cache 1.5$, Cache 18.75$"
+      },
+      {
+        "id": "minimax-m3",
+        "name": "MiniMax-M3",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 512000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$"
+      },
+      {
+        "id": "gpt-5",
+        "name": "GPT-5",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 400000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "minimal",
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.07$, Output 8.5$, Cache 0.107$"
+      },
+      {
+        "id": "gpt-5-codex",
+        "name": "GPT-5 Codex",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 400000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.07$, Output 8.5$, Cache 0.107$"
+      },
+      {
+        "id": "claude-sonnet-4-5",
+        "name": "Claude Sonnet 4.5",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 64000,
+        "supportsReasoningEffort": [
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$, Cache 3.75$ | Price Over 200k tokens -- Input 6$, Output 22.5$, Cache 0.6$, Cache 7.5$"
+      },
+      {
+        "id": "deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
         "url": "https://opencode.ai/zen/v1",
         "apiType": "chat-completions",
         "toolCalling": true,
         "vision": false,
         "thinking": true,
-        "maxInputTokens": 204800,
-        "maxOutputTokens": 131072,
-        "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 384000,
+        "supportsReasoningEffort": [
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.74$, Output 3.84$, Cache 0.145$"
       },
       {
-        "id": "minimax-m2.7",
-        "name": "MiniMax-M2.7",
+        "id": "gpt-5.4",
+        "name": "GPT-5.4",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "tooltip": "Price Per 1M token -- Input 2.5$, Output 15$, Cache 0.25$ | Price Over 272k tokens -- Input 5$, Output 22.5$, Cache 0.5$"
+      },
+      {
+        "id": "gpt-5.2-codex",
+        "name": "GPT-5.2 Codex",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 400000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
+      },
+      {
+        "id": "gpt-5.4-nano",
+        "name": "GPT-5.4 Nano",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 400000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0.2$, Output 1.25$, Cache 0.02$"
+      },
+      {
+        "id": "gemini-3.6-flash",
+        "name": "Gemini 3.6 Flash",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 65536,
+        "supportsReasoningEffort": [
+          "minimal",
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0.15$"
+      },
+      {
+        "id": "claude-sonnet-4",
+        "name": "Claude Sonnet 4",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 64000,
+        "supportsReasoningEffort": [
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$, Cache 3.75$ | Price Over 200k tokens -- Input 6$, Output 22.5$, Cache 0.6$, Cache 7.5$"
+      },
+      {
+        "id": "gpt-5.4-mini",
+        "name": "GPT-5.4 Mini",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 400000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0.75$, Output 4.5$, Cache 0.075$"
+      },
+      {
+        "id": "minimax-m2.5",
+        "name": "MiniMax-M2.5",
         "url": "https://opencode.ai/zen/v1",
         "apiType": "chat-completions",
         "toolCalling": true,
@@ -910,6 +663,306 @@
         "maxInputTokens": 204800,
         "maxOutputTokens": 131072,
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$"
+      },
+      {
+        "id": "gpt-5.6-luna",
+        "name": "GPT-5.6 Luna",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1$, Output 6$, Cache 0.1$, Cache 1.25$ | Price Over 272k tokens -- Input 2$, Output 9$, Cache 0.2$, Cache 2.5$"
+      },
+      {
+        "id": "mimo-v2.5-free",
+        "name": "MiMo V2.5 Free",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 200000,
+        "maxOutputTokens": 32000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "gpt-5.2",
+        "name": "GPT-5.2",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 400000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
+      },
+      {
+        "id": "gpt-5.3-codex",
+        "name": "GPT-5.3 Codex",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 400000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
+      },
+      {
+        "id": "grok-4.5",
+        "name": "Grok 4.5",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 500000,
+        "maxOutputTokens": 500000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
+      },
+      {
+        "id": "kimi-k2.7-code",
+        "name": "Kimi K2.7 Code",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 262144,
+        "modelOptions": {
+          "top_p": null
+        },
+        "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.19$"
+      },
+      {
+        "id": "gpt-5.1",
+        "name": "GPT-5.1",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 400000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "none",
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.07$, Output 8.5$, Cache 0.107$"
+      },
+      {
+        "id": "big-pickle",
+        "name": "Big Pickle",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 200000,
+        "maxOutputTokens": 32000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "grok-build-0.1",
+        "name": "Grok Build 0.1",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 256000,
+        "maxOutputTokens": 256000,
+        "tooltip": "Price Per 1M token -- Input 1$, Output 2$, Cache 0.2$"
+      },
+      {
+        "id": "gpt-5.1-codex",
+        "name": "GPT-5.1 Codex",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 400000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.07$, Output 8.5$, Cache 0.107$"
+      },
+      {
+        "id": "gpt-5-nano",
+        "name": "GPT-5 Nano",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 400000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "minimal",
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.4$, Cache 0.005$"
+      },
+      {
+        "id": "claude-opus-4-7",
+        "name": "Claude Opus 4.7",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
+      },
+      {
+        "id": "gpt-5.6-terra",
+        "name": "GPT-5.6 Terra",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 2.5$, Output 15$, Cache 0.25$, Cache 3.125$ | Price Over 272k tokens -- Input 5$, Output 22.5$, Cache 0.5$, Cache 6.25$"
+      },
+      {
+        "id": "claude-opus-4-5",
+        "name": "Claude Opus 4.5",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 200000,
+        "maxOutputTokens": 64000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
+      },
+      {
+        "id": "claude-sonnet-5",
+        "name": "Claude Sonnet 5",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
+      },
+      {
+        "id": "nemotron-3-ultra-free",
+        "name": "Nemotron 3 Ultra Free",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 128000,
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "gpt-5.1-codex-max",
+        "name": "GPT-5.1 Codex Max",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 400000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.25$, Output 10$, Cache 0.125$"
+      },
+      {
+        "id": "qwen3.6-plus",
+        "name": "Qwen3.6 Plus",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "messages",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 65536,
+        "supportsReasoningEffort": [
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0.5$, Output 3$, Cache 0.05$, Cache 0.625$"
       }
     ]
   }
