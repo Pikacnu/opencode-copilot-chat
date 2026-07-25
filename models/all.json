@@ -357,6 +357,11 @@
       "thinking": true,
       "maxInputTokens": 262144,
       "maxOutputTokens": 32768,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
@@ -925,6 +930,25 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "claude-opus-5",
+      "name": "Claude Opus 5",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
     },
     {
       "id": "gpt-5.1-codex-max",

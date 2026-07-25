@@ -26,6 +26,11 @@
       "thinking": true,
       "maxInputTokens": 262144,
       "maxOutputTokens": 32768,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
