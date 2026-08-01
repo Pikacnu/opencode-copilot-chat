@@ -52,7 +52,7 @@
     },
     {
       "id": "deepseek-v4-flash-free",
-      "name": "DeepSeek V4 Flash Free",
+      "name": "DeepSeek V4 Flash Free (New)",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,

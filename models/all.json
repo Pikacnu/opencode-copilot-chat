@@ -383,7 +383,7 @@
     },
     {
       "id": "deepseek-v4-flash-free",
-      "name": "DeepSeek V4 Flash Free",
+      "name": "DeepSeek V4 Flash Free (New)",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -683,7 +683,7 @@
         "xhigh",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 1$, Output 6$, Cache 0.1$, Cache 1.25$ | Price Over 272k tokens -- Input 2$, Output 9$, Cache 0.2$, Cache 2.5$"
+      "tooltip": "Price Per 1M token -- Input 0.2$, Output 1.2$, Cache 0.02$, Cache 0.25$ | Price Over 272k tokens -- Input 0.4$, Output 1.8$, Cache 0.04$, Cache 0.5$"
     },
     {
       "id": "mimo-v2.5-free",
