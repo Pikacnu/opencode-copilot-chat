@@ -255,7 +255,7 @@
     },
     {
       "id": "deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash",
+      "name": "DeepSeek V4 Flash 0731",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
