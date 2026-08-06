@@ -17,7 +17,7 @@ if (!openCodeSessionKey) {
 const openCode = await createOpencode();
 
 await Promise.all(
-  ['opencode-zen', 'opencode-go'].map(async (providerName) => {
+  ['opencode', 'opencode-go'].map(async (providerName) => {
     await openCode.client.auth.set({
       path: {
         id: providerName,
