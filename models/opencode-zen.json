@@ -93,6 +93,7 @@
       "maxInputTokens": 128000,
       "maxOutputTokens": 128000,
       "supportsReasoningEffort": [
+        "none",
         "low",
         "medium",
         "high",
@@ -143,10 +144,6 @@
       "thinking": true,
       "maxInputTokens": 262144,
       "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "high",
-        "max"
-      ],
       "tooltip": "Price Per 1M token -- Input 0.2$, Output 1.2$, Cache 0.02$, Cache 0.25$"
     },
     {
@@ -164,8 +161,7 @@
         "low",
         "medium",
         "high",
-        "xhigh",
-        "max"
+        "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$, Cache 6.25$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$, Cache 12.5$"
     },
@@ -228,10 +224,7 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 128000,
       "supportsReasoningEffort": [
-        "low",
-        "medium",
         "high",
-        "xhigh",
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$"
@@ -265,6 +258,7 @@
       "maxOutputTokens": 384000,
       "supportsReasoningEffort": [
         "low",
+        "medium",
         "high",
         "max"
       ],
@@ -327,7 +321,8 @@
       "maxInputTokens": 256000,
       "maxOutputTokens": 64000,
       "supportsReasoningEffort": [
-        "none",
+        "low",
+        "medium",
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
@@ -359,10 +354,6 @@
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 131072,
-      "supportsReasoningEffort": [
-        "high",
-        "max"
-      ],
       "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
     },
     {
@@ -411,6 +402,7 @@
       "maxOutputTokens": 128000,
       "supportsReasoningEffort": [
         "low",
+        "medium",
         "high",
         "max"
       ],
@@ -558,6 +550,8 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 384000,
       "supportsReasoningEffort": [
+        "low",
+        "medium",
         "high",
         "max"
       ],
@@ -699,8 +693,7 @@
         "low",
         "medium",
         "high",
-        "xhigh",
-        "max"
+        "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 0.2$, Output 1.2$, Cache 0.02$, Cache 0.25$ | Price Over 272k tokens -- Input 0.4$, Output 1.8$, Cache 0.04$, Cache 0.5$"
     },
@@ -714,6 +707,11 @@
       "thinking": true,
       "maxInputTokens": 200000,
       "maxOutputTokens": 32000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
@@ -764,11 +762,6 @@
       "thinking": true,
       "maxInputTokens": 500000,
       "maxOutputTokens": 500000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
     },
     {
@@ -841,9 +834,6 @@
       "modelOptions": {
         "top_p": null
       },
-      "supportsReasoningEffort": [
-        "max"
-      ],
       "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$"
     },
     {
@@ -915,8 +905,7 @@
         "low",
         "medium",
         "high",
-        "xhigh",
-        "max"
+        "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 15$, Cache 0.25$, Cache 3.125$ | Price Over 272k tokens -- Input 5$, Output 22.5$, Cache 0.5$, Cache 6.25$"
     },
@@ -948,10 +937,7 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 128000,
       "supportsReasoningEffort": [
-        "low",
-        "medium",
         "high",
-        "xhigh",
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
@@ -966,6 +952,11 @@
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
@@ -979,10 +970,7 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 128000,
       "supportsReasoningEffort": [
-        "low",
-        "medium",
         "high",
-        "xhigh",
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
@@ -1015,10 +1003,6 @@
       "thinking": true,
       "maxInputTokens": 262144,
       "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "high",
-        "max"
-      ],
       "tooltip": "Price Per 1M token -- Input 0.5$, Output 3$, Cache 0.05$, Cache 0.625$"
     }
   ]
