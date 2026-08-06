@@ -24,7 +24,7 @@ await Promise.all(
       },
       body: {
         type: 'api',
-        key: openCodeSessionKey || '',
+        key: openCodeSessionKey || 'something-placeholder',
       },
     });
   }),
