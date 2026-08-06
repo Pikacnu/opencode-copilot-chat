@@ -1,0 +1,807 @@
+
+  "models": [
+    {
+      "id": "gpt-image-2",
+      "name": "gpt-image-2",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 0,
+      "maxOutputTokens": 0,
+      "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 1.25$"
+    },
+    {
+      "id": "gpt-5.2-pro",
+      "name": "GPT-5.2 Pro",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 21$, Output 168$, Cache 0$"
+    },
+    {
+      "id": "gpt-5.5-pro",
+      "name": "GPT-5.5 Pro",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 30$, Output 180$, Cache 0$ | Price Over 272k tokens -- Input 60$, Output 270$, Cache 0$"
+    },
+    {
+      "id": "gpt-4.1-mini",
+      "name": "GPT-4.1 mini",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 1047576,
+      "maxOutputTokens": 32768,
+      "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.1$"
+    },
+    {
+      "id": "gpt-4o",
+      "name": "GPT-4o",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 16384,
+      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 1.25$"
+    },
+    {
+      "id": "gpt-5.3-codex-spark",
+      "name": "GPT-5.3 Codex Spark",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 32000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
+    },
+    {
+      "id": "gpt-5.4-pro",
+      "name": "GPT-5.4 Pro",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 30$, Output 180$, Cache 0$ | Price Over 272k tokens -- Input 60$, Output 270$, Cache 0$"
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "name": "GPT-5.6 Sol",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$, Cache 6.25$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$, Cache 12.5$"
+    },
+    {
+      "id": "gpt-5.6-sol-fast",
+      "name": "GPT-5.6 Sol Fast",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 10$, Output 60$, Cache 1$, Cache 12.5$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$, Cache 12.5$"
+    },
+    {
+      "id": "gpt-5.6-sol-pro",
+      "name": "GPT-5.6 Sol Pro",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$, Cache 6.25$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$, Cache 12.5$"
+    },
+    {
+      "id": "text-embedding-ada-002",
+      "name": "text-embedding-ada-002",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 8192,
+      "maxOutputTokens": 1536,
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "gpt-5.2-chat-latest",
+      "name": "GPT-5.2 Chat",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 16384,
+      "supportsReasoningEffort": [
+        "medium"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
+    },
+    {
+      "id": "gpt-image-1-mini",
+      "name": "gpt-image-1-mini",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 0,
+      "maxOutputTokens": 0,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "gpt-5.5",
+      "name": "GPT-5.5",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$"
+    },
+    {
+      "id": "gpt-5.5-fast",
+      "name": "GPT-5.5 Fast",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 12.5$, Output 75$, Cache 1.25$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$"
+    },
+    {
+      "id": "o3-pro",
+      "name": "o3-pro",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 200000,
+      "maxOutputTokens": 100000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 20$, Output 80$, Cache 0$"
+    },
+    {
+      "id": "gpt-4o-mini",
+      "name": "GPT-4o mini",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 16384,
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.075$"
+    },
+    {
+      "id": "chatgpt-image-latest",
+      "name": "chatgpt-image-latest",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 0,
+      "maxOutputTokens": 0,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "gpt-5",
+      "name": "GPT-5",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1.25$, Output 10$, Cache 0.125$"
+    },
+    {
+      "id": "gpt-realtime-2.1",
+      "name": "GPT-Realtime-2.1",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 32000,
+      "supportsReasoningEffort": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 4$, Output 24$, Cache 0.4$"
+    },
+    {
+      "id": "gpt-4o-2024-11-20",
+      "name": "GPT-4o (2024-11-20)",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 16384,
+      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 1.25$"
+    },
+    {
+      "id": "gpt-5.4",
+      "name": "GPT-5.4",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 2.5$, Output 15$, Cache 0.25$ | Price Over 272k tokens -- Input 5$, Output 22.5$, Cache 0.5$"
+    },
+    {
+      "id": "gpt-5.4-fast",
+      "name": "GPT-5.4 Fast",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$ | Price Over 272k tokens -- Input 5$, Output 22.5$, Cache 0.5$"
+    },
+    {
+      "id": "gpt-5.3-chat-latest",
+      "name": "GPT-5.3 Chat (latest)",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 16384,
+      "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
+    },
+    {
+      "id": "gpt-image-1.5",
+      "name": "gpt-image-1.5",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 0,
+      "maxOutputTokens": 0,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "gpt-5.4-nano",
+      "name": "GPT-5.4 nano",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.2$, Output 1.25$, Cache 0.02$"
+    },
+    {
+      "id": "gpt-5-pro",
+      "name": "GPT-5 Pro",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 272000,
+      "supportsReasoningEffort": [
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 15$, Output 120$, Cache 0$"
+    },
+    {
+      "id": "gpt-5.4-mini",
+      "name": "GPT-5.4 mini",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.75$, Output 4.5$, Cache 0.075$"
+    },
+    {
+      "id": "gpt-5.4-mini-fast",
+      "name": "GPT-5.4 mini Fast",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1.5$, Output 9$, Cache 0.15$"
+    },
+    {
+      "id": "gpt-5.6-luna",
+      "name": "GPT-5.6 Luna",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.2$, Output 1.2$, Cache 0.02$, Cache 0.25$ | Price Over 272k tokens -- Input 0.4$, Output 1.8$, Cache 0.04$, Cache 0.5$"
+    },
+    {
+      "id": "gpt-5.6-luna-fast",
+      "name": "GPT-5.6 Luna Fast",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.4$, Output 2.4$, Cache 0.04$, Cache 0.5$ | Price Over 272k tokens -- Input 0.4$, Output 1.8$, Cache 0.04$, Cache 0.5$"
+    },
+    {
+      "id": "gpt-5.6-luna-pro",
+      "name": "GPT-5.6 Luna Pro",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.2$, Output 1.2$, Cache 0.02$, Cache 0.25$ | Price Over 272k tokens -- Input 0.4$, Output 1.8$, Cache 0.04$, Cache 0.5$"
+    },
+    {
+      "id": "gpt-5.2",
+      "name": "GPT-5.2",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
+    },
+    {
+      "id": "gpt-5.3-codex",
+      "name": "GPT-5.3 Codex",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
+    },
+    {
+      "id": "gpt-5-mini",
+      "name": "GPT-5 Mini",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.25$, Output 2$, Cache 0.025$"
+    },
+    {
+      "id": "gpt-5.6",
+      "name": "GPT-5.6",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$, Cache 6.25$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$, Cache 12.5$"
+    },
+    {
+      "id": "gpt-5.6-fast",
+      "name": "GPT-5.6 Fast",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 10$, Output 60$, Cache 1$, Cache 12.5$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$, Cache 12.5$"
+    },
+    {
+      "id": "gpt-5.6-pro",
+      "name": "GPT-5.6 Pro",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$, Cache 6.25$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$, Cache 12.5$"
+    },
+    {
+      "id": "gpt-5.1",
+      "name": "GPT-5.1",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1.25$, Output 10$, Cache 0.125$"
+    },
+    {
+      "id": "gpt-4o-2024-08-06",
+      "name": "GPT-4o (2024-08-06)",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 16384,
+      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 1.25$"
+    },
+    {
+      "id": "gpt-5-nano",
+      "name": "GPT-5 Nano",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.4$, Cache 0.005$"
+    },
+    {
+      "id": "o3",
+      "name": "o3",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 200000,
+      "maxOutputTokens": 100000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 2$, Output 8$, Cache 0.5$"
+    },
+    {
+      "id": "gpt-5.6-terra",
+      "name": "GPT-5.6 Terra",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 2$, Output 12$, Cache 0.2$, Cache 2.5$ | Price Over 272k tokens -- Input 4$, Output 18$, Cache 0.4$, Cache 5$"
+    },
+    {
+      "id": "gpt-5.6-terra-fast",
+      "name": "GPT-5.6 Terra Fast",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 4$, Output 24$, Cache 0.4$, Cache 5$ | Price Over 272k tokens -- Input 4$, Output 18$, Cache 0.4$, Cache 5$"
+    },
+    {
+      "id": "gpt-5.6-terra-pro",
+      "name": "GPT-5.6 Terra Pro",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 2$, Output 12$, Cache 0.2$, Cache 2.5$ | Price Over 272k tokens -- Input 4$, Output 18$, Cache 0.4$, Cache 5$"
+    },
+    {
+      "id": "gpt-4.1",
+      "name": "GPT-4.1",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 1047576,
+      "maxOutputTokens": 32768,
+      "tooltip": "Price Per 1M token -- Input 2$, Output 8$, Cache 0.5$"
+    },
+    {
+      "id": "text-embedding-3-large",
+      "name": "text-embedding-3-large",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 8191,
+      "maxOutputTokens": 3072,
+      "tooltip": "Price Per 1M token -- Input 0.13$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "text-embedding-3-small",
+      "name": "text-embedding-3-small",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 8191,
+      "maxOutputTokens": 1536,
+      "tooltip": "Price Per 1M token -- Input 0.02$, Output 0$, Cache 0$"
+    }
+  ]
