@@ -33,13 +33,13 @@ jobs:
       - name: Update dependencies
         run: bun update
 
-      - name: List Auth source
-        run: opencode auth list
-
       - name: Run model updater
         env:
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
         run: bun run scripts/update-json.ts
+
+      - name: Debug - List Auth source
+        run: opencode auth list
 
       - name: Debug - show generated files
         run: |

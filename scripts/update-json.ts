@@ -16,17 +16,19 @@ if (!openCodeSessionKey) {
 
 const openCode = await createOpencode();
 
-['opencode', 'opencode-go'].forEach((providerName) => {
-  openCode.client.auth.set({
-    path: {
-      id: providerName,
-    },
-    body: {
-      type: 'api',
-      key: openCodeSessionKey || '',
-    },
-  });
-});
+await Promise.all(
+  ['opencode-zen', 'opencode-go'].map(async (providerName) => {
+    await openCode.client.auth.set({
+      path: {
+        id: providerName,
+      },
+      body: {
+        type: 'api',
+        key: openCodeSessionKey || '',
+      },
+    });
+  }),
+);
 
 const providors = await openCode.client.config.providers();
 
