@@ -15,16 +15,17 @@ if (!openCodeSessionKey) {
 }
 
 const openCode = await createOpencode();
-
-openCode.client.auth.set({
-  path: {
-    id: 'opencode',
-  },
-  body: {
-    type: 'api',
-    key: openCodeSessionKey || '',
-  },
-});
+if (openCodeSessionKey) {
+  openCode.client.auth.set({
+    path: {
+      id: 'opencode',
+    },
+    body: {
+      type: 'api',
+      key: openCodeSessionKey,
+    },
+  });
+}
 
 const providors = await openCode.client.config.providers();
 
