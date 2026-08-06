@@ -255,7 +255,7 @@
     },
     {
       "id": "deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash 0731",
+      "name": "DeepSeek V4 Flash (New)",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -264,6 +264,7 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 384000,
       "supportsReasoningEffort": [
+        "low",
         "high",
         "max"
       ],
@@ -332,6 +333,23 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
+      "id": "longcat-2.0-free",
+      "name": "LongCat-2.0 Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "glm-5.2",
       "name": "GLM-5.2",
       "url": "https://opencode.ai/zen/v1",
@@ -392,6 +410,7 @@
       "maxInputTokens": 200000,
       "maxOutputTokens": 128000,
       "supportsReasoningEffort": [
+        "low",
         "high",
         "max"
       ],
