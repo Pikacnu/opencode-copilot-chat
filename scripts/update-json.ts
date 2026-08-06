@@ -32,6 +32,10 @@ if (providors.error) {
   console.error(providors.error);
 }
 
+console.log(
+  providors.data?.providers.map((provider) => provider.name).join(', '),
+);
+
 const npmPackageToApiTypeMap: Record<string, VSCodeModelsInfo['apiType']> = {
   '@ai-sdk/openai-compatible': 'chat-completions',
   '@ai-sdk/anthropic': 'messages',
@@ -103,6 +107,10 @@ const generateTooltip = (model: ExtendedModelInfoType): string => {
   }
   return `${basePriceTag}${overContextPriceTag}`;
 };
+
+console.log(
+  `Starting Processing Providers : ${providors.data.providers.map((provider) => provider.name).join(', ')}`,
+);
 
 const providorModelInfo: ProvidorInfo[] = providors.data.providers
   .map((provider) => {
