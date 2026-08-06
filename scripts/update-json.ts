@@ -16,7 +16,19 @@ if (!openCodeSessionKey) {
 
 const openCode = await createOpencode();
 
-const authTarget = ['opencode', 'opencode-go'];
+const authTarget = [
+  'opencode',
+  'opencode-go',
+  'openai',
+  'openrouter',
+  'anthropic',
+  'google',
+  'mistral',
+  'xai',
+  'cohere',
+  'deepseek',
+  'groq',
+];
 
 for (const providerName of authTarget) {
   console.log(`Setting auth for provider: ${providerName}`);
