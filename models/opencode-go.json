@@ -10,6 +10,10 @@
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
       "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.04$, Cache 0.5$ | Price Over 256k tokens -- Input 1.2$, Output 4.8$, Cache 0.12$, Cache 1.5$"
     },
     {
@@ -36,7 +40,6 @@
       "maxOutputTokens": 384000,
       "supportsReasoningEffort": [
         "low",
-        "medium",
         "high",
         "max"
       ],
@@ -64,6 +67,10 @@
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
       "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
     },
     {
@@ -76,6 +83,10 @@
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 7.5$, Cache 0.5$, Cache 3.125$"
     },
     {
@@ -103,6 +114,10 @@
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "none",
+        "thinking"
+      ],
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$ | Price Over 512k tokens -- Input 0.6$, Output 2.4$, Cache 0.12$"
     },
     {
@@ -116,8 +131,8 @@
       "maxInputTokens": 256000,
       "maxOutputTokens": 64000,
       "supportsReasoningEffort": [
+        "none",
         "low",
-        "medium",
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.58$, Cache 0.035$"
@@ -133,8 +148,6 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 384000,
       "supportsReasoningEffort": [
-        "low",
-        "medium",
         "high",
         "max"
       ],
@@ -150,6 +163,10 @@
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.25$, Cache 2.5$"
     },
     {
@@ -162,11 +179,6 @@
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
     },
     {
@@ -184,7 +196,8 @@
         "low",
         "medium",
         "high",
-        "xhigh"
+        "xhigh",
+        "max"
       ],
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.6$, Cache 0.01$, Cache 0.125$ | Price Over 272k tokens -- Input 0.2$, Output 0.9$, Cache 0.02$, Cache 0.25$"
     },
@@ -198,6 +211,11 @@
       "thinking": true,
       "maxInputTokens": 500000,
       "maxOutputTokens": 500000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
     },
     {
@@ -228,6 +246,9 @@
       "modelOptions": {
         "top_p": null
       },
+      "supportsReasoningEffort": [
+        "max"
+      ],
       "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$"
     },
     {
@@ -240,11 +261,6 @@
       "thinking": true,
       "maxInputTokens": 1048576,
       "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
       "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.003625$"
     },
     {
@@ -257,6 +273,10 @@
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
       "tooltip": "Price Per 1M token -- Input 0.5$, Output 3$, Cache 0.05$, Cache 0.625$ | Price Over 256k tokens -- Input 2$, Output 6$, Cache 0.2$, Cache 2.5$"
     }
   ]
