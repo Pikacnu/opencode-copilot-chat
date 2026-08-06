@@ -18,6 +18,7 @@ const openCode = await createOpencode();
 
 await Promise.all(
   ['opencode', 'opencode-go'].map(async (providerName) => {
+    console.log(`Setting auth for provider: ${providerName}`);
     await openCode.client.auth.set({
       path: {
         id: providerName,
