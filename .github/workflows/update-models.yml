@@ -31,7 +31,7 @@ jobs:
         run: bun install -g opencode-ai
 
       - name: Update dependencies
-        run: bun
+        run: bun update
 
       - name: Run model updater
         env:

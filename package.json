@@ -5,7 +5,7 @@
     "build": "bun build ./cli/index.ts --compile --outfile dist/opencode-auto-update"
   },
   "dependencies": {
-    "@opencode-ai/sdk": "^1.18.1",
+    "@opencode-ai/sdk": "^1.18.14",
     "@types/node": "^25.9.5"
   },
   "devDependencies": {
