@@ -112,6 +112,9 @@ const providorModelInfo: ProvidorInfo[] = providors.data.providers
     }
     const models = Object.entries(provider.models).map(
       ([modelId, model]: [string, ExtendedModelInfoType]) => {
+        console.log(
+          `Processing model ${modelId} for provider ${provider.name}`,
+        );
         return {
           id: modelId,
           name: model.name,
@@ -197,6 +200,7 @@ if (providorModelInfo.map((provider) => provider.models).flat().length > 0) {
     null,
     2,
   );
+
   await file(join(modelDir, 'all.json')).write(
     fileContent.substring(1, fileContent.length - 1),
   );
