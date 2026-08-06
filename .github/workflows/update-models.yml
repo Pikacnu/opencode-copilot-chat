@@ -30,6 +30,9 @@ jobs:
       - name: Install Opencode
         run: bun install -g opencode-ai
 
+      - name: Update dependencies
+        run: bun
+
       - name: Run model updater
         env:
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
