@@ -53,24 +53,6 @@
       "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
     },
     {
-      "id": "claude-opus-4-6-fast",
-      "name": "Claude Opus 4.6 Fast",
-      "url": "",
-      "apiType": "messages",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 30$, Output 150$, Cache 3$, Cache 37.5$"
-    },
-    {
       "id": "claude-fable-5",
       "name": "Claude Fable 5",
       "url": "",
@@ -210,25 +192,6 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
-    },
-    {
-      "id": "claude-opus-4-7-fast",
-      "name": "Claude Opus 4.7 Fast",
-      "url": "",
-      "apiType": "messages",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 30$, Output 150$, Cache 3$, Cache 37.5$"
     },
     {
       "id": "claude-opus-4-5",
