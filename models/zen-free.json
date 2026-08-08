@@ -34,23 +34,6 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "ling-3.0-flash-free",
-      "name": "Ling-3.0-flash Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 32768,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "laguna-s-2.1-free",
       "name": "Laguna S 2.1 Free",
       "url": "https://opencode.ai/zen/v1",
@@ -69,7 +52,7 @@
     },
     {
       "id": "deepseek-v4-flash-free",
-      "name": "DeepSeek V4 Flash Free (New)",
+      "name": "DeepSeek V4 Flash Free",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -82,6 +65,18 @@
         "high",
         "max"
       ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "ling-3.0-tiny-free",
+      "name": "Ling-3.0-tiny Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 32768,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
