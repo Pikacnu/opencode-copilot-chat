@@ -2285,7 +2285,7 @@
           "low",
           "medium"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.085$, Output 0.4$, Cache 0$"
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0$"
       },
       {
         "id": "nvidia/nemotron-3-nano-30b-a3b:free",
@@ -2914,13 +2914,13 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 65536,
+        "maxOutputTokens": 131072,
         "supportsReasoningEffort": [
           "low",
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.09$, Output 0.18$, Cache 0.018$"
+        "tooltip": "Price Per 1M token -- Input 0.079996$, Output 0.252$, Cache 0.0252$"
       },
       {
         "id": "perceptron/perceptron-mk1",
@@ -3056,7 +3056,7 @@
         "thinking": true,
         "maxInputTokens": 262144,
         "maxOutputTokens": 262144,
-        "tooltip": "Price Per 1M token -- Input 0.14$, Output 1$, Cache 0.05$"
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 1$, Cache 0.05$"
       },
       {
         "id": "qwen/qwen3-30b-a3b",
@@ -3466,8 +3466,8 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 65536,
-        "tooltip": "Price Per 1M token -- Input 0.39$, Output 2.34$, Cache 0$"
+        "maxOutputTokens": 262144,
+        "tooltip": "Price Per 1M token -- Input 0.5$, Output 3.6$, Cache 0.3$"
       },
       {
         "id": "qwen/qwen-2.5-coder-32b-instruct",
@@ -4396,7 +4396,7 @@
         "thinking": true,
         "maxInputTokens": 204800,
         "maxOutputTokens": 131072,
-        "tooltip": "Price Per 1M token -- Input 0.27$, Output 1.08$, Cache 0.054$"
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$"
       },
       {
         "id": "minimax/minimax-m3",
@@ -4559,7 +4559,7 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 65536,
+        "maxOutputTokens": 384000,
         "supportsReasoningEffort": [
           "low",
           "high",
@@ -4705,7 +4705,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 2.5$, Output 14$, Cache 0.29$"
+        "tooltip": "Price Per 1M token -- Input 2.8$, Output 14$, Cache 0.29$"
       },
       {
         "id": "ibm-granite/granite-4.0-h-micro",
@@ -5473,12 +5473,12 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 131072,
+        "maxOutputTokens": 128000,
         "supportsReasoningEffort": [
           "high",
           "xhigh"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.4466$, Output 1.4036$, Cache 0.08294$"
+        "tooltip": "Price Per 1M token -- Input 0.126$, Output 0.396$, Cache 0.0234$"
       },
       {
         "id": "z-ai/glm-4.6",
