@@ -2256,8 +2256,8 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 262144,
-        "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.2$, Cache 0.03$"
+        "maxOutputTokens": 228000,
+        "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.2$, Cache 0.025$"
       },
       {
         "id": "nvidia/nemotron-nano-9b-v2:free",
@@ -2593,13 +2593,13 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 16384,
+        "maxOutputTokens": 262144,
         "supportsReasoningEffort": [
           "low",
           "medium",
           "high"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.34$, Cache 0$"
+        "tooltip": "Price Per 1M token -- Input 0.12$, Output 0.4$, Cache 0.05$"
       },
       {
         "id": "google/gemma-2-27b-it",
@@ -4114,7 +4114,7 @@
         "thinking": false,
         "maxInputTokens": 8192,
         "maxOutputTokens": 4096,
-        "tooltip": "Price Per 1M token -- Input 0.08$, Output 0.11$, Cache 0$"
+        "tooltip": "Price Per 1M token -- Input 0.06$, Output 0.06$, Cache 0$"
       },
       {
         "id": "inclusionai/ling-3.0-tiny:free",
@@ -4576,8 +4576,8 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 163840,
-        "maxOutputTokens": 163840,
-        "tooltip": "Price Per 1M token -- Input 0.26$, Output 0.38$, Cache 0.13$"
+        "maxOutputTokens": 65536,
+        "tooltip": "Price Per 1M token -- Input 0.269$, Output 0.4$, Cache 0.1345$"
       },
       {
         "id": "deepseek/deepseek-r1",
@@ -5478,7 +5478,7 @@
           "high",
           "xhigh"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.126$, Output 0.396$, Cache 0.0234$"
+        "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.22$, Cache 0.013$"
       },
       {
         "id": "z-ai/glm-4.6",
