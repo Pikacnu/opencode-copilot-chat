@@ -139,7 +139,7 @@
     },
     {
       "id": "deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro",
+      "name": "DeepSeek V4 Pro (New)",
       "url": "https://opencode.ai/zen/go/v1",
       "apiType": "chat-completions",
       "toolCalling": true,

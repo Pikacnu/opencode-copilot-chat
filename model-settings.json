@@ -321,23 +321,6 @@
         "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
       },
       {
-        "id": "longcat-2.0-free",
-        "name": "LongCat-2.0 Free",
-        "url": "https://opencode.ai/zen/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": true,
-        "maxInputTokens": 1000000,
-        "maxOutputTokens": 131072,
-        "supportsReasoningEffort": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-      },
-      {
         "id": "glm-5.2",
         "name": "GLM-5.2",
         "url": "https://opencode.ai/zen/v1",
@@ -771,6 +754,24 @@
         "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.19$"
       },
       {
+        "id": "grok-4.6",
+        "name": "Grok 4.6",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 500000,
+        "maxOutputTokens": 500000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
+      },
+      {
         "id": "gpt-5.1",
         "name": "GPT-5.1",
         "url": "https://opencode.ai/zen/v1",
@@ -1163,7 +1164,7 @@
       },
       {
         "id": "deepseek-v4-pro",
-        "name": "DeepSeek V4 Pro",
+        "name": "DeepSeek V4 Pro (New)",
         "url": "https://opencode.ai/zen/go/v1",
         "apiType": "chat-completions",
         "toolCalling": true,
@@ -2333,10 +2334,10 @@
         "name": "Nemotron 3.5 Lightning 30B A3B",
         "url": "https://openrouter.ai/api/v1",
         "apiType": "chat-completions",
-        "toolCalling": false,
+        "toolCalling": true,
         "vision": false,
         "thinking": true,
-        "maxInputTokens": 262144,
+        "maxInputTokens": 1000000,
         "maxOutputTokens": 262144,
         "supportsReasoningEffort": [
           "low",
@@ -2967,7 +2968,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.072$, Output 0.144$, Cache 0.0144$"
+        "tooltip": "Price Per 1M token -- Input 0.079996$, Output 0.252$, Cache 0.0252$"
       },
       {
         "id": "perceptron/perceptron-mk1",
@@ -3198,6 +3199,23 @@
         "tooltip": "Price Per 1M token -- Input 0.195$, Output 1.56$, Cache 0$"
       },
       {
+        "id": "qwen/qwen3.8-2.4t-a95b",
+        "name": "Qwen3.8 2.4T A95B",
+        "url": "https://openrouter.ai/api/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 52429,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "xhigh"
+        ],
+        "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.2$"
+      },
+      {
         "id": "qwen/qwen3.7-max",
         "name": "Qwen3.7 Max",
         "url": "https://openrouter.ai/api/v1",
@@ -3259,7 +3277,7 @@
         "thinking": true,
         "maxInputTokens": 262144,
         "maxOutputTokens": 262144,
-        "tooltip": "Price Per 1M token -- Input 0.14$, Output 1$, Cache 0$"
+        "tooltip": "Price Per 1M token -- Input 0.25$, Output 1.25$, Cache 0.25$"
       },
       {
         "id": "qwen/qwen-2.5-7b-instruct",
@@ -3529,8 +3547,8 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 262144,
-        "tooltip": "Price Per 1M token -- Input 0.5$, Output 3.6$, Cache 0.3$"
+        "maxOutputTokens": 65536,
+        "tooltip": "Price Per 1M token -- Input 0.45$, Output 3$, Cache 0.045$"
       },
       {
         "id": "qwen/qwen-2.5-coder-32b-instruct",
@@ -3817,9 +3835,10 @@
         "supportsReasoningEffort": [
           "low",
           "medium",
-          "high"
+          "high",
+          "xhigh"
         ],
-        "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.3$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 0.6$"
+        "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
       },
       {
         "id": "mistralai/mistral-large",
@@ -4629,7 +4648,7 @@
           "high",
           "xhigh"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.63168$, Output 1.26336$, Cache 0.053298$"
+        "tooltip": "Price Per 1M token -- Input 1.168$, Output 2.336$, Cache 0.09855$"
       },
       {
         "id": "deepseek/deepseek-r1-0528",
@@ -4707,6 +4726,23 @@
         "maxInputTokens": 163840,
         "maxOutputTokens": 32768,
         "tooltip": "Price Per 1M token -- Input 0.27$, Output 0.95$, Cache 0.13$"
+      },
+      {
+        "id": "deepseek/deepseek-v4-pro-0813",
+        "name": "DeepSeek V4 Pro 0813",
+        "url": "https://openrouter.ai/api/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 384000,
+        "supportsReasoningEffort": [
+          "low",
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.003625$"
       },
       {
         "id": "deepseek/deepseek-chat-v3.1",
@@ -4876,6 +4912,24 @@
           "high"
         ],
         "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.3$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 0.6$"
+      },
+      {
+        "id": "x-ai/grok-4.6",
+        "name": "Grok 4.6",
+        "url": "https://openrouter.ai/api/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 500000,
+        "maxOutputTokens": 500000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
       },
       {
         "id": "x-ai/grok-build-0.1",
@@ -5578,12 +5632,12 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 1048576,
+        "maxOutputTokens": 131072,
         "supportsReasoningEffort": [
           "high",
           "xhigh"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.42$, Output 1.4$, Cache 0.07$"
+        "tooltip": "Price Per 1M token -- Input 0.5$, Output 3.15$, Cache 0.1$"
       },
       {
         "id": "z-ai/glm-4.6",
@@ -5595,7 +5649,7 @@
         "thinking": true,
         "maxInputTokens": 204800,
         "maxOutputTokens": 131072,
-        "tooltip": "Price Per 1M token -- Input 0.55$, Output 2.2$, Cache 0.11$"
+        "tooltip": "Price Per 1M token -- Input 0.5$, Output 2$, Cache 0.1$"
       },
       {
         "id": "z-ai/glm-4.5",
@@ -5760,7 +5814,7 @@
         "modelOptions": {
           "top_p": null
         },
-        "tooltip": "Price Per 1M token -- Input 0.7$, Output 3.5$, Cache 0.15$"
+        "tooltip": "Price Per 1M token -- Input 0.67$, Output 3.4$, Cache 0.15$"
       },
       {
         "id": "moonshotai/kimi-k2",
@@ -6920,6 +6974,18 @@
         "maxInputTokens": 262144,
         "maxOutputTokens": 32768,
         "tooltip": "Price Per 1M token -- Input 0.075$, Output 0.3$, Cache 0$"
+      },
+      {
+        "id": "bytedance-seed/seed-2-1-turbo",
+        "name": "Seed 2.1 Turbo",
+        "url": "https://openrouter.ai/api/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 262144,
+        "tooltip": "Price Per 1M token -- Input 0.5$, Output 2.5$, Cache 0$"
       },
       {
         "id": "bytedance-seed/seed-2.0-lite",
@@ -8250,6 +8316,42 @@
           "high"
         ],
         "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.3$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 0.6$"
+      },
+      {
+        "id": "grok-4.6",
+        "name": "Grok 4.6",
+        "url": "",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 500000,
+        "maxOutputTokens": 500000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
+      },
+      {
+        "id": "grok-4.6-fast",
+        "name": "Grok 4.6 Fast",
+        "url": "",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 500000,
+        "maxOutputTokens": 500000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "tooltip": "Price Per 1M token -- Input 4$, Output 12$, Cache 1$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
       },
       {
         "id": "grok-build-0.1",

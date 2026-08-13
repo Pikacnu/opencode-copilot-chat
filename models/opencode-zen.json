@@ -317,23 +317,6 @@
       "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
     },
     {
-      "id": "longcat-2.0-free",
-      "name": "LongCat-2.0 Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 131072,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "glm-5.2",
       "name": "GLM-5.2",
       "url": "https://opencode.ai/zen/v1",
@@ -765,6 +748,24 @@
         "top_p": null
       },
       "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.19$"
+    },
+    {
+      "id": "grok-4.6",
+      "name": "Grok 4.6",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 500000,
+      "maxOutputTokens": 500000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
     },
     {
       "id": "gpt-5.1",
