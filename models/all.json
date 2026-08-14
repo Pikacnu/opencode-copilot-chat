@@ -200,6 +200,23 @@
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 2.5$, Cache 0.03$"
     },
     {
+      "id": "gemini-3.7-flash",
+      "name": "Gemini 3.7 Flash",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0.15$"
+    },
+    {
       "id": "claude-opus-4-6",
       "name": "Claude Opus 4.6",
       "url": "https://opencode.ai/zen/v1",
@@ -496,18 +513,6 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 1.74$, Output 3.84$, Cache 0.145$"
-    },
-    {
-      "id": "ling-3.0-tiny-free",
-      "name": "Ling-3.0-tiny Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 32768,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "gpt-5.4",
@@ -2483,6 +2488,23 @@
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 2.5$, Cache 0.03$, Cache 0.083333$"
     },
     {
+      "id": "google/gemini-3.7-flash",
+      "name": "Gemini 3.7 Flash",
+      "url": "https://openrouter.ai/api/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.375$, Output 1.875$, Cache 0.0375$, Cache 0.020833$"
+    },
+    {
       "id": "google/gemini-2.5-pro-preview",
       "name": "Gemini 2.5 Pro Preview 06-05",
       "url": "https://openrouter.ai/api/v1",
@@ -2584,7 +2606,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 65536,
-      "maxOutputTokens": 65536,
+      "maxOutputTokens": 66000,
       "supportsReasoningEffort": [
         "minimal",
         "high"
@@ -2681,7 +2703,7 @@
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0.15$, Cache 0.083333$"
+      "tooltip": "Price Per 1M token -- Input 0.75$, Output 3.75$, Cache 0.075$, Cache 0.041667$"
     },
     {
       "id": "google/gemini-3.1-flash-lite",
@@ -3001,12 +3023,11 @@
       "maxInputTokens": 1048576,
       "maxOutputTokens": 65536,
       "supportsReasoningEffort": [
-        "minimal",
         "low",
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0.15$, Cache 0.083333$"
+      "tooltip": "Price Per 1M token -- Input 0.375$, Output 1.875$, Cache 0.0375$, Cache 0.020833$"
     },
     {
       "id": "~google/gemini-pro-latest",
@@ -3181,14 +3202,14 @@
       "toolCalling": true,
       "vision": false,
       "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 52429,
+      "maxInputTokens": 1010000,
+      "maxOutputTokens": 262144,
       "supportsReasoningEffort": [
         "low",
         "medium",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.2$"
+      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.25$"
     },
     {
       "id": "qwen/qwen3.7-max",
@@ -3215,7 +3236,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 262144,
+      "maxOutputTokens": 32768,
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 1.2$, Cache 0$"
     },
     {
@@ -3510,8 +3531,8 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 16384,
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0$"
+      "maxOutputTokens": 32768,
+      "tooltip": "Price Per 1M token -- Input 0.13$, Output 0.52$, Cache 0$"
     },
     {
       "id": "qwen/qwen3.5-397b-a17b",
@@ -3522,8 +3543,8 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 65536,
-      "tooltip": "Price Per 1M token -- Input 0.45$, Output 3$, Cache 0.045$"
+      "maxOutputTokens": 262144,
+      "tooltip": "Price Per 1M token -- Input 0.5$, Output 3.6$, Cache 0.3$"
     },
     {
       "id": "qwen/qwen-2.5-coder-32b-instruct",
@@ -3670,8 +3691,8 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 16384,
-      "tooltip": "Price Per 1M token -- Input 0.09$, Output 1.1$, Cache 0$"
+      "maxOutputTokens": 262144,
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 1.1$, Cache 0.07$"
     },
     {
       "id": "qwen/qwen2.5-vl-72b-instruct",
@@ -4204,18 +4225,6 @@
       "tooltip": "Price Per 1M token -- Input 0.06$, Output 0.06$, Cache 0$"
     },
     {
-      "id": "inclusionai/ling-3.0-tiny:free",
-      "name": "Ling 3.0 Tiny (free)",
-      "url": "https://openrouter.ai/api/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 32768,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "inclusionai/ling-3.0-flash",
       "name": "Ling-3.0-flash",
       "url": "https://openrouter.ai/api/v1",
@@ -4646,13 +4655,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 384000,
+      "maxOutputTokens": 393216,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.08$, Output 0.18$, Cache 0.016$"
+      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.028$"
     },
     {
       "id": "deepseek/deepseek-v3.2",
@@ -4674,7 +4683,7 @@
       "toolCalling": true,
       "vision": false,
       "thinking": true,
-      "maxInputTokens": 163840,
+      "maxInputTokens": 64000,
       "maxOutputTokens": 16000,
       "tooltip": "Price Per 1M token -- Input 0.7$, Output 2.5$, Cache 0$"
     },
@@ -5612,7 +5621,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.5$, Output 3.15$, Cache 0.1$"
+      "tooltip": "Price Per 1M token -- Input 0.63$, Output 1.98$, Cache 0.0945$"
     },
     {
       "id": "z-ai/glm-4.6",
@@ -5624,7 +5633,7 @@
       "thinking": true,
       "maxInputTokens": 204800,
       "maxOutputTokens": 131072,
-      "tooltip": "Price Per 1M token -- Input 0.5$, Output 2$, Cache 0.1$"
+      "tooltip": "Price Per 1M token -- Input 0.55$, Output 2.2$, Cache 0.11$"
     },
     {
       "id": "z-ai/glm-4.5",
@@ -7034,8 +7043,8 @@
       "toolCalling": false,
       "vision": false,
       "thinking": false,
-      "maxInputTokens": 16384,
-      "maxOutputTokens": 2048,
+      "maxInputTokens": 32768,
+      "maxOutputTokens": 4096,
       "tooltip": "Price Per 1M token -- Input 3$, Output 5$, Cache 0$"
     },
     {
@@ -7434,6 +7443,23 @@
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 2.5$, Cache 0.03$"
+    },
+    {
+      "id": "gemini-3.7-flash",
+      "name": "Gemini 3.7 Flash",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.75$, Output 3.75$, Cache 0.075$"
     },
     {
       "id": "lyria-3-clip-preview",

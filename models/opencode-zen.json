@@ -200,6 +200,23 @@
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 2.5$, Cache 0.03$"
     },
     {
+      "id": "gemini-3.7-flash",
+      "name": "Gemini 3.7 Flash",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0.15$"
+    },
+    {
       "id": "claude-opus-4-6",
       "name": "Claude Opus 4.6",
       "url": "https://opencode.ai/zen/v1",
@@ -496,18 +513,6 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 1.74$, Output 3.84$, Cache 0.145$"
-    },
-    {
-      "id": "ling-3.0-tiny-free",
-      "name": "Ling-3.0-tiny Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 32768,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "gpt-5.4",
