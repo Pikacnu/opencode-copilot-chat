@@ -1,6 +1,122 @@
 
   "models": [
     {
+      "id": "mistral-medium-2508",
+      "name": "Mistral Medium 3.1",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 262144,
+      "tooltip": "Price Per 1M token -- Input 0.4$, Output 2$, Cache 0$"
+    },
+    {
+      "id": "mistral-small-latest",
+      "name": "Mistral Small (latest)",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 256000,
+      "maxOutputTokens": 256000,
+      "supportsReasoningEffort": [
+        "none",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0$"
+    },
+    {
+      "id": "open-mixtral-8x7b",
+      "name": "Mixtral 8x7B",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 32000,
+      "maxOutputTokens": 32000,
+      "tooltip": "Price Per 1M token -- Input 0.7$, Output 0.7$, Cache 0$"
+    },
+    {
+      "id": "mistral-large-2411",
+      "name": "Mistral Large 2.1",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 131072,
+      "maxOutputTokens": 16384,
+      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0$"
+    },
+    {
+      "id": "mistral-nemo",
+      "name": "Mistral Nemo",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.15$, Cache 0$"
+    },
+    {
+      "id": "mistral-large-latest",
+      "name": "Mistral Large (latest)",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 262144,
+      "tooltip": "Price Per 1M token -- Input 0.5$, Output 1.5$, Cache 0$"
+    },
+    {
+      "id": "mistral-small-2603",
+      "name": "Mistral Small 4",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 256000,
+      "maxOutputTokens": 256000,
+      "supportsReasoningEffort": [
+        "none",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0$"
+    },
+    {
+      "id": "magistral-small",
+      "name": "Magistral Small",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 0.5$, Output 1.5$, Cache 0$"
+    },
+    {
+      "id": "voxtral-mini-latest",
+      "name": "Voxtral Mini (latest)",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 0,
+      "maxOutputTokens": 0,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "mistral-small-2506",
       "name": "Mistral Small 3.2",
       "url": "",
@@ -25,44 +141,8 @@
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0$"
     },
     {
-      "id": "pixtral-12b",
-      "name": "Pixtral 12B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": false,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.15$, Cache 0$"
-    },
-    {
-      "id": "open-mixtral-8x7b",
-      "name": "Mixtral 8x7B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 32000,
-      "maxOutputTokens": 32000,
-      "tooltip": "Price Per 1M token -- Input 0.7$, Output 0.7$, Cache 0$"
-    },
-    {
-      "id": "magistral-medium-latest",
-      "name": "Magistral Medium (latest)",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 16384,
-      "tooltip": "Price Per 1M token -- Input 2$, Output 5$, Cache 0$"
-    },
-    {
-      "id": "mistral-medium-2508",
-      "name": "Mistral Medium 3.1",
+      "id": "mistral-large-2512",
+      "name": "Mistral Large 3",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -70,71 +150,7 @@
       "thinking": false,
       "maxInputTokens": 262144,
       "maxOutputTokens": 262144,
-      "tooltip": "Price Per 1M token -- Input 0.4$, Output 2$, Cache 0$"
-    },
-    {
-      "id": "mistral-large-2411",
-      "name": "Mistral Large 2.1",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 16384,
-      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0$"
-    },
-    {
-      "id": "voxtral-mini-tts-latest",
-      "name": "Voxtral Mini TTS (latest)",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 0,
-      "maxOutputTokens": 0,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "mistral-medium-latest",
-      "name": "Mistral Medium (latest)",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 262144,
-      "supportsReasoningEffort": [
-        "none",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0$"
-    },
-    {
-      "id": "open-mistral-7b",
-      "name": "Mistral 7B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 8000,
-      "maxOutputTokens": 8000,
-      "tooltip": "Price Per 1M token -- Input 0.25$, Output 0.25$, Cache 0$"
-    },
-    {
-      "id": "mistral-medium-2505",
-      "name": "Mistral Medium 3",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": false,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 131072,
-      "tooltip": "Price Per 1M token -- Input 0.4$, Output 2$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.5$, Output 1.5$, Cache 0$"
     },
     {
       "id": "ministral-3b-latest",
@@ -147,62 +163,6 @@
       "maxInputTokens": 128000,
       "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 0.04$, Output 0.04$, Cache 0$"
-    },
-    {
-      "id": "mistral-small-latest",
-      "name": "Mistral Small (latest)",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 256000,
-      "maxOutputTokens": 256000,
-      "supportsReasoningEffort": [
-        "none",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0$"
-    },
-    {
-      "id": "open-mixtral-8x22b",
-      "name": "Mixtral 8x22B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 64000,
-      "maxOutputTokens": 64000,
-      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0$"
-    },
-    {
-      "id": "mistral-nemo",
-      "name": "Mistral Nemo",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.15$, Cache 0$"
-    },
-    {
-      "id": "mistral-small-2603",
-      "name": "Mistral Small 4",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 256000,
-      "maxOutputTokens": 256000,
-      "supportsReasoningEffort": [
-        "none",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0$"
     },
     {
       "id": "mistral-medium-2604",
@@ -221,8 +181,44 @@
       "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0$"
     },
     {
-      "id": "voxtral-mini-latest",
-      "name": "Voxtral Mini (latest)",
+      "id": "ministral-8b-latest",
+      "name": "Ministral 8B (latest)",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.1$, Cache 0$"
+    },
+    {
+      "id": "mistral-medium-2505",
+      "name": "Mistral Medium 3",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 131072,
+      "maxOutputTokens": 131072,
+      "tooltip": "Price Per 1M token -- Input 0.4$, Output 2$, Cache 0$"
+    },
+    {
+      "id": "open-mistral-7b",
+      "name": "Mistral 7B",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 8000,
+      "maxOutputTokens": 8000,
+      "tooltip": "Price Per 1M token -- Input 0.25$, Output 0.25$, Cache 0$"
+    },
+    {
+      "id": "voxtral-mini-tts-latest",
+      "name": "Voxtral Mini TTS (latest)",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": false,
@@ -231,6 +227,18 @@
       "maxInputTokens": 0,
       "maxOutputTokens": 0,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "pixtral-12b",
+      "name": "Pixtral 12B",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.15$, Cache 0$"
     },
     {
       "id": "voxtral-small-latest",
@@ -245,16 +253,40 @@
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0$"
     },
     {
-      "id": "ministral-8b-latest",
-      "name": "Ministral 8B (latest)",
+      "id": "codestral-latest",
+      "name": "Codestral (latest)",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
       "thinking": false,
+      "maxInputTokens": 256000,
+      "maxOutputTokens": 4096,
+      "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0$"
+    },
+    {
+      "id": "open-mixtral-8x22b",
+      "name": "Mixtral 8x22B",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 64000,
+      "maxOutputTokens": 64000,
+      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0$"
+    },
+    {
+      "id": "magistral-medium-latest",
+      "name": "Magistral Medium (latest)",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
       "maxInputTokens": 128000,
-      "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.1$, Cache 0$"
+      "maxOutputTokens": 16384,
+      "tooltip": "Price Per 1M token -- Input 2$, Output 5$, Cache 0$"
     },
     {
       "id": "mistral-embed",
@@ -269,51 +301,19 @@
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0$, Cache 0$"
     },
     {
-      "id": "codestral-latest",
-      "name": "Codestral (latest)",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 256000,
-      "maxOutputTokens": 4096,
-      "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0$"
-    },
-    {
-      "id": "mistral-large-latest",
-      "name": "Mistral Large (latest)",
+      "id": "mistral-medium-latest",
+      "name": "Mistral Medium (latest)",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
-      "thinking": false,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 262144,
-      "tooltip": "Price Per 1M token -- Input 0.5$, Output 1.5$, Cache 0$"
-    },
-    {
-      "id": "magistral-small",
-      "name": "Magistral Small",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
       "thinking": true,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 0.5$, Output 1.5$, Cache 0$"
-    },
-    {
-      "id": "mistral-large-2512",
-      "name": "Mistral Large 3",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": false,
       "maxInputTokens": 262144,
       "maxOutputTokens": 262144,
-      "tooltip": "Price Per 1M token -- Input 0.5$, Output 1.5$, Cache 0$"
+      "supportsReasoningEffort": [
+        "none",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0$"
     }
   ]

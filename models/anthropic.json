@@ -1,60 +1,8 @@
 
   "models": [
     {
-      "id": "claude-sonnet-4-6",
-      "name": "Claude Sonnet 4.6",
-      "url": "",
-      "apiType": "messages",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$, Cache 3.75$"
-    },
-    {
-      "id": "claude-haiku-4-5",
-      "name": "Claude Haiku 4.5 (latest)",
-      "url": "",
-      "apiType": "messages",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 200000,
-      "maxOutputTokens": 64000,
-      "supportsReasoningEffort": [
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 1$, Output 5$, Cache 0.1$, Cache 1.25$"
-    },
-    {
-      "id": "claude-opus-4-6",
-      "name": "Claude Opus 4.6",
-      "url": "",
-      "apiType": "messages",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
-    },
-    {
-      "id": "claude-fable-5",
-      "name": "Claude Fable 5",
+      "id": "claude-opus-4-7",
+      "name": "Claude Opus 4.7",
       "url": "",
       "apiType": "messages",
       "toolCalling": true,
@@ -69,7 +17,7 @@
         "xhigh",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$"
+      "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
     },
     {
       "id": "claude-opus-4-8",
@@ -110,8 +58,27 @@
       "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$"
     },
     {
-      "id": "claude-sonnet-4-5",
-      "name": "Claude Sonnet 4.5 (latest)",
+      "id": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "url": "",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
+    },
+    {
+      "id": "claude-sonnet-4-5-20250929",
+      "name": "Claude Sonnet 4.5",
       "url": "",
       "apiType": "messages",
       "toolCalling": true,
@@ -126,8 +93,59 @@
       "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$, Cache 3.75$"
     },
     {
-      "id": "claude-sonnet-4-5-20250929",
-      "name": "Claude Sonnet 4.5",
+      "id": "claude-opus-4-5",
+      "name": "Claude Opus 4.5 (latest)",
+      "url": "",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 200000,
+      "maxOutputTokens": 64000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
+      "url": "",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$, Cache 3.75$"
+    },
+    {
+      "id": "claude-haiku-4-5-20251001",
+      "name": "Claude Haiku 4.5",
+      "url": "",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 200000,
+      "maxOutputTokens": 64000,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1$, Output 5$, Cache 0.1$, Cache 1.25$"
+    },
+    {
+      "id": "claude-sonnet-4-5",
+      "name": "Claude Sonnet 4.5 (latest)",
       "url": "",
       "apiType": "messages",
       "toolCalling": true,
@@ -159,8 +177,27 @@
       "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
     },
     {
-      "id": "claude-haiku-4-5-20251001",
-      "name": "Claude Haiku 4.5",
+      "id": "claude-fable-5",
+      "name": "Claude Fable 5",
+      "url": "",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$"
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "name": "Claude Haiku 4.5 (latest)",
       "url": "",
       "apiType": "messages",
       "toolCalling": true,
@@ -175,8 +212,8 @@
       "tooltip": "Price Per 1M token -- Input 1$, Output 5$, Cache 0.1$, Cache 1.25$"
     },
     {
-      "id": "claude-opus-4-7",
-      "name": "Claude Opus 4.7",
+      "id": "claude-opus-4-6",
+      "name": "Claude Opus 4.6",
       "url": "",
       "apiType": "messages",
       "toolCalling": true,
@@ -188,46 +225,9 @@
         "low",
         "medium",
         "high",
-        "xhigh",
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
-    },
-    {
-      "id": "claude-opus-4-5",
-      "name": "Claude Opus 4.5 (latest)",
-      "url": "",
-      "apiType": "messages",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 200000,
-      "maxOutputTokens": 64000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$"
-    },
-    {
-      "id": "claude-sonnet-5",
-      "name": "Claude Sonnet 5",
-      "url": "",
-      "apiType": "messages",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
     },
     {
       "id": "claude-opus-5",
