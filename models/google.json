@@ -541,22 +541,5 @@
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 0.75$, Output 4.5$, Cache 0$"
-    },
-    {
-      "id": "gemini-3.7-flash",
-      "name": "Gemini 3.7 Flash",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0.75$, Output 3.75$, Cache 0.075$"
     }
   ]
