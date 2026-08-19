@@ -2646,11 +2646,11 @@
         "name": "GLM 5.2 (free)",
         "url": "https://openrouter.ai/api/v1",
         "apiType": "chat-completions",
-        "toolCalling": false,
+        "toolCalling": true,
         "vision": false,
         "thinking": true,
-        "maxInputTokens": 128000,
-        "maxOutputTokens": 128000,
+        "maxInputTokens": 256000,
+        "maxOutputTokens": 256000,
         "supportsReasoningEffort": [
           "high",
           "xhigh"
@@ -2682,6 +2682,23 @@
         "tooltip": "Price Per 1M token -- Input 1.2$, Output 4$, Cache 0.24$"
       },
       {
+        "id": "z-ai/glm-5.3",
+        "name": "GLM-5.3",
+        "url": "https://openrouter.ai/api/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 131072,
+        "supportsReasoningEffort": [
+          "low",
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
+      },
+      {
         "id": "z-ai/glm-5.2",
         "name": "GLM-5.2",
         "url": "https://openrouter.ai/api/v1",
@@ -2695,7 +2712,7 @@
           "high",
           "xhigh"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.5$, Output 3.15$, Cache 0.115$"
+        "tooltip": "Price Per 1M token -- Input 0.966$, Output 3.036$, Cache 0.1932$"
       },
       {
         "id": "z-ai/glm-4.6v",
@@ -3129,13 +3146,13 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 262144,
+        "maxOutputTokens": 16384,
         "supportsReasoningEffort": [
           "low",
           "medium",
           "high"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.34$, Cache 0.1$"
+        "tooltip": "Price Per 1M token -- Input 0.09$, Output 0.34$, Cache 0.05$"
       },
       {
         "id": "google/gemma-3n-e4b-it",
@@ -3907,7 +3924,7 @@
         "modelOptions": {
           "top_p": null
         },
-        "tooltip": "Price Per 1M token -- Input 0.57$, Output 2.85$, Cache 0.095$"
+        "tooltip": "Price Per 1M token -- Input 0.45$, Output 2.25$, Cache 0.07$"
       },
       {
         "id": "moonshotai/kimi-k2-0905",
@@ -5856,8 +5873,8 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 262144,
-        "tooltip": "Price Per 1M token -- Input 0.6$, Output 3.6$, Cache 0.12$"
+        "maxOutputTokens": 131072,
+        "tooltip": "Price Per 1M token -- Input 0.289$, Output 2.4$, Cache 0$"
       },
       {
         "id": "qwen/qwen3-next-80b-a3b-instruct",
@@ -5868,8 +5885,8 @@
         "vision": false,
         "thinking": false,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 262144,
-        "tooltip": "Price Per 1M token -- Input 0.1$, Output 1.1$, Cache 0.07$"
+        "maxOutputTokens": 16384,
+        "tooltip": "Price Per 1M token -- Input 0.09$, Output 1.1$, Cache 0$"
       },
       {
         "id": "qwen/qwen3.8-27b",
@@ -5961,8 +5978,8 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 81920,
-        "tooltip": "Price Per 1M token -- Input 0.29$, Output 2.4$, Cache 0$"
+        "maxOutputTokens": 262144,
+        "tooltip": "Price Per 1M token -- Input 0.26$, Output 2.08$, Cache 0$"
       },
       {
         "id": "qwen/qwen3-coder-plus",
@@ -6347,7 +6364,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.0783$, Output 0.1566$, Cache 0.01566$"
+        "tooltip": "Price Per 1M token -- Input 0.0765$, Output 0.153$, Cache 0.0153$"
       },
       {
         "id": "inclusionai/ring-2.6-1t",
