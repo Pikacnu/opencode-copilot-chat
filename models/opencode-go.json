@@ -19,12 +19,16 @@
       "id": "qwen3.7-max",
       "name": "Qwen3.7 Max",
       "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
+      "apiType": "messages",
       "toolCalling": true,
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 7.5$, Cache 0.5$, Cache 3.125$"
     },
     {
@@ -47,7 +51,7 @@
     },
     {
       "id": "deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash",
+      "name": "DeepSeek V4 Flash (2x usage)",
       "url": "https://opencode.ai/zen/go/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -60,7 +64,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
+      "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.14$, Cache 0.0014$"
     },
     {
       "id": "mimo-v2.5",
@@ -105,7 +109,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.66$, Output 1.98$, Cache 0.022$"
+      "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.003625$"
     },
     {
       "id": "gpt-5.6-luna",
@@ -159,42 +163,33 @@
       "id": "qwen3.8-max",
       "name": "Qwen3.8 Max",
       "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
+      "apiType": "messages",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.25$, Cache 2.5$"
     },
     {
       "id": "qwen3.7-plus",
       "name": "Qwen3.7 Plus",
       "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
+      "apiType": "messages",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 65536,
-      "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.04$, Cache 0.5$ | Price Over 256k tokens -- Input 1.2$, Output 4.8$, Cache 0.12$, Cache 1.5$"
-    },
-    {
-      "id": "glm-5.3",
-      "name": "GLM-5.3",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
-        "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
+      "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.04$, Cache 0.5$ | Price Over 256k tokens -- Input 1.2$, Output 4.8$, Cache 0.12$, Cache 1.5$"
     },
     {
       "id": "glm-5.2",
@@ -216,12 +211,16 @@
       "id": "qwen3.6-plus",
       "name": "Qwen3.6 Plus",
       "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
+      "apiType": "messages",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
       "tooltip": "Price Per 1M token -- Input 0.5$, Output 3$, Cache 0.05$, Cache 0.625$ | Price Over 256k tokens -- Input 2$, Output 6$, Cache 0.2$, Cache 2.5$"
     },
     {

@@ -31,6 +31,24 @@
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
     },
     {
+      "id": "grok-4.6-fast",
+      "name": "Grok 4.6 Fast",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 500000,
+      "maxOutputTokens": 500000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 4$, Output 12$, Cache 1$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
+    },
+    {
       "id": "grok-4.5",
       "name": "Grok 4.5",
       "url": "",
@@ -112,18 +130,6 @@
         "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 1.25$, Output 2.5$, Cache 0.2$ | Price Over 200k tokens -- Input 2.5$, Output 5$, Cache 0.4$"
-    },
-    {
-      "id": "grok-imagine-image-2.0",
-      "name": "Grok Imagine Image 2.0",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": true,
-      "thinking": false,
-      "maxInputTokens": 8000,
-      "maxOutputTokens": 0,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "grok-imagine-image",
