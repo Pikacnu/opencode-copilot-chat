@@ -62,7 +62,7 @@
     },
     {
       "id": "x-preview-f-free",
-      "name": "Ox Alpha Free",
+      "name": "Ox Alpha Free (Unlimited)",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,

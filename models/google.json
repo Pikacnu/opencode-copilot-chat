@@ -72,7 +72,7 @@
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.25$, Output 1.5$, Cache 0.025$"
+      "tooltip": "Price Per 1M token -- Input 0.3$, Output 2.5$, Cache 0.03$"
     },
     {
       "id": "gemini-3.5-flash-lite",
@@ -273,12 +273,11 @@
       "maxInputTokens": 1048576,
       "maxOutputTokens": 65536,
       "supportsReasoningEffort": [
-        "minimal",
         "low",
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.5$, Output 9$, Cache 0.15$"
+      "tooltip": "Price Per 1M token -- Input 0.75$, Output 3.75$, Cache 0.075$"
     },
     {
       "id": "gemini-3.5-flash",
@@ -420,7 +419,7 @@
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0.15$"
+      "tooltip": "Price Per 1M token -- Input 0.75$, Output 3.75$, Cache 0.075$"
     },
     {
       "id": "gemini-3.1-flash-image",
