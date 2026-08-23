@@ -71,6 +71,18 @@
       "tooltip": "Price Per 1M token -- Input 0.132$, Output 0.528$, Cache 0.033$"
     },
     {
+      "id": "tencent/hy-mt2-7b",
+      "name": "Hy-MT2-7B",
+      "url": "https://openrouter.ai/api/v1",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 8192,
+      "maxOutputTokens": 4096,
+      "tooltip": "Price Per 1M token -- Input 0.074$, Output 0.295$, Cache 0$"
+    },
+    {
       "id": "~anthropic/claude-haiku-latest",
       "name": "Anthropic Claude Haiku Latest",
       "url": "https://openrouter.ai/api/v1",
@@ -677,7 +689,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.07826$, Output 0.15652$, Cache 0.015652$"
+      "tooltip": "Price Per 1M token -- Input 0.05586$, Output 0.11172$, Cache 0.011172$"
     },
     {
       "id": "deepseek/deepseek-v4-pro-0813",
@@ -694,7 +706,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.188$, Output 3.564$, Cache 0.0396$"
+      "tooltip": "Price Per 1M token -- Input 1.122$, Output 3.366$, Cache 0.0374$"
     },
     {
       "id": "deepseek/deepseek-v4-pro",
@@ -710,7 +722,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.54897$, Output 1.09794$, Cache 0.045748$"
+      "tooltip": "Price Per 1M token -- Input 0.413772$, Output 0.827544$, Cache 0.034481$"
     },
     {
       "id": "deepseek/deepseek-v3.2",
@@ -1345,7 +1357,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.1$, Cache 0.04$"
+      "tooltip": "Price Per 1M token -- Input 0.35$, Output 1.5$, Cache 0.04$"
     },
     {
       "id": "meta/muse-spark-1.2",
@@ -1858,7 +1870,7 @@
       "modelOptions": {
         "top_p": null
       },
-      "tooltip": "Price Per 1M token -- Input 0.5605$, Output 2.36$, Cache 0.0944$"
+      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.16$"
     },
     {
       "id": "anthropic/claude-opus-4.8",
@@ -2657,7 +2669,7 @@
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.17$, Cache 0.03$"
+      "tooltip": "Price Per 1M token -- Input 0.037$, Output 0.17$, Cache 0$"
     },
     {
       "id": "openai/gpt-4.1-nano",
@@ -3442,8 +3454,8 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 8192,
-      "tooltip": "Price Per 1M token -- Input 0.13$, Output 0.52$, Cache 0$"
+      "maxOutputTokens": 16384,
+      "tooltip": "Price Per 1M token -- Input 0.12$, Output 0.5$, Cache 0$"
     },
     {
       "id": "qwen/qwen3.5-397b-a17b",
@@ -3757,8 +3769,8 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 16384,
-      "tooltip": "Price Per 1M token -- Input 0.09$, Output 1.1$, Cache 0$"
+      "maxOutputTokens": 262144,
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 1.1$, Cache 0.07$"
     },
     {
       "id": "qwen/qwen3.8-27b",
@@ -3775,7 +3787,7 @@
         "medium",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.45$, Output 3.2$, Cache 0.05$"
+      "tooltip": "Price Per 1M token -- Input 0.4$, Output 3$, Cache 0.05$"
     },
     {
       "id": "qwen/qwen3.6-plus",
@@ -3850,7 +3862,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 65536,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.26$, Output 2.08$, Cache 0$"
     },
     {
@@ -4244,7 +4256,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4.05$, Cache 0.16$"
+      "tooltip": "Price Per 1M token -- Input 1$, Output 4.05$, Cache 0.17$"
     },
     {
       "id": "thinkingmachines/inkling-small:free",
@@ -4287,13 +4299,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1310720,
-      "maxOutputTokens": 1048576,
+      "maxOutputTokens": 262144,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.065$, Output 0.18$, Cache 0.02$"
+      "tooltip": "Price Per 1M token -- Input 0.0639$, Output 0.1278$, Cache 0.01278$"
     },
     {
       "id": "inclusionai/ring-2.6-1t",
