@@ -56,5 +56,22 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 384000,
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
+    },
+    {
+      "id": "deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "url": "https://api.deepseek.com",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "supportsReasoningEffort": [
+        "low",
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
     }
   ]

@@ -188,7 +188,7 @@
         "xhigh",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 2.5$, Output 15$, Cache 0.25$, Cache 3.125$ | Price Over 272k tokens -- Input 5$, Output 22.5$, Cache 0.5$, Cache 6.25$"
+      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$ | Price Over 272k tokens -- Input 4$, Output 15$, Cache 0.4$, Cache 5$"
     },
     {
       "id": "grok-4.6",
