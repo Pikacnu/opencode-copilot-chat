@@ -113,7 +113,7 @@
         "xhigh",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$, Cache 6.25$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$, Cache 12.5$"
+      "tooltip": "Price Per 1M token -- Input 4$, Output 20$, Cache 0.4$, Cache 5$ | Price Over 272k tokens -- Input 8$, Output 30$, Cache 0.8$, Cache 10$"
     },
     {
       "id": "gpt-5.6-sol-fast",
@@ -133,7 +133,7 @@
         "xhigh",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 10$, Output 60$, Cache 1$, Cache 12.5$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$, Cache 12.5$"
+      "tooltip": "Price Per 1M token -- Input 8$, Output 40$, Cache 0.8$, Cache 10$ | Price Over 272k tokens -- Input 8$, Output 30$, Cache 0.8$, Cache 10$"
     },
     {
       "id": "gpt-5.6-sol-pro",
@@ -153,7 +153,7 @@
         "xhigh",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$, Cache 6.25$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$, Cache 12.5$"
+      "tooltip": "Price Per 1M token -- Input 4$, Output 20$, Cache 0.4$, Cache 5$ | Price Over 272k tokens -- Input 8$, Output 30$, Cache 0.8$, Cache 10$"
     },
     {
       "id": "o3-pro",
@@ -225,7 +225,7 @@
         "xhigh",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$, Cache 6.25$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$, Cache 12.5$"
+      "tooltip": "Price Per 1M token -- Input 4$, Output 20$, Cache 0.4$, Cache 5$ | Price Over 272k tokens -- Input 8$, Output 30$, Cache 0.8$, Cache 10$"
     },
     {
       "id": "gpt-5.6-fast",
@@ -245,7 +245,7 @@
         "xhigh",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 10$, Output 60$, Cache 1$, Cache 12.5$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$, Cache 12.5$"
+      "tooltip": "Price Per 1M token -- Input 8$, Output 40$, Cache 0.8$, Cache 10$ | Price Over 272k tokens -- Input 8$, Output 30$, Cache 0.8$, Cache 10$"
     },
     {
       "id": "gpt-5.6-pro",
@@ -265,7 +265,7 @@
         "xhigh",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 5$, Output 30$, Cache 0.5$, Cache 6.25$ | Price Over 272k tokens -- Input 10$, Output 45$, Cache 1$, Cache 12.5$"
+      "tooltip": "Price Per 1M token -- Input 4$, Output 20$, Cache 0.4$, Cache 5$ | Price Over 272k tokens -- Input 8$, Output 30$, Cache 0.8$, Cache 10$"
     },
     {
       "id": "gpt-5-mini",
