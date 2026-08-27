@@ -252,7 +252,7 @@
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.3$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 0.6$"
+      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
     },
     {
       "id": "gpt-5",

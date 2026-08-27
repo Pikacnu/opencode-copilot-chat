@@ -252,7 +252,7 @@
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.3$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 0.6$"
+      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
     },
     {
       "id": "gpt-5",
@@ -1115,8 +1115,8 @@
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
     },
     {
-      "id": "grok-4.6",
-      "name": "Grok 4.6",
+      "id": "grok-4.5",
+      "name": "Grok 4.5",
       "url": "https://opencode.ai/zen/go/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -1127,8 +1127,7 @@
       "supportsReasoningEffort": [
         "low",
         "medium",
-        "high",
-        "xhigh"
+        "high"
       ],
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
     },
@@ -2228,7 +2227,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "supportsReasoningEffort": [
         "none",
         "low",
@@ -2245,7 +2244,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 131072,
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.57$, Cache 0$"
     },
     {
@@ -2359,7 +2358,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 500000,
-      "maxOutputTokens": 450000,
+      "maxOutputTokens": 1000000,
       "supportsReasoningEffort": [
         "low",
         "medium",
@@ -2377,7 +2376,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "supportsReasoningEffort": [
         "low",
         "medium"
@@ -2393,7 +2392,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.2$, Cache 0.03$"
     },
     {
@@ -2438,7 +2437,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 512288,
-      "maxOutputTokens": 461059,
+      "maxOutputTokens": 16384,
       "supportsReasoningEffort": [
         "medium",
         "high"
@@ -2566,7 +2565,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 32768,
-      "maxOutputTokens": 29491,
+      "maxOutputTokens": 32768,
       "tooltip": "Price Per 1M token -- Input 0.8$, Output 1.6$, Cache 0$"
     },
     {
@@ -2626,7 +2625,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 16384,
-      "maxOutputTokens": 14745,
+      "maxOutputTokens": 16384,
       "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.14$, Cache 0$"
     },
     {
@@ -2686,7 +2685,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 256000,
-      "maxOutputTokens": 230400,
+      "maxOutputTokens": 256000,
       "supportsReasoningEffort": [
         "high",
         "xhigh"
@@ -2783,7 +2782,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 204800,
-      "maxOutputTokens": 182476,
+      "maxOutputTokens": 202752,
       "tooltip": "Price Per 1M token -- Input 1.26$, Output 3.96$, Cache 0.234$"
     },
     {
@@ -2859,7 +2858,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 943717,
+      "maxOutputTokens": 384000,
       "supportsReasoningEffort": [
         "low",
         "high",
@@ -2892,7 +2891,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 163840,
-      "maxOutputTokens": 147456,
+      "maxOutputTokens": 163840,
       "tooltip": "Price Per 1M token -- Input 0.26$, Output 0.38$, Cache 0.13$"
     },
     {
@@ -2904,7 +2903,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 163840,
-      "maxOutputTokens": 144900,
+      "maxOutputTokens": 161000,
       "tooltip": "Price Per 1M token -- Input 0.55$, Output 1.65$, Cache 0.55$"
     },
     {
@@ -2940,7 +2939,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 163840,
-      "maxOutputTokens": 147456,
+      "maxOutputTokens": 163840,
       "tooltip": "Price Per 1M token -- Input 0.25$, Output 1$, Cache 0$"
     },
     {
@@ -2952,7 +2951,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 8192,
-      "maxOutputTokens": 7372,
+      "maxOutputTokens": 8192,
       "tooltip": "Price Per 1M token -- Input 0.8$, Output 0.8$, Cache 0$"
     },
     {
@@ -2976,13 +2975,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1310720,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.04$, Output 0.08$, Cache 0.008$"
+      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.028$"
     },
     {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -3010,7 +3009,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.85$, Cache 0.06$"
     },
     {
@@ -3121,7 +3120,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 65536,
-      "maxOutputTokens": 58982,
+      "maxOutputTokens": 65536,
       "supportsReasoningEffort": [
         "minimal",
         "high"
@@ -3199,13 +3198,25 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "supportsReasoningEffort": [
         "low",
         "medium",
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.34$, Cache 0.1$"
+    },
+    {
+      "id": "google/gemma-3n-e4b-it",
+      "name": "Gemma 3n 4B",
+      "url": "https://openrouter.ai/api/v1",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 32768,
+      "maxOutputTokens": 32768,
+      "tooltip": "Price Per 1M token -- Input 0.06$, Output 0.12$, Cache 0$"
     },
     {
       "id": "google/lyria-3-clip-preview",
@@ -3264,7 +3275,7 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 131072,
       "tooltip": "Price Per 1M token -- Input 0.08$, Output 0.45$, Cache 0.04$"
     },
     {
@@ -3388,7 +3399,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 65536,
-      "maxOutputTokens": 58982,
+      "maxOutputTokens": 65536,
       "supportsReasoningEffort": [
         "minimal",
         "high"
@@ -3497,7 +3508,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
         "medium",
@@ -3515,7 +3526,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 1048576,
       "supportsReasoningEffort": [
         "minimal",
         "low",
@@ -3534,7 +3545,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 1048576,
       "supportsReasoningEffort": [
         "minimal",
         "low",
@@ -3553,7 +3564,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 1048576,
       "supportsReasoningEffort": [
         "minimal",
         "low",
@@ -3584,7 +3595,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 8192,
-      "maxOutputTokens": 3686,
+      "maxOutputTokens": 4096,
       "tooltip": "Price Per 1M token -- Input 0.06$, Output 0.06$, Cache 0$"
     },
     {
@@ -3722,7 +3733,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 2000000,
-      "maxOutputTokens": 1800000,
+      "maxOutputTokens": 2000000,
       "tooltip": "Price Per 1M token -- Input 1.25$, Output 2.5$, Cache 0.2$ | Price Over 200k tokens -- Input 2.5$, Output 5$, Cache 0.4$"
     },
     {
@@ -3734,7 +3745,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 500000,
-      "maxOutputTokens": 450000,
+      "maxOutputTokens": 500000,
       "supportsReasoningEffort": [
         "low",
         "medium",
@@ -3752,7 +3763,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 500000,
-      "maxOutputTokens": 450000,
+      "maxOutputTokens": 500000,
       "supportsReasoningEffort": [
         "low",
         "medium",
@@ -3769,7 +3780,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 2000000,
-      "maxOutputTokens": 1800000,
+      "maxOutputTokens": 2000000,
       "supportsReasoningEffort": [
         "low",
         "medium",
@@ -3787,7 +3798,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 256000,
-      "maxOutputTokens": 230400,
+      "maxOutputTokens": 256000,
       "tooltip": "Price Per 1M token -- Input 1$, Output 2$, Cache 0.2$ | Price Over 200k tokens -- Input 2$, Output 4$, Cache 0.4$"
     },
     {
@@ -3799,7 +3810,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1000000,
-      "maxOutputTokens": 900000,
+      "maxOutputTokens": 1000000,
       "supportsReasoningEffort": [
         "none",
         "low",
@@ -3906,7 +3917,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.5$, Output 2.5$, Cache 0$"
     },
     {
@@ -3918,7 +3929,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "modelOptions": {
         "top_p": null
       },
@@ -3933,7 +3944,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 1048576,
       "modelOptions": {
         "top_p": null
       },
@@ -3968,7 +3979,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "modelOptions": {
         "top_p": null
       },
@@ -4013,7 +4024,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "modelOptions": {
         "top_p": null
       },
@@ -4574,7 +4585,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 4095,
-      "maxOutputTokens": 3685,
+      "maxOutputTokens": 4096,
       "tooltip": "Price Per 1M token -- Input 1.5$, Output 2$, Cache 0$"
     },
     {
@@ -4810,7 +4821,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
         "medium",
@@ -5058,7 +5069,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 4095,
-      "maxOutputTokens": 3685,
+      "maxOutputTokens": 4096,
       "tooltip": "Price Per 1M token -- Input 1$, Output 2$, Cache 0$"
     },
     {
@@ -5268,7 +5279,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
         "medium",
@@ -5374,7 +5385,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
         "medium",
@@ -5391,7 +5402,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
         "medium",
@@ -5420,7 +5431,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 230400,
+      "maxOutputTokens": 256000,
       "supportsReasoningEffort": [
         "low",
         "medium",
@@ -5437,8 +5448,8 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 128000,
-      "maxOutputTokens": 28800,
-      "tooltip": "Price Per 1M token -- Input 0.25$, Output 0.75$, Cache 0$"
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 0.8$, Output 1$, Cache 0.4$"
     },
     {
       "id": "qwen/qwen3.5-plus-20260420",
@@ -5465,7 +5476,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.28$, Cache 0$"
     },
     {
@@ -5513,6 +5524,22 @@
       "tooltip": "Price Per 1M token -- Input 0.08$, Output 0.28$, Cache 0$"
     },
     {
+      "id": "qwen/qwen-plus-2025-07-28:thinking",
+      "name": "Qwen Plus 0728 (thinking)",
+      "url": "https://openrouter.ai/api/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 32768,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.26$, Output 0.78$, Cache 0$ | Price Over 256k tokens -- Input 0.78$, Output 2.34$, Cache 0$"
+    },
+    {
       "id": "qwen/qwen3-235b-a22b-thinking-2507",
       "name": "Qwen3 235B A22B Thinking 2507",
       "url": "https://openrouter.ai/api/v1",
@@ -5521,7 +5548,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 32768,
       "tooltip": "Price Per 1M token -- Input 0.23$, Output 2.3$, Cache 0$"
     },
     {
@@ -5561,7 +5588,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.25$, Output 1.25$, Cache 0.25$"
     },
     {
@@ -5597,7 +5624,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.5$, Output 3.6$, Cache 0.3$"
     },
     {
@@ -5621,7 +5648,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.12$, Output 0.8$, Cache 0.07$"
     },
     {
@@ -5764,7 +5791,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 32768,
-      "maxOutputTokens": 29491,
+      "maxOutputTokens": 32768,
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.2$, Cache 0$"
     },
     {
@@ -5864,7 +5891,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 32768,
-      "maxOutputTokens": 29491,
+      "maxOutputTokens": 32768,
       "tooltip": "Price Per 1M token -- Input 0.66$, Output 1$, Cache 0$"
     },
     {
@@ -5876,7 +5903,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 1$, Cache 0.05$"
     },
     {
@@ -5900,7 +5927,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 1.1$, Cache 0.07$"
     },
     {
@@ -5918,7 +5945,7 @@
         "medium",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.425$, Output 2.55$, Cache 0.085$, Cache 0.53125$"
+      "tooltip": "Price Per 1M token -- Input 0.4$, Output 3$, Cache 0.05$"
     },
     {
       "id": "qwen/qwen3.6-plus",
@@ -5957,7 +5984,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.15$, Cache 0$"
     },
     {
@@ -5993,7 +6020,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.26$, Output 2.08$, Cache 0$"
     },
     {
@@ -6110,7 +6137,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 65536,
-      "maxOutputTokens": 58982,
+      "maxOutputTokens": 65536,
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0$"
     },
     {
@@ -6189,7 +6216,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 128000,
-      "maxOutputTokens": 115200,
+      "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 2$, Output 8$, Cache 0$"
     },
     {
@@ -6201,7 +6228,7 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 127072,
-      "maxOutputTokens": 114364,
+      "maxOutputTokens": 127072,
       "tooltip": "Price Per 1M token -- Input 1$, Output 1$, Cache 0$"
     },
     {
@@ -6213,7 +6240,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 128000,
-      "maxOutputTokens": 115200,
+      "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 2$, Output 8$, Cache 0$"
     },
     {
@@ -6249,7 +6276,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 131072,
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.5$, Cache 0.15$"
     },
     {
@@ -6261,7 +6288,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 32768,
-      "maxOutputTokens": 29491,
+      "maxOutputTokens": 32768,
       "tooltip": "Price Per 1M token -- Input 0.55$, Output 0.8$, Cache 0.25$"
     },
     {
@@ -6273,7 +6300,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 65536,
-      "maxOutputTokens": 58982,
+      "maxOutputTokens": 65536,
       "tooltip": "Price Per 1M token -- Input 0.25$, Output 0.5$, Cache 0$"
     },
     {
@@ -6285,7 +6312,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 1024000,
-      "maxOutputTokens": 26214,
+      "maxOutputTokens": 32768,
       "tooltip": "Price Per 1M token -- Input 0.4$, Output 0.4$, Cache 0$"
     },
     {
@@ -6297,7 +6324,7 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 16384,
-      "maxOutputTokens": 14745,
+      "maxOutputTokens": 16384,
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.1$, Cache 0$"
     },
     {
@@ -6309,7 +6336,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 65536,
-      "maxOutputTokens": 58982,
+      "maxOutputTokens": 65536,
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.2$, Cache 0$"
     },
     {
@@ -6430,13 +6457,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1310720,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 1048576,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.04$, Output 0.08$, Cache 0.008$"
+      "tooltip": "Price Per 1M token -- Input 0.035$, Output 0.075$, Cache 0.008$"
     },
     {
       "id": "inclusionai/ling-3.0-flash",
@@ -6459,7 +6486,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 131072,
       "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.33$, Cache 0$"
     },
     {
@@ -6471,8 +6498,8 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 115200,
-      "tooltip": "Price Per 1M token -- Input 0.71$, Output 0.71$, Cache 0.71$"
+      "maxOutputTokens": 16384,
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.32$, Cache 0$"
     },
     {
       "id": "meta-llama/llama-guard-4-12b",
@@ -6482,7 +6509,7 @@
       "toolCalling": false,
       "vision": true,
       "thinking": false,
-      "maxInputTokens": 163840,
+      "maxInputTokens": 1048576,
       "maxOutputTokens": 16384,
       "tooltip": "Price Per 1M token -- Input 0.18$, Output 0.18$, Cache 0$"
     },
@@ -6495,7 +6522,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 60000,
-      "maxOutputTokens": 54000,
+      "maxOutputTokens": 60000,
       "tooltip": "Price Per 1M token -- Input 0.027$, Output 0.201$, Cache 0$"
     },
     {
@@ -6507,7 +6534,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 131072,
       "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.08$, Cache 0.025$"
     },
     {
@@ -6543,8 +6570,8 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 1310720,
-      "maxOutputTokens": 8192,
-      "tooltip": "Price Per 1M token -- Input 0.11$, Output 0.34$, Cache 0.055$"
+      "maxOutputTokens": 16384,
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0$"
     },
     {
       "id": "mistralai/ministral-8b-2512",
@@ -6555,7 +6582,7 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 209715,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.15$, Cache 0.015$"
     },
     {
@@ -6567,7 +6594,7 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 104857,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.4$, Output 2$, Cache 0.04$"
     },
     {
@@ -6591,7 +6618,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 209715,
+      "maxOutputTokens": 262144,
       "supportsReasoningEffort": [
         "none",
         "high"
@@ -6607,7 +6634,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 128000,
-      "maxOutputTokens": 102400,
+      "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 0.11$, Output 0.11$, Cache 0$"
     },
     {
@@ -6619,7 +6646,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 209715,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.44$, Output 2.2$, Cache 0.044$"
     },
     {
@@ -6631,7 +6658,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 209715,
+      "maxOutputTokens": 262144,
       "supportsReasoningEffort": [
         "none",
         "high"
@@ -6671,7 +6698,7 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 209715,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.5$, Output 1.5$, Cache 0.05$"
     },
     {
@@ -6683,7 +6710,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 32000,
-      "maxOutputTokens": 25600,
+      "maxOutputTokens": 32000,
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0.01$"
     },
     {
@@ -6695,7 +6722,7 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 104857,
+      "maxOutputTokens": 131072,
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.1$, Cache 0.01$"
     },
     {
@@ -6707,7 +6734,7 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 104857,
+      "maxOutputTokens": 131072,
       "tooltip": "Price Per 1M token -- Input 0.4$, Output 2$, Cache 0.04$"
     },
     {
@@ -6719,7 +6746,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 104857,
+      "maxOutputTokens": 131072,
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.2$"
     },
     {
@@ -6731,7 +6758,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 128000,
-      "maxOutputTokens": 102400,
+      "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.2$"
     },
     {
@@ -6743,7 +6770,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 65536,
-      "maxOutputTokens": 52428,
+      "maxOutputTokens": 65536,
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.2$"
     },
     {
@@ -6755,7 +6782,7 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 209715,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.2$, Output 0.2$, Cache 0.02$"
     },
     {
@@ -6767,7 +6794,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 256000,
-      "maxOutputTokens": 204800,
+      "maxOutputTokens": 256000,
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.03$"
     },
     {
@@ -6779,7 +6806,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 32768,
-      "maxOutputTokens": 26214,
+      "maxOutputTokens": 32768,
       "tooltip": "Price Per 1M token -- Input 0.2$, Output 0.6$, Cache 0.02$"
     },
     {
@@ -6791,7 +6818,7 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 128000,
-      "maxOutputTokens": 102400,
+      "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 0.351$, Output 0.555$, Cache 0$"
     },
     {
@@ -6916,7 +6943,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.025$, Output 0.1$, Cache 0.0025$"
     },
     {
@@ -6928,7 +6955,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0.25$, Output 1$, Cache 0.025$"
     },
     {
@@ -6940,7 +6967,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 131072,
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.015$"
     },
     {
@@ -7012,7 +7039,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 8192,
-      "maxOutputTokens": 7372,
+      "maxOutputTokens": 16384,
       "tooltip": "Price Per 1M token -- Input 0.04$, Output 0.05$, Cache 0$"
     },
     {
@@ -7024,7 +7051,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 1048576,
       "modelOptions": {
         "top_p": null
       },
@@ -7033,7 +7060,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 2.55$, Output 12.75$, Cache 0.256$"
+      "tooltip": "Price Per 1M token -- Input 2.8$, Output 14$, Cache 0.29$"
     },
     {
       "id": "kwaipilot/kat-coder-pro-v2.5",
@@ -7080,7 +7107,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 131000,
-      "maxOutputTokens": 117900,
+      "maxOutputTokens": 131000,
       "tooltip": "Price Per 1M token -- Input 0.017$, Output 0.112$, Cache 0$"
     },
     {
@@ -7092,7 +7119,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 131072,
       "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.1$, Cache 0.05$"
     },
     {
@@ -7104,7 +7131,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 512000,
-      "maxOutputTokens": 460800,
+      "maxOutputTokens": 512000,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
@@ -7116,7 +7143,7 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 1000192,
-      "maxOutputTokens": 900172,
+      "maxOutputTokens": 1000192,
       "tooltip": "Price Per 1M token -- Input 0.2$, Output 1.1$, Cache 0$"
     },
     {
@@ -7192,18 +7219,6 @@
       "tooltip": "Price Per 1M token -- Input 0.27$, Output 1.08$, Cache 0.027$"
     },
     {
-      "id": "minimax/minimax-m3:free",
-      "name": "MiniMax M3 (free)",
-      "url": "https://openrouter.ai/api/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 943718,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "minimax/minimax-m2.7:free",
       "name": "MiniMax M2.7 (free)",
       "url": "https://openrouter.ai/api/v1",
@@ -7212,7 +7227,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 196608,
-      "maxOutputTokens": 176947,
+      "maxOutputTokens": 196608,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
