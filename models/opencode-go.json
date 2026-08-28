@@ -75,8 +75,8 @@
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
     },
     {
-      "id": "grok-4.5",
-      "name": "Grok 4.5",
+      "id": "grok-4.6",
+      "name": "Grok 4.6",
       "url": "https://opencode.ai/zen/go/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -87,7 +87,8 @@
       "supportsReasoningEffort": [
         "low",
         "medium",
-        "high"
+        "high",
+        "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
     },
@@ -180,21 +181,20 @@
       "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.04$, Cache 0.5$ | Price Over 256k tokens -- Input 1.2$, Output 4.8$, Cache 0.12$, Cache 1.5$"
     },
     {
-      "id": "ox-alpha-free",
-      "name": "Ox Alpha Free (Unlimited)",
+      "id": "qwen3.8-flash",
+      "name": "Qwen3.8 Flash",
       "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
+      "apiType": "messages",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
-        "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$, Cache 0.2$"
     },
     {
       "id": "glm-5.3",
@@ -349,5 +349,22 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
+    },
+    {
+      "id": "glm-5.3-flash",
+      "name": "GLM-5.3-Flash (2x usage)",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "low",
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.075$, Output 0.25$, Cache 0.015$"
     }
   ]

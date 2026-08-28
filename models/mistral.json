@@ -265,6 +265,22 @@
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0$"
     },
     {
+      "id": "zai-glm-5-2",
+      "name": "GLM-5.2",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.14$"
+    },
+    {
       "id": "open-mixtral-8x22b",
       "name": "Mixtral 8x22B",
       "url": "",
