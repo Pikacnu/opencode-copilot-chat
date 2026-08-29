@@ -254,13 +254,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.25$, Cache 0.05$"
+      "tooltip": "Price Per 1M token -- Input 0.08$, Output 0.2$, Cache 0.04$"
     },
     {
       "id": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -563,7 +563,7 @@
       "toolCalling": true,
       "vision": false,
       "thinking": true,
-      "maxInputTokens": 1048576,
+      "maxInputTokens": 1310720,
       "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
@@ -703,7 +703,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.088606$, Output 0.177212$, Cache 0.017721$"
+      "tooltip": "Price Per 1M token -- Input 0.08512$, Output 0.17024$, Cache 0.017024$"
     },
     {
       "id": "deepseek/deepseek-v4-pro-0813",
@@ -720,7 +720,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.32$, Output 3.96$, Cache 0.044$"
+      "tooltip": "Price Per 1M token -- Input 0.66$, Output 1.98$, Cache 0.022$"
     },
     {
       "id": "deepseek/deepseek-v4-pro",
@@ -736,7 +736,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.87$, Output 1.74$, Cache 0.0725$"
+      "tooltip": "Price Per 1M token -- Input 0.690954$, Output 1.381908$, Cache 0.05758$"
     },
     {
       "id": "deepseek/deepseek-v3.2",
@@ -837,7 +837,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.14$, Cache 0.014$"
+      "tooltip": "Price Per 1M token -- Input 0.045$, Output 0.09$, Cache 0.009$"
     },
     {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -854,7 +854,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.44$, Output 1.32$, Cache 0.014$"
+      "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
     },
     {
       "id": "arcee-ai/trinity-large-thinking",
@@ -867,18 +867,6 @@
       "maxInputTokens": 262144,
       "maxOutputTokens": 235929,
       "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.85$, Cache 0.06$"
-    },
-    {
-      "id": "arcee-ai/virtuoso-large",
-      "name": "Virtuoso Large",
-      "url": "https://openrouter.ai/api/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 64000,
-      "tooltip": "Price Per 1M token -- Input 0.75$, Output 1.2$, Cache 0$"
     },
     {
       "id": "google/gemini-2.5-pro-preview-05-06",
@@ -1119,7 +1107,7 @@
       "toolCalling": true,
       "vision": true,
       "thinking": false,
-      "maxInputTokens": 262144,
+      "maxInputTokens": 131072,
       "maxOutputTokens": 117964,
       "tooltip": "Price Per 1M token -- Input 0.08$, Output 0.45$, Cache 0.04$"
     },
@@ -1343,7 +1331,7 @@
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.375$, Output 1.875$, Cache 0.0375$, Cache 0.020833$"
+      "tooltip": "Price Per 1M token -- Input 0.75$, Output 3.75$, Cache 0.075$, Cache 0.041667$"
     },
     {
       "id": "meta/muse-glimmer-30b",
@@ -1354,14 +1342,14 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 16384,
       "supportsReasoningEffort": [
         "low",
         "medium",
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.35$, Output 1.5$, Cache 0.04$"
+      "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.04$"
     },
     {
       "id": "meta/muse-spark-1.2",
@@ -2315,7 +2303,7 @@
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.375$, Output 1.875$, Cache 0.0375$, Cache 0.020833$"
+      "tooltip": "Price Per 1M token -- Input 0.75$, Output 3.75$, Cache 0.075$, Cache 0.041667$"
     },
     {
       "id": "~google/gemini-pro-latest",
@@ -2750,8 +2738,8 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 1047576,
-      "maxOutputTokens": 32768,
-      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.4$, Cache 0.025$"
+      "maxOutputTokens": 942818,
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.4$, Cache 0.03$"
     },
     {
       "id": "openai/o1",
@@ -3908,8 +3896,8 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
-      "tooltip": "Price Per 1M token -- Input 0.26$, Output 2.08$, Cache 0$"
+      "maxOutputTokens": 81920,
+      "tooltip": "Price Per 1M token -- Input 0.29$, Output 2.4$, Cache 0$"
     },
     {
       "id": "qwen/qwen3-coder-plus",
@@ -3932,8 +3920,8 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 32768,
-      "tooltip": "Price Per 1M token -- Input 0.13$, Output 0.52$, Cache 0$"
+      "maxOutputTokens": 16384,
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0$"
     },
     {
       "id": "qwen/qwen3-vl-235b-a22b-instruct",
@@ -4011,18 +3999,6 @@
       "maxInputTokens": 65536,
       "maxOutputTokens": 8192,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "allenai/olmo-3-32b-think",
-      "name": "Olmo 3 32B Think",
-      "url": "https://openrouter.ai/api/v1",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 65536,
-      "maxOutputTokens": 58982,
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0$"
     },
     {
       "id": "xiaomi/mimo-v2.5",
@@ -4584,8 +4560,8 @@
       "toolCalling": true,
       "vision": false,
       "thinking": false,
-      "maxInputTokens": 32000,
-      "maxOutputTokens": 25600,
+      "maxInputTokens": 32768,
+      "maxOutputTokens": 26214,
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0.01$"
     },
     {
@@ -4805,14 +4781,14 @@
       "toolCalling": true,
       "vision": false,
       "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxInputTokens": 1310720,
+      "maxOutputTokens": 943718,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
+      "tooltip": "Price Per 1M token -- Input 1.2$, Output 4$, Cache 0.24$"
     },
     {
       "id": "nex-agi/nex-n2-mini",

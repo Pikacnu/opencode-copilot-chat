@@ -166,6 +166,11 @@
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "xhigh"
+      ],
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.25$, Cache 2.5$"
     },
     {
@@ -191,8 +196,9 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
-        "high",
-        "max"
+        "low",
+        "medium",
+        "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$, Cache 0.2$"
     },
@@ -257,6 +263,22 @@
       "maxInputTokens": 1000000,
       "maxOutputTokens": 65536,
       "tooltip": "Price Per 1M token -- Input 0.5$, Output 3$, Cache 0.05$, Cache 0.625$ | Price Over 256k tokens -- Input 2$, Output 6$, Cache 0.2$, Cache 2.5$"
+    },
+    {
+      "id": "hy4-preview",
+      "name": "Hy4 preview",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1024000,
+      "maxOutputTokens": 64000,
+      "supportsReasoningEffort": [
+        "none",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
     },
     {
       "id": "glm-5.1",
