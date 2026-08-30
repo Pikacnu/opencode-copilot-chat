@@ -431,23 +431,6 @@
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$"
     },
     {
-      "id": "hy3-free",
-      "name": "Hy3 Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 190000,
-      "maxOutputTokens": 64000,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "gpt-5.3-codex",
       "name": "GPT-5.3 Codex",
       "url": "https://opencode.ai/zen/v1",
@@ -1346,7 +1329,7 @@
     },
     {
       "id": "hy3",
-      "name": "Hy3 (8x usage)",
+      "name": "Hy3",
       "url": "https://opencode.ai/zen/go/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -1359,7 +1342,7 @@
         "low",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.0175$, Output 0.0725$, Cache 0.004375$"
+      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.58$, Cache 0.035$"
     },
     {
       "id": "muse-spark-1.2-contributor",
@@ -2854,8 +2837,8 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 204800,
-      "maxOutputTokens": 182476,
-      "tooltip": "Price Per 1M token -- Input 1.26$, Output 3.96$, Cache 0.234$"
+      "maxOutputTokens": 128000,
+      "tooltip": "Price Per 1M token -- Input 0.966$, Output 3.036$, Cache 0.1794$"
     },
     {
       "id": "z-ai/glm-4.7-flash",
@@ -2936,7 +2919,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.08512$, Output 0.17024$, Cache 0.017024$"
+      "tooltip": "Price Per 1M token -- Input 0.08064$, Output 0.16128$, Cache 0.016128$"
     },
     {
       "id": "deepseek/deepseek-v4-pro-0813",
@@ -2969,7 +2952,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.690954$, Output 1.381908$, Cache 0.05758$"
+      "tooltip": "Price Per 1M token -- Input 0.498336$, Output 0.996672$, Cache 0.041528$"
     },
     {
       "id": "deepseek/deepseek-v3.2",
@@ -2980,8 +2963,8 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 163840,
-      "maxOutputTokens": 147456,
-      "tooltip": "Price Per 1M token -- Input 0.26$, Output 0.38$, Cache 0.13$"
+      "maxOutputTokens": 65536,
+      "tooltip": "Price Per 1M token -- Input 0.269$, Output 0.4$, Cache 0.1345$"
     },
     {
       "id": "deepseek/deepseek-chat-v3.1",
@@ -3070,7 +3053,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.045$, Output 0.09$, Cache 0.009$"
+      "tooltip": "Price Per 1M token -- Input 0.065$, Output 0.18$, Cache 0.016$"
     },
     {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -6040,8 +6023,8 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
-      "tooltip": "Price Per 1M token -- Input 0.1$, Output 1.1$, Cache 0.07$"
+      "maxOutputTokens": 16384,
+      "tooltip": "Price Per 1M token -- Input 0.09$, Output 1.1$, Cache 0$"
     },
     {
       "id": "qwen/qwen3.8-27b",
@@ -6479,7 +6462,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 262144,
+      "maxOutputTokens": 471859,
       "supportsReasoningEffort": [
         "none",
         "minimal",
@@ -6488,7 +6471,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4.05$, Cache 0.16$"
+      "tooltip": "Price Per 1M token -- Input 1$, Output 4.05$, Cache 0.17$"
     },
     {
       "id": "thinkingmachines/inkling-small:free",
@@ -6531,13 +6514,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1310720,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 393216,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.1$, Cache 0.007$"
+      "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.14$, Cache 0.01$"
     },
     {
       "id": "inclusionai/ling-3.0-flash-fin:free",
@@ -7015,13 +6998,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1310720,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.2$, Output 4$, Cache 0.24$"
+      "tooltip": "Price Per 1M token -- Input 1.1875$, Output 4.18$, Cache 0.247$"
     },
     {
       "id": "nex-agi/nex-n2-mini",

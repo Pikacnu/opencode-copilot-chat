@@ -306,7 +306,7 @@
     },
     {
       "id": "hy3",
-      "name": "Hy3 (8x usage)",
+      "name": "Hy3",
       "url": "https://opencode.ai/zen/go/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -319,7 +319,7 @@
         "low",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.0175$, Output 0.0725$, Cache 0.004375$"
+      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.58$, Cache 0.035$"
     },
     {
       "id": "muse-spark-1.2-contributor",
