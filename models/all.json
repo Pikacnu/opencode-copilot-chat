@@ -2919,7 +2919,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.08064$, Output 0.16128$, Cache 0.016128$"
+      "tooltip": "Price Per 1M token -- Input 0.088606$, Output 0.177212$, Cache 0.017721$"
     },
     {
       "id": "deepseek/deepseek-v4-pro-0813",
@@ -2936,7 +2936,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.66$, Output 1.98$, Cache 0.022$"
+      "tooltip": "Price Per 1M token -- Input 1.32$, Output 3.96$, Cache 0.044$"
     },
     {
       "id": "deepseek/deepseek-v4-pro",
@@ -2947,12 +2947,12 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 384000,
+      "maxOutputTokens": 393216,
       "supportsReasoningEffort": [
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.498336$, Output 0.996672$, Cache 0.041528$"
+      "tooltip": "Price Per 1M token -- Input 1.6$, Output 3.2$, Cache 0.135$"
     },
     {
       "id": "deepseek/deepseek-v3.2",
@@ -3070,7 +3070,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
+      "tooltip": "Price Per 1M token -- Input 0.44$, Output 1.32$, Cache 0.014$"
     },
     {
       "id": "arcee-ai/trinity-large-thinking",
@@ -3081,8 +3081,8 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
-      "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.85$, Cache 0.06$"
+      "maxOutputTokens": 80000,
+      "tooltip": "Price Per 1M token -- Input 0.25$, Output 0.8$, Cache 0.06$"
     },
     {
       "id": "google/gemini-2.5-pro-preview-05-06",
@@ -4078,7 +4078,7 @@
       "modelOptions": {
         "top_p": null
       },
-      "tooltip": "Price Per 1M token -- Input 0.6$, Output 3$, Cache 0.1$"
+      "tooltip": "Price Per 1M token -- Input 0.45$, Output 2.25$, Cache 0.07$"
     },
     {
       "id": "moonshotai/kimi-k2-0905",
@@ -4954,8 +4954,8 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 1047576,
-      "maxOutputTokens": 942818,
-      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.4$, Cache 0.03$"
+      "maxOutputTokens": 32768,
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.4$, Cache 0.025$"
     },
     {
       "id": "openai/o1",
@@ -6520,7 +6520,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.14$, Cache 0.01$"
+      "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.16$, Cache 0.013$"
     },
     {
       "id": "inclusionai/ling-3.0-flash-fin:free",
@@ -6637,8 +6637,8 @@
       "vision": true,
       "thinking": false,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 16384,
-      "tooltip": "Price Per 1M token -- Input 0.2$, Output 0.8$, Cache 0$"
+      "maxOutputTokens": 115200,
+      "tooltip": "Price Per 1M token -- Input 0.2$, Output 0.696$, Cache 0$"
     },
     {
       "id": "meta-llama/llama-4-scout",
@@ -6714,7 +6714,7 @@
       "thinking": false,
       "maxInputTokens": 262144,
       "maxOutputTokens": 209715,
-      "tooltip": "Price Per 1M token -- Input 0.44$, Output 2.2$, Cache 0.044$"
+      "tooltip": "Price Per 1M token -- Input 0.4$, Output 2$, Cache 0.04$"
     },
     {
       "id": "mistralai/mistral-small-2603",
