@@ -2919,7 +2919,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.088606$, Output 0.177212$, Cache 0.017721$"
+      "tooltip": "Price Per 1M token -- Input 0.08092$, Output 0.16184$, Cache 0.016184$"
     },
     {
       "id": "deepseek/deepseek-v4-pro-0813",
@@ -2936,7 +2936,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.32$, Output 3.96$, Cache 0.044$"
+      "tooltip": "Price Per 1M token -- Input 1.1154$, Output 3.3462$, Cache 0.03718$"
     },
     {
       "id": "deepseek/deepseek-v4-pro",
@@ -3645,8 +3645,8 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 8192,
-      "maxOutputTokens": 3686,
-      "tooltip": "Price Per 1M token -- Input 0.06$, Output 0.06$, Cache 0$"
+      "maxOutputTokens": 7372,
+      "tooltip": "Price Per 1M token -- Input 0.35$, Output 0.6$, Cache 0$"
     },
     {
       "id": "inception/mercury-2",
@@ -5768,8 +5768,8 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
-      "tooltip": "Price Per 1M token -- Input 0.0875$, Output 0.35$, Cache 0.0175$"
+      "maxOutputTokens": 16384,
+      "tooltip": "Price Per 1M token -- Input 0.09$, Output 0.55$, Cache 0$"
     },
     {
       "id": "qwen/qwen3.6-max-preview",
@@ -6023,8 +6023,8 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 16384,
-      "tooltip": "Price Per 1M token -- Input 0.09$, Output 1.1$, Cache 0$"
+      "maxOutputTokens": 235929,
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 1.1$, Cache 0.07$"
     },
     {
       "id": "qwen/qwen3.8-27b",
@@ -6520,7 +6520,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.16$, Cache 0.013$"
+      "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.16$, Cache 0.013$"
     },
     {
       "id": "inclusionai/ling-3.0-flash-fin:free",
@@ -6987,7 +6987,7 @@
       "thinking": false,
       "maxInputTokens": 32768,
       "maxOutputTokens": 4096,
-      "tooltip": "Price Per 1M token -- Input 3$, Output 5$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 2.5$, Output 5$, Cache 0$"
     },
     {
       "id": "~z-ai/glm-latest",
@@ -6998,13 +6998,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1310720,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 943718,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.1875$, Output 4.18$, Cache 0.247$"
+      "tooltip": "Price Per 1M token -- Input 1.17$, Output 3.96$, Cache 0.234$"
     },
     {
       "id": "nex-agi/nex-n2-mini",
@@ -7101,7 +7101,7 @@
       "thinking": false,
       "maxInputTokens": 8000,
       "maxOutputTokens": 6000,
-      "tooltip": "Price Per 1M token -- Input 0.5$, Output 0.75$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.4$, Output 0.75$, Cache 0$"
     },
     {
       "id": "sao10k/l3.1-euryale-70b",
@@ -7168,20 +7168,8 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 80000,
+      "maxOutputTokens": 235929,
       "tooltip": "Price Per 1M token -- Input 0.74$, Output 2.96$, Cache 0.15$"
-    },
-    {
-      "id": "kwaipilot/kat-coder-air-v2.5",
-      "name": "KAT-Coder-Air V2.5",
-      "url": "https://openrouter.ai/api/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 256000,
-      "maxOutputTokens": 80000,
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.03$"
     },
     {
       "id": "kwaipilot/kat-coder-pro-v2",
@@ -7192,8 +7180,25 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 80000,
+      "maxOutputTokens": 144000,
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$"
+    },
+    {
+      "id": "ibm-granite/granite-4.2-8b",
+      "name": "Granite 4.2 8B",
+      "url": "https://openrouter.ai/api/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 131072,
+      "maxOutputTokens": 117964,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.15$, Cache 0.05$"
     },
     {
       "id": "ibm-granite/granite-4.0-h-micro",
@@ -7816,22 +7821,6 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.4$, Cache 0.01$"
-    },
-    {
-      "id": "gemini-robotics-er-1.6-preview",
-      "name": "Gemini Robotics-ER 1.6 Preview",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 1$, Output 5$, Cache 0$"
     },
     {
       "id": "gemma-4-31b-it",
@@ -9062,6 +9051,25 @@
         "default"
       ],
       "tooltip": "Price Per 1M token -- Input 0.6$, Output 3$, Cache 0.3$"
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 131042,
+      "maxOutputTokens": 16384,
+      "supportsReasoningEffort": [
+        "none",
+        "default",
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.8$, Output 4$, Cache 0$"
     },
     {
       "id": "meta-llama/llama-prompt-guard-2-86m",

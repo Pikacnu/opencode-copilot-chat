@@ -171,22 +171,6 @@
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.4$, Cache 0.01$"
     },
     {
-      "id": "gemini-robotics-er-1.6-preview",
-      "name": "Gemini Robotics-ER 1.6 Preview",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 1$, Output 5$, Cache 0$"
-    },
-    {
       "id": "gemma-4-31b-it",
       "name": "Gemma 4 31B IT",
       "url": "",

@@ -128,6 +128,25 @@
       "tooltip": "Price Per 1M token -- Input 0.6$, Output 3$, Cache 0.3$"
     },
     {
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 131042,
+      "maxOutputTokens": 16384,
+      "supportsReasoningEffort": [
+        "none",
+        "default",
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.8$, Output 4$, Cache 0$"
+    },
+    {
       "id": "meta-llama/llama-prompt-guard-2-86m",
       "name": "Prompt Guard 2 86M",
       "url": "",
