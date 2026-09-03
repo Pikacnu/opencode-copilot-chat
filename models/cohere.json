@@ -1,16 +1,33 @@
 
   "models": [
     {
-      "id": "c4ai-aya-expanse-32b",
-      "name": "Aya Expanse 32B",
+      "id": "command-r7b-arabic-02-2025",
+      "name": "Command R7B Arabic",
       "url": "",
       "apiType": "chat-completions",
-      "toolCalling": false,
+      "toolCalling": true,
       "vision": false,
       "thinking": false,
       "maxInputTokens": 128000,
       "maxOutputTokens": 4000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.0375$, Output 0.15$, Cache 0$"
+    },
+    {
+      "id": "command-a-plus-05-2026",
+      "name": "Command A Plus",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 64000,
+      "supportsReasoningEffort": [
+        "none",
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
     },
     {
       "id": "command-a-reasoning-08-2025",
@@ -30,15 +47,31 @@
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
     },
     {
-      "id": "c4ai-aya-vision-32b",
-      "name": "Aya Vision 32B",
+      "id": "command-a-vision-07-2025",
+      "name": "Command A Vision",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": false,
       "vision": true,
       "thinking": false,
-      "maxInputTokens": 16000,
-      "maxOutputTokens": 4000,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 8000,
+      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
+    },
+    {
+      "id": "north-mini-code-1-0",
+      "name": "North Mini Code",
+      "url": "https://api.cohere.ai/compatibility/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 256000,
+      "maxOutputTokens": 64000,
+      "supportsReasoningEffort": [
+        "none",
+        "high"
+      ],
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
@@ -66,16 +99,28 @@
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
     },
     {
-      "id": "command-r7b-arabic-02-2025",
-      "name": "Command R7B Arabic",
+      "id": "command-a-03-2025",
+      "name": "Command A",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
       "thinking": false,
+      "maxInputTokens": 256000,
+      "maxOutputTokens": 8000,
+      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
+    },
+    {
+      "id": "c4ai-aya-expanse-32b",
+      "name": "Aya Expanse 32B",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
       "maxInputTokens": 128000,
       "maxOutputTokens": 4000,
-      "tooltip": "Price Per 1M token -- Input 0.0375$, Output 0.15$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "c4ai-aya-expanse-8b",
@@ -90,45 +135,16 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "command-a-vision-07-2025",
-      "name": "Command A Vision",
+      "id": "c4ai-aya-vision-8b",
+      "name": "Aya Vision 8B",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": false,
       "vision": true,
       "thinking": false,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 8000,
-      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
-    },
-    {
-      "id": "command-a-plus-05-2026",
-      "name": "Command A Plus",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 64000,
-      "supportsReasoningEffort": [
-        "none",
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
-    },
-    {
-      "id": "command-a-03-2025",
-      "name": "Command A",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 256000,
-      "maxOutputTokens": 8000,
-      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
+      "maxInputTokens": 16000,
+      "maxOutputTokens": 4000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "command-r7b-12-2024",
@@ -143,6 +159,18 @@
       "tooltip": "Price Per 1M token -- Input 0.0375$, Output 0.15$, Cache 0$"
     },
     {
+      "id": "c4ai-aya-vision-32b",
+      "name": "Aya Vision 32B",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 16000,
+      "maxOutputTokens": 4000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "command-r-08-2024",
       "name": "Command R",
       "url": "",
@@ -153,33 +181,5 @@
       "maxInputTokens": 128000,
       "maxOutputTokens": 4000,
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0$"
-    },
-    {
-      "id": "north-mini-code-1-0",
-      "name": "North Mini Code",
-      "url": "https://api.cohere.ai/compatibility/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 256000,
-      "maxOutputTokens": 64000,
-      "supportsReasoningEffort": [
-        "none",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "c4ai-aya-vision-8b",
-      "name": "Aya Vision 8B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": true,
-      "thinking": false,
-      "maxInputTokens": 16000,
-      "maxOutputTokens": 4000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     }
   ]

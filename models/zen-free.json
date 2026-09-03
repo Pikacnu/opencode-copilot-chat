@@ -1,18 +1,6 @@
 
   "models": [
     {
-      "id": "nemotron-3.5-lightning-free",
-      "name": "Nemotron 3.5 Lightning Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 262144,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "nemotron-3-ultra-free",
       "name": "Nemotron 3 Ultra Free",
       "url": "https://opencode.ai/zen/v1",
@@ -25,19 +13,21 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "ling-3.0-flash-fin-free",
-      "name": "Ling 3.0 Flash Fin Free",
+      "id": "muse-spark-1.3-contributor-free",
+      "name": "Muse Spark 1.3 Free",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
-      "vision": false,
+      "vision": true,
       "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 32768,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
+        "minimal",
         "low",
         "medium",
-        "high"
+        "high",
+        "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
@@ -58,6 +48,18 @@
         "high",
         "xhigh"
       ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "nemotron-3.5-lightning-free",
+      "name": "Nemotron 3.5 Lightning Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 262144,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
@@ -82,6 +84,23 @@
       "thinking": true,
       "maxInputTokens": 200000,
       "maxOutputTokens": 32000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "ling-3.0-flash-fin-free",
+      "name": "Ling 3.0 Flash Fin Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 32768,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     }
   ]
