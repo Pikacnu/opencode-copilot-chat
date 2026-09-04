@@ -675,21 +675,6 @@
       "tooltip": "Price Per 1M token -- Input 1.25$, Output 10$, Cache 0.125$"
     },
     {
-      "id": "gpt-5.2-chat-latest",
-      "name": "GPT-5.2 Chat",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 16384,
-      "supportsReasoningEffort": [
-        "medium"
-      ],
-      "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
-    },
-    {
       "id": "gpt-realtime-2.1",
       "name": "GPT-Realtime-2.1",
       "url": "",
@@ -741,18 +726,6 @@
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 20$, Output 80$, Cache 0$"
-    },
-    {
-      "id": "gpt-5.3-chat-latest",
-      "name": "GPT-5.3 Chat (latest)",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": false,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 16384,
-      "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
     },
     {
       "id": "gpt-5.5",
