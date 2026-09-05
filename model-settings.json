@@ -70,6 +70,43 @@
         "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.4$, Cache 0.005$"
       },
       {
+        "id": "deepseek-v4-flash-vision-exp",
+        "name": "DeepSeek V4 Flash Vision Exp",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 384000,
+        "supportsReasoningEffort": [
+          "low",
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.028$"
+      },
+      {
+        "id": "muse-spark-1.3",
+        "name": "Muse Spark 1.3",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 131072,
+        "supportsReasoningEffort": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.25$, Output 4.25$, Cache 0.15$"
+      },
+      {
         "id": "muse-spark-1.3-contributor-free",
         "name": "Muse Spark 1.3 Free",
         "url": "https://opencode.ai/zen/v1",
@@ -273,6 +310,25 @@
           "max"
         ],
         "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
+      },
+      {
+        "id": "gpt-6-astra",
+        "name": "GPT-6 Astra",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$ | Price Over 272k tokens -- Input 20$, Output 75$, Cache 2$, Cache 25$"
       },
       {
         "id": "claude-opus-4-5",
@@ -630,6 +686,23 @@
         "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
       },
       {
+        "id": "glm-5.3-flash",
+        "name": "GLM-5.3-Flash",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 131072,
+        "supportsReasoningEffort": [
+          "low",
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
+      },
+      {
         "id": "claude-fable-5",
         "name": "Claude Fable 5",
         "url": "https://opencode.ai/zen/v1",
@@ -956,6 +1029,23 @@
           "max"
         ],
         "tooltip": "Price Per 1M token -- Input 2.5$, Output 15$, Cache 0.25$, Cache 3.125$ | Price Over 272k tokens -- Input 5$, Output 22.5$, Cache 0.5$, Cache 6.25$"
+      },
+      {
+        "id": "glm-5.3",
+        "name": "GLM-5.3",
+        "url": "https://opencode.ai/zen/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 131072,
+        "supportsReasoningEffort": [
+          "low",
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
       },
       {
         "id": "gpt-5.2",
@@ -1291,6 +1381,22 @@
         "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
       },
       {
+        "id": "omen-alpha",
+        "name": "Omen Alpha",
+        "url": "https://opencode.ai/zen/go/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 500000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0.2$, Output 0.66$, Cache 0.04$"
+      },
+      {
         "id": "gpt-5.6-luna",
         "name": "GPT-5.6 Luna",
         "url": "https://opencode.ai/zen/go/v1",
@@ -1620,6 +1726,63 @@
         "maxInputTokens": 128000,
         "maxOutputTokens": 16384,
         "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 1.25$"
+      },
+      {
+        "id": "gpt-6-astra",
+        "name": "GPT-6 Astra",
+        "url": "",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$ | Price Over 272k tokens -- Input 20$, Output 75$, Cache 2$, Cache 25$"
+      },
+      {
+        "id": "gpt-6-astra-fast",
+        "name": "GPT-6 Astra Fast",
+        "url": "",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 20$, Output 100$, Cache 2$, Cache 25$ | Price Over 272k tokens -- Input 20$, Output 75$, Cache 2$, Cache 25$"
+      },
+      {
+        "id": "gpt-6-astra-pro",
+        "name": "GPT-6 Astra Pro",
+        "url": "",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$ | Price Over 272k tokens -- Input 20$, Output 75$, Cache 2$, Cache 25$"
       },
       {
         "id": "gpt-5.2-pro",
@@ -2434,8 +2597,8 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 235929,
-        "tooltip": "Price Per 1M token -- Input 0.25$, Output 1.25$, Cache 0.25$"
+        "maxOutputTokens": 16384,
+        "tooltip": "Price Per 1M token -- Input 0.08$, Output 0.75$, Cache 0$"
       },
       {
         "id": "qwen/qwen3.5-plus-20260420",
@@ -2542,8 +2705,8 @@
         "vision": false,
         "thinking": false,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 235929,
-        "tooltip": "Price Per 1M token -- Input 0.0875$, Output 0.35$, Cache 0.0175$"
+        "maxOutputTokens": 16384,
+        "tooltip": "Price Per 1M token -- Input 0.09$, Output 0.55$, Cache 0$"
       },
       {
         "id": "qwen/qwen3.5-flash-02-23",
@@ -2590,8 +2753,8 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 235929,
-        "tooltip": "Price Per 1M token -- Input 0.6$, Output 3.6$, Cache 0.12$"
+        "maxOutputTokens": 65536,
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 2$, Cache 0.03$"
       },
       {
         "id": "qwen/qwen3.7-flash",
@@ -3109,13 +3272,13 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1310720,
-        "maxOutputTokens": 393216,
+        "maxOutputTokens": 131072,
         "supportsReasoningEffort": [
           "low",
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.16$, Cache 0.013$"
+        "tooltip": "Price Per 1M token -- Input 0.04998$, Output 0.09996$, Cache 0.009996$"
       },
       {
         "id": "dots-studio/dots-3-note-preview:free",
@@ -4755,7 +4918,8 @@
           "low",
           "medium",
           "high",
-          "xhigh"
+          "xhigh",
+          "max"
         ],
         "tooltip": "Price Per 1M token -- Input 1.25$, Output 4.25$, Cache 0.15$"
       },
@@ -4812,7 +4976,8 @@
           "low",
           "medium",
           "high",
-          "xhigh"
+          "xhigh",
+          "max"
         ],
         "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.2$, Cache 0.002$"
       },
@@ -5182,18 +5347,6 @@
         "tooltip": "Price Per 1M token -- Input 2.5$, Output 14$, Cache 0.29$"
       },
       {
-        "id": "ibm-granite/granite-4.1-8b",
-        "name": "Granite 4.1 8B",
-        "url": "https://openrouter.ai/api/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": false,
-        "thinking": false,
-        "maxInputTokens": 131072,
-        "maxOutputTokens": 117964,
-        "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.1$, Cache 0.05$"
-      },
-      {
         "id": "ibm-granite/granite-4.2-8b",
         "name": "Granite 4.2 8B",
         "url": "https://openrouter.ai/api/v1",
@@ -5249,7 +5402,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.44$, Output 1.32$, Cache 0.014$"
+        "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
       },
       {
         "id": "deepseek/deepseek-v4-pro-0813",
@@ -5266,7 +5419,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 1.1154$, Output 3.3462$, Cache 0.03718$"
+        "tooltip": "Price Per 1M token -- Input 1.12068$, Output 3.36204$, Cache 0.037356$"
       },
       {
         "id": "deepseek/deepseek-v4-flash-0731",
@@ -5299,7 +5452,7 @@
           "high",
           "xhigh"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.088606$, Output 0.177212$, Cache 0.017721$"
+        "tooltip": "Price Per 1M token -- Input 0.08722$, Output 0.17444$, Cache 0.017444$"
       },
       {
         "id": "deepseek/deepseek-r1",
@@ -5399,7 +5552,7 @@
           "high",
           "xhigh"
         ],
-        "tooltip": "Price Per 1M token -- Input 1.04226$, Output 2.08452$, Cache 0.086855$"
+        "tooltip": "Price Per 1M token -- Input 0.971442$, Output 1.942884$, Cache 0.080954$"
       },
       {
         "id": "deepseek/deepseek-chat-v3-0324",
@@ -5519,7 +5672,7 @@
       },
       {
         "id": "inclusionai/ling-3.0-flash",
-        "name": "Ling-3.0-flash",
+        "name": "Ling 3.0 Flash",
         "url": "https://openrouter.ai/api/v1",
         "apiType": "chat-completions",
         "toolCalling": true,
@@ -5554,6 +5707,23 @@
       {
         "id": "inclusionai/ling-3.0-flash-fin:free",
         "name": "Ling 3.0 Flash Fin (free)",
+        "url": "https://openrouter.ai/api/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 32768,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "inclusionai/ling-3.0-flash-sante:free",
+        "name": "Ling 3.0 Flash Sante (free)",
         "url": "https://openrouter.ai/api/v1",
         "apiType": "chat-completions",
         "toolCalling": true,
@@ -6059,6 +6229,25 @@
         "tooltip": "Price Per 1M token -- Input 0.25$, Output 2$, Cache 0.03$"
       },
       {
+        "id": "openai/gpt-6-astra-pro",
+        "name": "GPT-6 Astra Pro",
+        "url": "https://openrouter.ai/api/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$ | Price Over 272k tokens -- Input 20$, Output 75$, Cache 2$, Cache 25$"
+      },
+      {
         "id": "openai/gpt-audio-mini",
         "name": "GPT Audio Mini",
         "url": "https://openrouter.ai/api/v1",
@@ -6148,6 +6337,25 @@
           "xhigh"
         ],
         "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
+      },
+      {
+        "id": "openai/gpt-6-astra",
+        "name": "GPT-6 Astra",
+        "url": "https://openrouter.ai/api/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1050000,
+        "maxOutputTokens": 128000,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$ | Price Over 272k tokens -- Input 20$, Output 75$, Cache 2$, Cache 25$"
       },
       {
         "id": "openai/gpt-5.2-chat",
@@ -8804,7 +9012,7 @@
         "toolCalling": false,
         "vision": true,
         "thinking": false,
-        "maxInputTokens": 8000,
+        "maxInputTokens": 16000,
         "maxOutputTokens": 0,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -8869,7 +9077,7 @@
         "toolCalling": false,
         "vision": true,
         "thinking": false,
-        "maxInputTokens": 8000,
+        "maxInputTokens": 64000,
         "maxOutputTokens": 0,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },
@@ -8899,7 +9107,7 @@
         "toolCalling": false,
         "vision": true,
         "thinking": false,
-        "maxInputTokens": 8000,
+        "maxInputTokens": 16000,
         "maxOutputTokens": 0,
         "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
       },

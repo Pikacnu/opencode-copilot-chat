@@ -56,7 +56,7 @@
       "toolCalling": false,
       "vision": true,
       "thinking": false,
-      "maxInputTokens": 8000,
+      "maxInputTokens": 16000,
       "maxOutputTokens": 0,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
@@ -121,7 +121,7 @@
       "toolCalling": false,
       "vision": true,
       "thinking": false,
-      "maxInputTokens": 8000,
+      "maxInputTokens": 64000,
       "maxOutputTokens": 0,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
@@ -151,7 +151,7 @@
       "toolCalling": false,
       "vision": true,
       "thinking": false,
-      "maxInputTokens": 8000,
+      "maxInputTokens": 16000,
       "maxOutputTokens": 0,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },

@@ -66,6 +66,43 @@
       "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.4$, Cache 0.005$"
     },
     {
+      "id": "deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "supportsReasoningEffort": [
+        "low",
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.028$"
+    },
+    {
+      "id": "muse-spark-1.3",
+      "name": "Muse Spark 1.3",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1.25$, Output 4.25$, Cache 0.15$"
+    },
+    {
       "id": "muse-spark-1.3-contributor-free",
       "name": "Muse Spark 1.3 Free",
       "url": "https://opencode.ai/zen/v1",
@@ -269,6 +306,25 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
+    },
+    {
+      "id": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$ | Price Over 272k tokens -- Input 20$, Output 75$, Cache 2$, Cache 25$"
     },
     {
       "id": "claude-opus-4-5",
@@ -626,6 +682,23 @@
       "tooltip": "Price Per 1M token -- Input 1.75$, Output 14$, Cache 0.175$"
     },
     {
+      "id": "glm-5.3-flash",
+      "name": "GLM-5.3-Flash",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "low",
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
+    },
+    {
       "id": "claude-fable-5",
       "name": "Claude Fable 5",
       "url": "https://opencode.ai/zen/v1",
@@ -952,6 +1025,23 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 15$, Cache 0.25$, Cache 3.125$ | Price Over 272k tokens -- Input 5$, Output 22.5$, Cache 0.5$, Cache 6.25$"
+    },
+    {
+      "id": "glm-5.3",
+      "name": "GLM-5.3",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "low",
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
     },
     {
       "id": "gpt-5.2",

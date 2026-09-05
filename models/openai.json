@@ -118,6 +118,63 @@
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 1.25$"
     },
     {
+      "id": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$ | Price Over 272k tokens -- Input 20$, Output 75$, Cache 2$, Cache 25$"
+    },
+    {
+      "id": "gpt-6-astra-fast",
+      "name": "GPT-6 Astra Fast",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 20$, Output 100$, Cache 2$, Cache 25$ | Price Over 272k tokens -- Input 20$, Output 75$, Cache 2$, Cache 25$"
+    },
+    {
+      "id": "gpt-6-astra-pro",
+      "name": "GPT-6 Astra Pro",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$ | Price Over 272k tokens -- Input 20$, Output 75$, Cache 2$, Cache 25$"
+    },
+    {
       "id": "gpt-5.2-pro",
       "name": "GPT-5.2 Pro",
       "url": "",
