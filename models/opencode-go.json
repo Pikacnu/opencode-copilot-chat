@@ -44,7 +44,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     },
     {
       "id": "qwen3.6-plus",
@@ -151,7 +151,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     },
     {
       "id": "kimi-k2.7-code",
@@ -167,6 +167,23 @@
         "top_p": null
       },
       "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.19$"
+    },
+    {
+      "id": "deepseek-v4.1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "supportsReasoningEffort": [
+        "low",
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     },
     {
       "id": "hy3",
@@ -200,22 +217,6 @@
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
-    },
-    {
-      "id": "omen-alpha",
-      "name": "Omen Alpha",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 500000,
-      "maxOutputTokens": 128000,
-      "supportsReasoningEffort": [
-        "low",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0.2$, Output 0.66$, Cache 0.04$"
     },
     {
       "id": "gpt-5.6-luna",

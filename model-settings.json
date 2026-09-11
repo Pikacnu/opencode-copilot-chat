@@ -1223,7 +1223,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "qwen3.6-plus",
@@ -1330,7 +1330,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "kimi-k2.7-code",
@@ -1346,6 +1346,23 @@
           "top_p": null
         },
         "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.19$"
+      },
+      {
+        "id": "deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "url": "https://opencode.ai/zen/go/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 384000,
+        "supportsReasoningEffort": [
+          "low",
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "hy3",
@@ -1379,22 +1396,6 @@
           "high"
         ],
         "tooltip": "Price Per 1M token -- Input 0.834$, Output 2.501$, Cache 0.042$"
-      },
-      {
-        "id": "omen-alpha",
-        "name": "Omen Alpha",
-        "url": "https://opencode.ai/zen/go/v1",
-        "apiType": "chat-completions",
-        "toolCalling": true,
-        "vision": true,
-        "thinking": true,
-        "maxInputTokens": 500000,
-        "maxOutputTokens": 128000,
-        "supportsReasoningEffort": [
-          "low",
-          "high"
-        ],
-        "tooltip": "Price Per 1M token -- Input 0.2$, Output 0.66$, Cache 0.04$"
       },
       {
         "id": "gpt-5.6-luna",
@@ -4256,13 +4257,13 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 16384,
+        "maxOutputTokens": 32768,
         "supportsReasoningEffort": [
           "low",
           "medium",
           "high"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.34$, Cache 0$"
+        "tooltip": "Price Per 1M token -- Input 0.042$, Output 0.22$, Cache 0$"
       },
       {
         "id": "google/gemini-3.1-pro-preview-customtools",
@@ -5320,7 +5321,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 2.4$, Output 12$, Cache 0.24$"
+        "tooltip": "Price Per 1M token -- Input 2.34$, Output 11.7$, Cache 0.261$"
       },
       {
         "id": "ibm-granite/granite-4.2-8b",
@@ -5429,6 +5430,23 @@
           "xhigh"
         ],
         "tooltip": "Price Per 1M token -- Input 0.088606$, Output 0.177212$, Cache 0.017721$"
+      },
+      {
+        "id": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "url": "https://openrouter.ai/api/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 384000,
+        "supportsReasoningEffort": [
+          "low",
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
       },
       {
         "id": "deepseek/deepseek-r1",
@@ -5704,6 +5722,23 @@
         "apiType": "chat-completions",
         "toolCalling": true,
         "vision": false,
+        "thinking": true,
+        "maxInputTokens": 262144,
+        "maxOutputTokens": 32768,
+        "supportsReasoningEffort": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      },
+      {
+        "id": "inclusionai/ling-3.0-flash-vl:free",
+        "name": "Ling 3.0 Flash VL (free)",
+        "url": "https://openrouter.ai/api/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
         "thinking": true,
         "maxInputTokens": 262144,
         "maxOutputTokens": 32768,
@@ -6015,8 +6050,8 @@
         "vision": false,
         "thinking": false,
         "maxInputTokens": 131072,
-        "maxOutputTokens": 16384,
-        "tooltip": "Price Per 1M token -- Input 0.4$, Output 0.4$, Cache 0$"
+        "maxOutputTokens": 8192,
+        "tooltip": "Price Per 1M token -- Input 0.72$, Output 0.72$, Cache 0$"
       },
       {
         "id": "meta-llama/llama-3.3-70b-instruct",
@@ -7050,7 +7085,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.2333$, Cache 0.014$"
+        "tooltip": "Price Per 1M token -- Input 0.075$, Output 0.25$, Cache 0.015$"
       },
       {
         "id": "~z-ai/glm-latest",
@@ -7061,13 +7096,13 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1310720,
-        "maxOutputTokens": 128000,
+        "maxOutputTokens": 943718,
         "supportsReasoningEffort": [
           "low",
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 1.113$, Output 3.498$, Cache 0.2067$"
+        "tooltip": "Price Per 1M token -- Input 1$, Output 3.41$, Cache 0.2$"
       },
       {
         "id": "moonshotai/kimi-k2-0905",
@@ -7147,7 +7182,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 3$, Output 15$, Cache 0.3$"
+        "tooltip": "Price Per 1M token -- Input 2.34$, Output 11.7$, Cache 0.261$"
       },
       {
         "id": "moonshotai/kimi-k2",
@@ -7276,7 +7311,7 @@
           "medium",
           "high"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.12$, Cache 0.006$"
+        "tooltip": "Price Per 1M token -- Input 0.09$, Output 0.36$, Cache 0.018$"
       },
       {
         "id": "arcee-ai/trinity-large-thinking",
@@ -7485,7 +7520,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.07$, Output 0.2333$, Cache 0.014$"
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
       },
       {
         "id": "z-ai/glm-4.5",
@@ -7584,7 +7619,7 @@
         "toolCalling": true,
         "vision": false,
         "thinking": true,
-        "maxInputTokens": 202752,
+        "maxInputTokens": 200000,
         "maxOutputTokens": 117964,
         "tooltip": "Price Per 1M token -- Input 0.0605$, Output 0.4$, Cache 0$"
       },
@@ -9277,7 +9312,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "deepseek-v4-flash",
@@ -9285,7 +9320,7 @@
         "url": "https://api.deepseek.com",
         "apiType": "chat-completions",
         "toolCalling": true,
-        "vision": false,
+        "vision": true,
         "thinking": true,
         "maxInputTokens": 1000000,
         "maxOutputTokens": 384000,
@@ -9294,7 +9329,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "deepseek-v4-pro",
@@ -9311,6 +9346,23 @@
           "max"
         ],
         "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.003625$"
+      },
+      {
+        "id": "deepseek-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "url": "https://api.deepseek.com",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1000000,
+        "maxOutputTokens": 384000,
+        "supportsReasoningEffort": [
+          "low",
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       }
     ]
   },

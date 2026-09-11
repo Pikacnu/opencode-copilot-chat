@@ -15,7 +15,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     },
     {
       "id": "deepseek-v4-flash",
@@ -23,7 +23,7 @@
       "url": "https://api.deepseek.com",
       "apiType": "chat-completions",
       "toolCalling": true,
-      "vision": false,
+      "vision": true,
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 384000,
@@ -32,7 +32,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.28$, Cache 0.0028$"
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     },
     {
       "id": "deepseek-v4-pro",
@@ -49,5 +49,22 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.003625$"
+    },
+    {
+      "id": "deepseek-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "url": "https://api.deepseek.com",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "supportsReasoningEffort": [
+        "low",
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     }
   ]
