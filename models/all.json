@@ -2520,8 +2520,8 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 8192,
-      "tooltip": "Price Per 1M token -- Input 0.2275$, Output 0.91$, Cache 0$"
+      "maxOutputTokens": 16384,
+      "tooltip": "Price Per 1M token -- Input 0.12$, Output 0.24$, Cache 0$"
     },
     {
       "id": "qwen/qwen3.6-plus",
@@ -3248,13 +3248,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1310720,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.07$, Cache 0.005$"
+      "tooltip": "Price Per 1M token -- Input 0.0352$, Output 0.1056$, Cache 0.00112$"
     },
     {
       "id": "dots-studio/dots-3-note-preview:free",
@@ -3935,12 +3935,12 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 32768,
+      "maxOutputTokens": 182520,
       "supportsReasoningEffort": [
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.625$, Output 3.125$, Cache 0.1875$"
+      "tooltip": "Price Per 1M token -- Input 0.6$, Output 2.4$, Cache 0.12$"
     },
     {
       "id": "nvidia/nemotron-3-nano-30b-a3b",
@@ -5330,7 +5330,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 2.1$, Output 10.95$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 2.275$, Output 12.74$, Cache 0.2639$"
     },
     {
       "id": "ibm-granite/granite-4.2-8b",
@@ -5399,13 +5399,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 393216,
+      "maxOutputTokens": 384000,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.57816$, Output 1.73448$, Cache 0.018396$"
+      "tooltip": "Price Per 1M token -- Input 0.9834$, Output 2.9502$, Cache 0.03278$"
     },
     {
       "id": "deepseek/deepseek-v4-flash-0731",
@@ -5422,7 +5422,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.04$, Output 0.08$, Cache 0.008$"
+      "tooltip": "Price Per 1M token -- Input 0.06$, Output 0.12$, Cache 0.012$"
     },
     {
       "id": "deepseek/deepseek-v4-flash",
@@ -5438,7 +5438,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.06538$, Output 0.13076$, Cache 0.013076$"
+      "tooltip": "Price Per 1M token -- Input 0.088606$, Output 0.177212$, Cache 0.017721$"
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -5455,7 +5455,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
+      "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
     },
     {
       "id": "deepseek/deepseek-r1",
@@ -7187,7 +7187,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.8727$, Output 3.36$, Cache 0.1639$"
+      "tooltip": "Price Per 1M token -- Input 0.92$, Output 3.1372$, Cache 0.184$"
     },
     {
       "id": "moonshotai/kimi-k2-0905",
@@ -7198,7 +7198,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 100352,
+      "maxOutputTokens": 98304,
       "modelOptions": {
         "top_p": null
       },
@@ -7243,7 +7243,7 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 100352,
+      "maxOutputTokens": 98304,
       "modelOptions": {
         "top_p": null
       },
@@ -7278,7 +7278,7 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 100352,
+      "maxOutputTokens": 98304,
       "modelOptions": {
         "top_p": null
       },
@@ -7309,7 +7309,7 @@
       "thinking": false,
       "maxInputTokens": 128000,
       "maxOutputTokens": 4096,
-      "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.23$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.23$, Cache 0.05$"
     },
     {
       "id": "inference-net/schematron-v2-turbo",
@@ -7321,7 +7321,7 @@
       "thinking": false,
       "maxInputTokens": 128000,
       "maxOutputTokens": 8192,
-      "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.15$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.15$, Cache 0.03$"
     },
     {
       "id": "cohere/north-mini-code:free",
@@ -7607,12 +7607,12 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 182476,
+      "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.6$, Output 2$, Cache 0.15$"
+      "tooltip": "Price Per 1M token -- Input 0.6832$, Output 2.1472$, Cache 0.12688$"
     },
     {
       "id": "z-ai/glm-5.3-flash",
@@ -7700,13 +7700,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1310720,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 943717,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.092$, Output 3.432$, Cache 0.2028$"
+      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
     },
     {
       "id": "z-ai/glm-5v-turbo",
