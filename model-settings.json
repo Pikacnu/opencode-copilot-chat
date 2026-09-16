@@ -2485,7 +2485,7 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 32768,
+        "maxOutputTokens": 235929,
         "tooltip": "Price Per 1M token -- Input 0.15$, Output 1.2$, Cache 0$"
       },
       {
@@ -2598,8 +2598,8 @@
         "vision": true,
         "thinking": true,
         "maxInputTokens": 262144,
-        "maxOutputTokens": 65536,
-        "tooltip": "Price Per 1M token -- Input 0.1625$, Output 1.3$, Cache 0$"
+        "maxOutputTokens": 16384,
+        "tooltip": "Price Per 1M token -- Input 0.3125$, Output 1.25$, Cache 0.15625$"
       },
       {
         "id": "qwen/qwen3.5-plus-20260420",
@@ -3290,13 +3290,13 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 943718,
+        "maxOutputTokens": 393216,
         "supportsReasoningEffort": [
           "low",
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.96$, Output 2.88$, Cache 0.088$"
+        "tooltip": "Price Per 1M token -- Input 0.57948$, Output 1.73844$, Cache 0.018438$"
       },
       {
         "id": "~deepseek/deepseek-flash-latest",
@@ -3313,7 +3313,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.015$"
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "dots-studio/dots-3-note-preview:free",
@@ -4708,6 +4708,22 @@
         "tooltip": "Price Per 1M token -- Input 0.3$, Output 2.5$, Cache 0.03$, Cache 0.083333$"
       },
       {
+        "id": "google/gemini-2.5-pro-preview-05-06",
+        "name": "Gemini 2.5 Pro Preview 05-06",
+        "url": "https://openrouter.ai/api/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 1048576,
+        "maxOutputTokens": 65535,
+        "supportsReasoningEffort": [
+          "high",
+          "max"
+        ],
+        "tooltip": "Price Per 1M token -- Input 1.25$, Output 10$, Cache 0.125$, Cache 0.375$ | Price Over 200k tokens -- Input 2.5$, Output 15$, Cache 0.25$"
+      },
+      {
         "id": "google/gemma-3-12b-it",
         "name": "Gemma 3 12B IT",
         "url": "https://openrouter.ai/api/v1",
@@ -5442,13 +5458,13 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 384000,
+        "maxOutputTokens": 393216,
         "supportsReasoningEffort": [
           "low",
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.9834$, Output 2.9502$, Cache 0.03278$"
+        "tooltip": "Price Per 1M token -- Input 0.57948$, Output 1.73844$, Cache 0.018438$"
       },
       {
         "id": "deepseek/deepseek-v4-flash-0731",
@@ -5465,7 +5481,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.1$, Cache 0.01$"
+        "tooltip": "Price Per 1M token -- Input 0.06$, Output 0.12$, Cache 0.012$"
       },
       {
         "id": "deepseek/deepseek-v4-flash",
@@ -5481,7 +5497,7 @@
           "high",
           "xhigh"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.088606$, Output 0.177212$, Cache 0.017721$"
+        "tooltip": "Price Per 1M token -- Input 0.084$, Output 0.168$, Cache 0.0168$"
       },
       {
         "id": "deepseek/deepseek-v4.1-flash",
@@ -5498,7 +5514,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
+        "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
       },
       {
         "id": "deepseek/deepseek-r1",
@@ -6419,6 +6435,18 @@
         "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$ | Price Over 272k tokens -- Input 4$, Output 15$, Cache 0.4$, Cache 5$"
       },
       {
+        "id": "openai/gpt-4-turbo-preview",
+        "name": "GPT-4 Turbo Preview",
+        "url": "https://openrouter.ai/api/v1",
+        "apiType": "chat-completions",
+        "toolCalling": true,
+        "vision": false,
+        "thinking": false,
+        "maxInputTokens": 128000,
+        "maxOutputTokens": 4096,
+        "tooltip": "Price Per 1M token -- Input 10$, Output 30$, Cache 0$"
+      },
+      {
         "id": "openai/gpt-4o-2024-08-06",
         "name": "GPT-4o (2024-08-06)",
         "url": "https://openrouter.ai/api/v1",
@@ -7212,13 +7240,13 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1310720,
-        "maxOutputTokens": 235929,
+        "maxOutputTokens": 131072,
         "supportsReasoningEffort": [
           "low",
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.8775$, Output 2.97$, Cache 0.1755$"
+        "tooltip": "Price Per 1M token -- Input 0.91$, Output 2.86$, Cache 0.169$"
       },
       {
         "id": "moonshotai/kimi-k2-0905",
@@ -7480,7 +7508,7 @@
           "low",
           "high"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.132$, Output 0.528$, Cache 0.033$"
+        "tooltip": "Price Per 1M token -- Input 0.0825$, Output 0.33$, Cache 0.020625$"
       },
       {
         "id": "tencent/hy4-preview",
@@ -7638,12 +7666,12 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 1048576,
-        "maxOutputTokens": 128000,
+        "maxOutputTokens": 131072,
         "supportsReasoningEffort": [
           "high",
           "xhigh"
         ],
-        "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.14$"
+        "tooltip": "Price Per 1M token -- Input 0.6832$, Output 2.1472$, Cache 0.12688$"
       },
       {
         "id": "z-ai/glm-5.3-flash",
