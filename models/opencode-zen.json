@@ -97,8 +97,7 @@
         "low",
         "medium",
         "high",
-        "xhigh",
-        "max"
+        "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 1.25$, Output 4.25$, Cache 0.15$"
     },
@@ -137,6 +136,18 @@
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 1.07$, Output 8.5$, Cache 0.107$"
+    },
+    {
+      "id": "jev-1.13",
+      "name": "Jev 1.13",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 64000,
+      "maxOutputTokens": 0,
+      "tooltip": "Price Per 1M token -- Input 0.042$, Output 0$, Cache 0$"
     },
     {
       "id": "muse-spark-1.2",
@@ -484,6 +495,35 @@
       "tooltip": "Price Per 1M token -- Input 1$, Output 2$, Cache 0.2$"
     },
     {
+      "id": "deepseek-v4.1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "supportsReasoningEffort": [
+        "low",
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
+    },
+    {
+      "id": "jev-1.13-free",
+      "name": "Jev 1.13 Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 64000,
+      "maxOutputTokens": 0,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "claude-fable-5-1",
       "name": "Claude Fable 5.1",
       "url": "https://opencode.ai/zen/v1",
@@ -782,6 +822,23 @@
         "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 30$, Output 180$, Cache 30$"
+    },
+    {
+      "id": "qwen3.8-flash",
+      "name": "Qwen3.8 Flash",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.47$, Cache 0.016$, Cache 0.2$"
     },
     {
       "id": "big-pickle",
