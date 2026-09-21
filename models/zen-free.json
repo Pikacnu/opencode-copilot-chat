@@ -32,18 +32,6 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "jev-1.13-free",
-      "name": "Jev 1.13 Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 64000,
-      "maxOutputTokens": 0,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "muse-spark-1.2-contributor-free",
       "name": "Muse Spark 1.2 Free",
       "url": "https://opencode.ai/zen/v1",

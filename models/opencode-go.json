@@ -87,7 +87,7 @@
       "thinking": true,
       "maxInputTokens": 204800,
       "maxOutputTokens": 131072,
-      "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$"
+      "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$, Cache 0.375$"
     },
     {
       "id": "kimi-k2.6",

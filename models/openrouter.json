@@ -135,7 +135,7 @@
         "medium",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.42$, Output 3$, Cache 0.085$"
+      "tooltip": "Price Per 1M token -- Input 0.2$, Output 2.5$, Cache 0.05$"
     },
     {
       "id": "qwen/qwen3.5-35b-a3b",
@@ -343,7 +343,7 @@
       "thinking": true,
       "maxInputTokens": 262144,
       "maxOutputTokens": 235929,
-      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.9$, Cache 0.05$"
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 1$, Cache 0.05$"
     },
     {
       "id": "qwen/qwen3-max-thinking",
@@ -856,7 +856,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.04$, Output 0.08$, Cache 0.016$"
+      "tooltip": "Price Per 1M token -- Input 0.04$, Output 0.16$, Cache 0.016$"
     },
     {
       "id": "~deepseek/deepseek-pro-latest",
@@ -867,13 +867,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 384000,
+      "maxOutputTokens": 943718,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.57684$, Output 1.73052$, Cache 0.019228$"
+      "tooltip": "Price Per 1M token -- Input 0.7$, Output 2.88$, Cache 0.088$"
     },
     {
       "id": "~deepseek/deepseek-flash-latest",
@@ -890,7 +890,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.13$, Output 0.52$, Cache 0.0026$"
+      "tooltip": "Price Per 1M token -- Input 0.12$, Output 0.48$, Cache 0.0036$"
     },
     {
       "id": "dots-studio/dots-3-note-preview:free",
@@ -1245,7 +1245,7 @@
       "name": "Mistral Small 3.1 24B",
       "url": "https://openrouter.ai/api/v1",
       "apiType": "chat-completions",
-      "toolCalling": false,
+      "toolCalling": true,
       "vision": true,
       "thinking": false,
       "maxInputTokens": 128000,
@@ -2585,14 +2585,14 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 117964,
+      "maxOutputTokens": 16384,
       "supportsReasoningEffort": [
         "low",
         "medium",
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.35$, Output 1.5$, Cache 0.04$"
+      "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.04$"
     },
     {
       "id": "perceptron/perceptron-mk1",
@@ -2971,7 +2971,7 @@
         "low",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.06$, Output 0.25$, Cache 0.015$"
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.15$, Cache 0.05$"
     },
     {
       "id": "ibm-granite/granite-4.0-h-micro",
@@ -3006,13 +3006,13 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 262144,
+      "maxOutputTokens": 943718,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.2156$, Output 0.6468$, Cache 0.00686$"
+      "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.66$, Cache 0.007$"
     },
     {
       "id": "deepseek/deepseek-v4-pro-0813",
@@ -3029,7 +3029,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.66$, Output 1.98$, Cache 0.022$"
+      "tooltip": "Price Per 1M token -- Input 1.32$, Output 3.96$, Cache 0.044$"
     },
     {
       "id": "deepseek/deepseek-v4-flash-0731",
@@ -3046,7 +3046,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.04$, Output 0.08$, Cache 0.016$"
+      "tooltip": "Price Per 1M token -- Input 0.04$, Output 0.16$, Cache 0.016$"
     },
     {
       "id": "deepseek/deepseek-v4-flash",
@@ -3062,24 +3062,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.03696$, Output 0.07392$, Cache 0.007392$"
-    },
-    {
-      "id": "deepseek/deepseek-v4-flash-0731:free",
-      "name": "DeepSeek V4 Flash 0731 (free)",
-      "url": "https://openrouter.ai/api/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 393216,
-      "supportsReasoningEffort": [
-        "low",
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.088606$, Output 0.177212$, Cache 0.017721$"
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -3096,7 +3079,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
+      "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
     },
     {
       "id": "deepseek/deepseek-r1",
@@ -3196,7 +3179,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.422298$, Output 0.844596$, Cache 0.035192$"
+      "tooltip": "Price Per 1M token -- Input 0.95526$, Output 1.91052$, Cache 0.079605$"
     },
     {
       "id": "deepseek/deepseek-chat-v3-0324",
@@ -3753,7 +3736,7 @@
       "thinking": false,
       "maxInputTokens": 1048576,
       "maxOutputTokens": 16384,
-      "tooltip": "Price Per 1M token -- Input 0.1875$, Output 0.6525$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.2$, Output 0.8$, Cache 0$"
     },
     {
       "id": "meta-llama/llama-4-scout",
@@ -3776,8 +3759,8 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 16384,
-      "tooltip": "Price Per 1M token -- Input 0.4$, Output 0.4$, Cache 0$"
+      "maxOutputTokens": 8192,
+      "tooltip": "Price Per 1M token -- Input 0.72$, Output 0.72$, Cache 0$"
     },
     {
       "id": "meta-llama/llama-3.3-70b-instruct",
@@ -4793,7 +4776,7 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1310720,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 943718,
       "supportsReasoningEffort": [
         "low",
         "high",
@@ -4810,13 +4793,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 1310720,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 943718,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.8442$, Output 2.6532$, Cache 0.15678$"
+      "tooltip": "Price Per 1M token -- Input 0.7735$, Output 2.431$, Cache 0.127075$"
     },
     {
       "id": "moonshotai/kimi-k2-0905",
@@ -5247,7 +5230,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.5544$, Output 1.7424$, Cache 0.10296$"
+      "tooltip": "Price Per 1M token -- Input 0.6496$, Output 2.0416$, Cache 0.12064$"
     },
     {
       "id": "z-ai/glm-5.3-flashx",
@@ -5374,7 +5357,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.896$, Output 2.816$, Cache 0.1664$"
+      "tooltip": "Price Per 1M token -- Input 0.91$, Output 2.86$, Cache 0.169$"
     },
     {
       "id": "z-ai/glm-5v-turbo",
