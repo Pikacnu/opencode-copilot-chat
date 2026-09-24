@@ -13,6 +13,30 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
+      "id": "llama-3.3-70b-versatile",
+      "name": "Llama 3.3 70B",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 131072,
+      "maxOutputTokens": 32768,
+      "tooltip": "Price Per 1M token -- Input 0.59$, Output 0.79$, Cache 0$"
+    },
+    {
+      "id": "allam-2-7b",
+      "name": "ALLaM-2-7b",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 4096,
+      "maxOutputTokens": 4096,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "whisper-large-v3-turbo",
       "name": "Whisper Large V3 Turbo",
       "url": "",
@@ -37,28 +61,76 @@
       "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.08$, Cache 0$"
     },
     {
-      "id": "allam-2-7b",
-      "name": "ALLaM-2-7b",
+      "id": "groq/compound-mini",
+      "name": "Compound Mini",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": false,
       "vision": false,
       "thinking": false,
-      "maxInputTokens": 4096,
-      "maxOutputTokens": 4096,
+      "maxInputTokens": 131072,
+      "maxOutputTokens": 8192,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "llama-3.3-70b-versatile",
-      "name": "Llama 3.3 70B",
+      "id": "groq/compound",
+      "name": "Compound",
       "url": "",
       "apiType": "chat-completions",
-      "toolCalling": true,
+      "toolCalling": false,
       "vision": false,
       "thinking": false,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 32768,
-      "tooltip": "Price Per 1M token -- Input 0.59$, Output 0.79$, Cache 0$"
+      "maxOutputTokens": 8192,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "meta-llama/llama-prompt-guard-2-86m",
+      "name": "Prompt Guard 2 86M",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 512,
+      "maxOutputTokens": 512,
+      "tooltip": "Price Per 1M token -- Input 0.04$, Output 0.04$, Cache 0$"
+    },
+    {
+      "id": "meta-llama/llama-prompt-guard-2-22m",
+      "name": "Llama Prompt Guard 2 22M",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 512,
+      "maxOutputTokens": 512,
+      "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.03$, Cache 0$"
+    },
+    {
+      "id": "canopylabs/orpheus-v1-english",
+      "name": "Canopy Labs Orpheus V1 English",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 4000,
+      "maxOutputTokens": 50000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "canopylabs/orpheus-arabic-saudi",
+      "name": "Canopy Labs Orpheus Arabic Saudi",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 4000,
+      "maxOutputTokens": 50000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "qwen/qwen3.8-27b",
@@ -94,54 +166,6 @@
         "default"
       ],
       "tooltip": "Price Per 1M token -- Input 0.6$, Output 3$, Cache 0.3$"
-    },
-    {
-      "id": "groq/compound",
-      "name": "Compound",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 8192,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "groq/compound-mini",
-      "name": "Compound Mini",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 8192,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "meta-llama/llama-prompt-guard-2-86m",
-      "name": "Prompt Guard 2 86M",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 512,
-      "maxOutputTokens": 512,
-      "tooltip": "Price Per 1M token -- Input 0.04$, Output 0.04$, Cache 0$"
-    },
-    {
-      "id": "meta-llama/llama-prompt-guard-2-22m",
-      "name": "Llama Prompt Guard 2 22M",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 512,
-      "maxOutputTokens": 512,
-      "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.03$, Cache 0$"
     },
     {
       "id": "openai/gpt-oss-20b",
@@ -193,29 +217,5 @@
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.075$"
-    },
-    {
-      "id": "canopylabs/orpheus-v1-english",
-      "name": "Canopy Labs Orpheus V1 English",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 4000,
-      "maxOutputTokens": 50000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "canopylabs/orpheus-arabic-saudi",
-      "name": "Canopy Labs Orpheus Arabic Saudi",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 4000,
-      "maxOutputTokens": 50000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     }
   ]
