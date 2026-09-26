@@ -70,25 +70,6 @@
       "tooltip": "Price Per 1M token -- Input 30$, Output 180$, Cache 30$"
     },
     {
-      "id": "muse-spark-1.2-contributor-free",
-      "name": "Muse Spark 1.2 Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
-      "supportsReasoningEffort": [
-        "minimal",
-        "low",
-        "medium",
-        "high",
-        "xhigh"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "muse-spark-1.3",
       "name": "Muse Spark 1.3",
       "url": "https://opencode.ai/zen/v1",
@@ -212,6 +193,18 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.5$, Cache 0.03$"
+    },
+    {
+      "id": "qwen3.8-max",
+      "name": "Qwen3.8 Max",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 131072,
+      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.25$, Cache 2.5$"
     },
     {
       "id": "kimi-k3",

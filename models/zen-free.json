@@ -18,25 +18,6 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "muse-spark-1.2-contributor-free",
-      "name": "Muse Spark 1.2 Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
-      "supportsReasoningEffort": [
-        "minimal",
-        "low",
-        "medium",
-        "high",
-        "xhigh"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "space-bunny-free",
       "name": "Space Bunny Free",
       "url": "https://opencode.ai/zen/v1",
