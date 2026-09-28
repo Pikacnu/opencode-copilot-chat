@@ -465,6 +465,26 @@
       "tooltip": "Price Per 1M token -- Input 20$, Output 80$, Cache 0$"
     },
     {
+      "id": "gpt-daybreak-blue-latest",
+      "name": "Daybreak Blue",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 4$, Output 20$, Cache 0.4$, Cache 5$ | Price Over 272k tokens -- Input 8$, Output 30$, Cache 0.8$, Cache 10$"
+    },
+    {
       "id": "gpt-5.4-mini",
       "name": "GPT-5.4 mini",
       "url": "",
@@ -798,6 +818,26 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 2$, Output 12$, Cache 0.2$, Cache 2.5$ | Price Over 272k tokens -- Input 4$, Output 18$, Cache 0.4$, Cache 5$"
+    },
+    {
+      "id": "gpt-daybreak-red-latest",
+      "name": "Daybreak Red",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 400000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 12.5$, Output 75$, Cache 1.25$, Cache 15.625$"
     },
     {
       "id": "o3",
