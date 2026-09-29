@@ -13,18 +13,6 @@
       "tooltip": "Price Per 1M token -- Input 0.435$, Output 0.87$, Cache 0.003625$"
     },
     {
-      "id": "qwen3.7-max",
-      "name": "Qwen3.7 Max",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 65536,
-      "tooltip": "Price Per 1M token -- Input 2.5$, Output 7.5$, Cache 0.5$, Cache 3.125$"
-    },
-    {
       "id": "mimo-v2.5",
       "name": "MiMo V2.5",
       "url": "https://opencode.ai/zen/go/v1",
@@ -156,21 +144,6 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
-    },
-    {
-      "id": "kimi-k2.6",
-      "name": "Kimi K2.6",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 65536,
-      "modelOptions": {
-        "top_p": null
-      },
-      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.16$"
     },
     {
       "id": "longcat-2.0",
@@ -331,18 +304,6 @@
       "tooltip": "Price Per 1M token -- Input 0.14$, Output 0.58$, Cache 0.035$"
     },
     {
-      "id": "glm-5.1",
-      "name": "GLM-5.1",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 202752,
-      "maxOutputTokens": 32768,
-      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
-    },
-    {
       "id": "muse-spark-1.2-contributor",
       "name": "Muse Spark 1.2 Contributor",
       "url": "https://opencode.ai/zen/go/v1",
@@ -396,18 +357,6 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 0.66$, Output 1.98$, Cache 0.022$"
-    },
-    {
-      "id": "qwen3.6-plus",
-      "name": "Qwen3.6 Plus",
-      "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 65536,
-      "tooltip": "Price Per 1M token -- Input 0.5$, Output 3$, Cache 0.05$, Cache 0.625$ | Price Over 256k tokens -- Input 2$, Output 6$, Cache 0.2$, Cache 2.5$"
     },
     {
       "id": "hy4-preview",

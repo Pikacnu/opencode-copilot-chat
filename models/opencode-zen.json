@@ -107,7 +107,7 @@
     },
     {
       "id": "grok-4.7",
-      "name": "Grok 4.7 (30% Off)",
+      "name": "Grok 4.7",
       "url": "https://opencode.ai/zen/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -121,7 +121,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.2$, Cache 0.35$ | Price Over 200k tokens -- Input 2.8$, Output 8.4$, Cache 0.7$"
+      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
     },
     {
       "id": "longcat-2.5-preview-free",
@@ -1073,6 +1073,25 @@
       "maxInputTokens": 200000,
       "maxOutputTokens": 32000,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "claude-sonnet-5-5",
+      "name": "Claude Sonnet 5.5",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
     },
     {
       "id": "qwen3.6-plus",

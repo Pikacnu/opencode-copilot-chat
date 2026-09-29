@@ -10,7 +10,7 @@
       "thinking": false,
       "maxInputTokens": 256000,
       "maxOutputTokens": 4096,
-      "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.03$"
     },
     {
       "id": "mistral-large-2411",
@@ -70,7 +70,7 @@
       "thinking": false,
       "maxInputTokens": 262144,
       "maxOutputTokens": 262144,
-      "tooltip": "Price Per 1M token -- Input 0.5$, Output 1.5$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.5$, Output 1.5$, Cache 0.05$"
     },
     {
       "id": "mistral-small-latest",
@@ -86,7 +86,7 @@
         "none",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.015$"
     },
     {
       "id": "zai-glm-5-2",
@@ -191,19 +191,7 @@
         "none",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0$"
-    },
-    {
-      "id": "magistral-small",
-      "name": "Magistral Small",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 0.5$, Output 1.5$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.015$"
     },
     {
       "id": "voxtral-mini-latest",
@@ -227,7 +215,7 @@
       "thinking": false,
       "maxInputTokens": 262144,
       "maxOutputTokens": 262144,
-      "tooltip": "Price Per 1M token -- Input 0.5$, Output 1.5$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.5$, Output 1.5$, Cache 0.05$"
     },
     {
       "id": "pixtral-large-latest",
@@ -308,7 +296,7 @@
         "none",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0.15$"
     },
     {
       "id": "open-mistral-7b",
@@ -348,6 +336,6 @@
         "none",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0.15$"
     }
   ]

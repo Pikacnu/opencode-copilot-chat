@@ -28,7 +28,7 @@
       "maxInputTokens": 262144,
       "maxOutputTokens": 32768,
       "supportsReasoningEffort": [
-        "low",
+        "minimal",
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
@@ -168,7 +168,7 @@
       "maxInputTokens": 262144,
       "maxOutputTokens": 32768,
       "supportsReasoningEffort": [
-        "low",
+        "minimal",
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
