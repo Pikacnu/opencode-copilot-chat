@@ -475,6 +475,25 @@
       "tooltip": "Price Per 1M token -- Input 10$, Output 50$, Cache 1$, Cache 12.5$ | Price Over 272k tokens -- Input 20$, Output 75$, Cache 2$, Cache 25$"
     },
     {
+      "id": "gpt-6-astra-ultrafast",
+      "name": "GPT-6 Astra Ultrafast",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 60$, Output 300$, Cache 6$, Cache 75$ | Price Over 272k tokens -- Input 20$, Output 75$, Cache 2$, Cache 25$"
+    },
+    {
       "id": "gpt-5.1",
       "name": "GPT-5.1",
       "url": "",
