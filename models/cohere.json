@@ -53,18 +53,6 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "tiny-aya-fire",
-      "name": "Tiny Aya Fire",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 8000,
-      "maxOutputTokens": 8000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "command-r7b-arabic-02-2025",
       "name": "Command R7B Arabic",
       "url": "",
@@ -75,18 +63,6 @@
       "maxInputTokens": 128000,
       "maxOutputTokens": 4000,
       "tooltip": "Price Per 1M token -- Input 0.0375$, Output 0.15$, Cache 0$"
-    },
-    {
-      "id": "tiny-aya-earth",
-      "name": "Tiny Aya Earth",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 8000,
-      "maxOutputTokens": 8000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "command-a-plus-05-2026",
@@ -142,30 +118,6 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "tiny-aya-global",
-      "name": "Tiny Aya Global",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 8000,
-      "maxOutputTokens": 8000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "north-small-translate-09-2026",
-      "name": "North Small Translate",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 32768,
-      "maxOutputTokens": 16000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "command-r7b-12-2024",
       "name": "Command R7B",
       "url": "",
@@ -200,18 +152,6 @@
       "maxInputTokens": 128000,
       "maxOutputTokens": 8000,
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
-    },
-    {
-      "id": "tiny-aya-water",
-      "name": "Tiny Aya Water",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 8000,
-      "maxOutputTokens": 8000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "command-a-reasoning-08-2025",
