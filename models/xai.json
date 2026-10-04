@@ -19,6 +19,18 @@
       "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0.5$ | Price Over 200k tokens -- Input 4$, Output 12$, Cache 1$"
     },
     {
+      "id": "grok-imagine-video-1.5-lite",
+      "name": "Grok Imagine Video 1.5 Lite",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 1024,
+      "maxOutputTokens": 0,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "grok-imagine-image",
       "name": "Grok Imagine Image",
       "url": "",

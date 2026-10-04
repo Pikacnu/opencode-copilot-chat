@@ -80,7 +80,7 @@
       "id": "qwen3.8-max",
       "name": "Qwen3.8 Max",
       "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
+      "apiType": "messages",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
@@ -447,12 +447,16 @@
       "id": "qwen3.7-plus",
       "name": "Qwen3.7 Plus",
       "url": "https://opencode.ai/zen/go/v1",
-      "apiType": "chat-completions",
+      "apiType": "messages",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1000000,
       "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "high",
+        "max"
+      ],
       "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.04$, Cache 0.5$ | Price Over 256k tokens -- Input 1.2$, Output 4.8$, Cache 0.12$, Cache 1.5$"
     },
     {

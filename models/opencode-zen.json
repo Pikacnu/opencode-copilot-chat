@@ -37,6 +37,23 @@
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 15$, Cache 0.25$ | Price Over 272k tokens -- Input 5$, Output 22.5$, Cache 0.5$"
     },
     {
+      "id": "fledge-alpha-free",
+      "name": "Fledge Alpha Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "low",
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "claude-haiku-4-5",
       "name": "Claude Haiku 4.5",
       "url": "https://opencode.ai/zen/v1",
@@ -68,6 +85,23 @@
         "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 30$, Output 180$, Cache 30$"
+    },
+    {
+      "id": "ling-3.1-flash-free",
+      "name": "Ling 3.1 Flash Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 32768,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "muse-spark-1.3",

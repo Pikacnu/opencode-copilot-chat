@@ -41,15 +41,15 @@
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
     },
     {
-      "id": "c4ai-aya-expanse-8b",
-      "name": "Aya Expanse 8B",
+      "id": "tiny-aya-fire",
+      "name": "Tiny Aya Fire",
       "url": "",
       "apiType": "chat-completions",
-      "toolCalling": false,
+      "toolCalling": true,
       "vision": false,
       "thinking": false,
       "maxInputTokens": 8000,
-      "maxOutputTokens": 4000,
+      "maxOutputTokens": 8000,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
@@ -63,6 +63,18 @@
       "maxInputTokens": 128000,
       "maxOutputTokens": 4000,
       "tooltip": "Price Per 1M token -- Input 0.0375$, Output 0.15$, Cache 0$"
+    },
+    {
+      "id": "tiny-aya-earth",
+      "name": "Tiny Aya Earth",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 8000,
+      "maxOutputTokens": 8000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "command-a-plus-05-2026",
@@ -94,8 +106,8 @@
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
     },
     {
-      "id": "c4ai-aya-vision-8b",
-      "name": "Aya Vision 8B",
+      "id": "c4ai-aya-vision-32b",
+      "name": "Aya Vision 32B",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": false,
@@ -106,15 +118,27 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "c4ai-aya-vision-32b",
-      "name": "Aya Vision 32B",
+      "id": "tiny-aya-global",
+      "name": "Tiny Aya Global",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 8000,
+      "maxOutputTokens": 8000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "north-small-translate-09-2026",
+      "name": "North Small Translate",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": false,
-      "vision": true,
+      "vision": false,
       "thinking": false,
-      "maxInputTokens": 16000,
-      "maxOutputTokens": 4000,
+      "maxInputTokens": 32768,
+      "maxOutputTokens": 16000,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
@@ -152,6 +176,18 @@
       "maxInputTokens": 128000,
       "maxOutputTokens": 8000,
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
+    },
+    {
+      "id": "tiny-aya-water",
+      "name": "Tiny Aya Water",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 8000,
+      "maxOutputTokens": 8000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "command-a-reasoning-08-2025",
