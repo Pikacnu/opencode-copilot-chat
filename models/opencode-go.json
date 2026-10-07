@@ -163,6 +163,25 @@
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
     },
     {
+      "id": "space-bunny",
+      "name": "Space Bunny",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 524288,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.03$"
+    },
+    {
       "id": "minimax-m2.7",
       "name": "MiniMax-M2.7",
       "url": "https://opencode.ai/zen/go/v1",

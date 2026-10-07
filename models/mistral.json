@@ -80,7 +80,7 @@
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 256000,
+      "maxInputTokens": 262144,
       "maxOutputTokens": 256000,
       "supportsReasoningEffort": [
         "none",
@@ -96,7 +96,7 @@
       "toolCalling": true,
       "vision": false,
       "thinking": true,
-      "maxInputTokens": 1000000,
+      "maxInputTokens": 1048576,
       "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "none",
@@ -111,11 +111,27 @@
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
-      "vision": false,
+      "vision": true,
       "thinking": false,
-      "maxInputTokens": 128000,
+      "maxInputTokens": 262144,
       "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.1$, Cache 0$"
+    },
+    {
+      "id": "mistral-large-4",
+      "name": "Mistral Large 4",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 524288,
+      "maxOutputTokens": 262144,
+      "supportsReasoningEffort": [
+        "none",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.68$, Output 2.09$, Cache 0.07$"
     },
     {
       "id": "open-mixtral-8x22b",
@@ -185,7 +201,7 @@
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 256000,
+      "maxInputTokens": 262144,
       "maxOutputTokens": 256000,
       "supportsReasoningEffort": [
         "none",
@@ -237,7 +253,7 @@
       "toolCalling": true,
       "vision": false,
       "thinking": false,
-      "maxInputTokens": 32000,
+      "maxInputTokens": 32768,
       "maxOutputTokens": 32000,
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0$"
     },
@@ -273,7 +289,7 @@
       "toolCalling": true,
       "vision": false,
       "thinking": true,
-      "maxInputTokens": 1000000,
+      "maxInputTokens": 1048576,
       "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
@@ -316,9 +332,9 @@
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
-      "vision": false,
+      "vision": true,
       "thinking": false,
-      "maxInputTokens": 128000,
+      "maxInputTokens": 131072,
       "maxOutputTokens": 128000,
       "tooltip": "Price Per 1M token -- Input 0.04$, Output 0.04$, Cache 0$"
     },

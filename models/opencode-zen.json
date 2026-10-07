@@ -293,6 +293,22 @@
       "tooltip": "Price Per 1M token -- Input 1.07$, Output 8.5$, Cache 0.107$"
     },
     {
+      "id": "mistral-large-4",
+      "name": "Mistral Large 4",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 524288,
+      "maxOutputTokens": 262144,
+      "supportsReasoningEffort": [
+        "none",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.68$, Output 2.09$, Cache 0.07$"
+    },
+    {
       "id": "qwen3.5-plus",
       "name": "Qwen3.5 Plus",
       "url": "https://opencode.ai/zen/v1",
@@ -384,6 +400,21 @@
       "maxInputTokens": 204800,
       "maxOutputTokens": 131072,
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$"
+    },
+    {
+      "id": "exo-free",
+      "name": "Exo Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "gpt-5-nano",
