@@ -1076,6 +1076,25 @@
       "tooltip": "Price Per 1M token -- Input 1$, Output 2$, Cache 0.2$"
     },
     {
+      "id": "claude-haiku-5-5",
+      "name": "Claude Haiku 5.5",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.5$, Cache 0.01$, Cache 0.125$"
+    },
+    {
       "id": "gemini-3.8-flash",
       "name": "Gemini 3.8 Flash",
       "url": "https://opencode.ai/zen/v1",

@@ -1076,6 +1076,25 @@
       "tooltip": "Price Per 1M token -- Input 1$, Output 2$, Cache 0.2$"
     },
     {
+      "id": "claude-haiku-5-5",
+      "name": "Claude Haiku 5.5",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.5$, Cache 0.01$, Cache 0.125$"
+    },
+    {
       "id": "gemini-3.8-flash",
       "name": "Gemini 3.8 Flash",
       "url": "https://opencode.ai/zen/v1",
@@ -1731,6 +1750,25 @@
         "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.2$, Cache 0.002$"
+    },
+    {
+      "id": "claude-haiku-5-5",
+      "name": "Claude Haiku 5.5",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.5$, Cache 0.01$, Cache 0.125$"
     },
     {
       "id": "gpt-6-luna",
@@ -3417,7 +3455,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.615$, Output 13$, Cache 0.45$"
+      "tooltip": "Price Per 1M token -- Input 0.64$, Output 13$, Cache 0.45$"
     },
     {
       "id": "poolside/laguna-s-2.1:free",
@@ -3575,6 +3613,25 @@
       "tooltip": "Price Per 1M token -- Input 5$, Output 25$, Cache 0.5$, Cache 6.25$ | Price Over 200k tokens -- Input 10$, Output 37.5$, Cache 1$, Cache 12.5$"
     },
     {
+      "id": "anthropic/claude-haiku-5.5",
+      "name": "Claude Haiku 5.5",
+      "url": "https://openrouter.ai/api/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.5$, Cache 0.01$, Cache 0.125$"
+    },
+    {
       "id": "anthropic/claude-opus-4.8",
       "name": "Claude Opus 4.8",
       "url": "https://openrouter.ai/api/v1",
@@ -3646,7 +3703,7 @@
         "xhigh",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
+      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
     },
     {
       "id": "anthropic/claude-fable-5.1",
@@ -3919,7 +3976,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.018$, Output 1.28$, Cache 0.018$"
+      "tooltip": "Price Per 1M token -- Input 0.0079$, Output 1.28$, Cache 0.0079$"
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -3994,7 +4051,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.66$, Output 1.98$, Cache 0.022$"
+      "tooltip": "Price Per 1M token -- Input 1.32$, Output 3.96$, Cache 0.044$"
     },
     {
       "id": "deepseek/deepseek-v3.2-exp",
@@ -4046,7 +4103,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.2088$, Output 0.4176$, Cache 0.0174$"
+      "tooltip": "Price Per 1M token -- Input 0.95526$, Output 1.91052$, Cache 0.079605$"
     },
     {
       "id": "deepseek/deepseek-r1-0528",
@@ -4069,8 +4126,8 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 163840,
-      "maxOutputTokens": 65536,
-      "tooltip": "Price Per 1M token -- Input 0.28$, Output 0.42$, Cache 0.028$"
+      "maxOutputTokens": 147456,
+      "tooltip": "Price Per 1M token -- Input 0.259$, Output 0.42$, Cache 0.135$"
     },
     {
       "id": "deepseek/deepseek-v4-flash",
@@ -4086,7 +4143,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.03$, Output 1.28$, Cache 0.03$"
+      "tooltip": "Price Per 1M token -- Input 0.0128$, Output 1.28$, Cache 0.0128$"
     },
     {
       "id": "unbiased/pareto-26.10-preview",
@@ -4274,7 +4331,7 @@
       "thinking": false,
       "maxInputTokens": 131072,
       "maxOutputTokens": 16384,
-      "tooltip": "Price Per 1M token -- Input 0.22$, Output 0.5$, Cache 0.11$"
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.32$, Cache 0$"
     },
     {
       "id": "meta-llama/llama-3.1-8b-instruct",
@@ -4404,7 +4461,7 @@
       "thinking": true,
       "maxInputTokens": 131072,
       "maxOutputTokens": 32768,
-      "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.05$"
+      "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.055$"
     },
     {
       "id": "z-ai/glm-4.5",
@@ -4555,7 +4612,7 @@
         "high",
         "xhigh"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.0616$, Output 12$, Cache 0.0616$"
+      "tooltip": "Price Per 1M token -- Input 0.171$, Output 12$, Cache 0.15$"
     },
     {
       "id": "z-ai/glm-5.1",
@@ -4608,7 +4665,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.07$, Output 7$, Cache 0.065$"
+      "tooltip": "Price Per 1M token -- Input 0.049$, Output 3.39$, Cache 0.048$"
     },
     {
       "id": "inference-net/schematron-v2-small",
@@ -5025,13 +5082,13 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 943718,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.0317$, Output 0.5$, Cache 0.0317$"
+      "tooltip": "Price Per 1M token -- Input 0.032$, Output 0.66$, Cache 0.02$"
     },
     {
       "id": "~z-ai/glm-latest",
@@ -5048,7 +5105,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.03$, Output 12$, Cache 0.03$"
+      "tooltip": "Price Per 1M token -- Input 0.0392$, Output 12$, Cache 0.0365$"
     },
     {
       "id": "arcee-ai/trinity-large-thinking",
@@ -5369,14 +5426,16 @@
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 200000,
-      "maxOutputTokens": 64000,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
       "supportsReasoningEffort": [
         "low",
         "medium",
-        "high"
+        "high",
+        "xhigh",
+        "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 1$, Output 5$, Cache 0.1$, Cache 1.25$"
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.5$, Cache 0.01$, Cache 0.125$"
     },
     {
       "id": "~anthropic/claude-sonnet-latest",
@@ -5395,7 +5454,7 @@
         "xhigh",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
+      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
     },
     {
       "id": "~anthropic/claude-fable-latest",
@@ -5486,13 +5545,13 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 1048576,
-      "maxOutputTokens": 393216,
+      "maxOutputTokens": 943718,
       "supportsReasoningEffort": [
         "low",
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.045$, Output 0.3$, Cache 0.021$"
+      "tooltip": "Price Per 1M token -- Input 0.0184$, Output 1.2$, Cache 0.01$"
     },
     {
       "id": "~deepseek/deepseek-pro-latest",
@@ -5509,7 +5568,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.3$, Output 4.2$, Cache 0.3$"
+      "tooltip": "Price Per 1M token -- Input 0.1773$, Output 4.2$, Cache 0.13$"
     },
     {
       "id": "~deepseek/deepseek-v4-flash-latest",
@@ -5526,7 +5585,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.018$, Output 1.28$, Cache 0.018$"
+      "tooltip": "Price Per 1M token -- Input 0.00632$, Output 1.536$, Cache 0.00632$"
     },
     {
       "id": "~x-ai/grok-latest",
@@ -6352,7 +6411,7 @@
     },
     {
       "id": "mistralai/codestral-2508",
-      "name": "Codestral 2508",
+      "name": "Codestral 25.08",
       "url": "https://openrouter.ai/api/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -6532,7 +6591,7 @@
         "high",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.69$, Output 15$, Cache 0.45$"
+      "tooltip": "Price Per 1M token -- Input 0.65$, Output 15$, Cache 0.43$"
     },
     {
       "id": "moonshotai/kimi-k2.6",
@@ -6547,7 +6606,7 @@
       "modelOptions": {
         "top_p": null
       },
-      "tooltip": "Price Per 1M token -- Input 0.95$, Output 4$, Cache 0.16$"
+      "tooltip": "Price Per 1M token -- Input 0.465$, Output 2.45$, Cache 0.0975$"
     },
     {
       "id": "moonshotai/kimi-k2-thinking",
@@ -6680,7 +6739,7 @@
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.2$, Cache 0.03$"
+      "tooltip": "Price Per 1M token -- Input 0.06$, Output 0.24$, Cache 0$"
     },
     {
       "id": "nvidia/nemotron-3.5-content-safety:free",
@@ -6708,13 +6767,13 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 32768,
+      "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
         "medium",
         "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.06$, Output 0.16$, Cache 0.03$"
+      "tooltip": "Price Per 1M token -- Input 0.049$, Output 0.14$, Cache 0.0245$"
     },
     {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -6741,12 +6800,12 @@
       "vision": false,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 16384,
       "supportsReasoningEffort": [
         "low",
         "medium"
       ],
-      "tooltip": "Price Per 1M token -- Input 0.08$, Output 0.45$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0.085$, Output 0.4$, Cache 0$"
     },
     {
       "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -7391,8 +7450,8 @@
       "vision": true,
       "thinking": true,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 65536,
-      "tooltip": "Price Per 1M token -- Input 0.195$, Output 1.56$, Cache 0$"
+      "maxOutputTokens": 81920,
+      "tooltip": "Price Per 1M token -- Input 0.26$, Output 2.6$, Cache 0$"
     },
     {
       "id": "qwen/qwen3-next-80b-a3b-thinking",
@@ -7591,8 +7650,8 @@
       "vision": false,
       "thinking": false,
       "maxInputTokens": 262144,
-      "maxOutputTokens": 235929,
-      "tooltip": "Price Per 1M token -- Input 0.1$, Output 1.1$, Cache 0.07$"
+      "maxOutputTokens": 32768,
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 1.5$, Cache 0$"
     },
     {
       "id": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -9131,7 +9190,7 @@
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 1000000,
+      "maxInputTokens": 200000,
       "maxOutputTokens": 64000,
       "supportsReasoningEffort": [
         "high",
@@ -9316,7 +9375,7 @@
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 1000000,
+      "maxInputTokens": 200000,
       "maxOutputTokens": 64000,
       "supportsReasoningEffort": [
         "high",
@@ -9378,6 +9437,25 @@
       "tooltip": "Price Per 1M token -- Input 1$, Output 5$, Cache 0.1$, Cache 1.25$"
     },
     {
+      "id": "claude-haiku-5-5",
+      "name": "Claude Haiku 5.5",
+      "url": "",
+      "apiType": "messages",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.5$, Cache 0.01$, Cache 0.125$"
+    },
+    {
       "id": "claude-sonnet-4-6",
       "name": "Claude Sonnet 4.6",
       "url": "",
@@ -9412,7 +9490,7 @@
         "xhigh",
         "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.2$, Cache 2.5$"
+      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$"
     },
     {
       "id": "claude-opus-4-7",
@@ -10005,30 +10083,6 @@
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.03$"
     },
     {
-      "id": "mistral-large-2411",
-      "name": "Mistral Large 2.1",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 16384,
-      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0$"
-    },
-    {
-      "id": "mistral-nemo",
-      "name": "Mistral Nemo",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.15$, Cache 0$"
-    },
-    {
       "id": "voxtral-mini-tts-latest",
       "name": "Voxtral Mini TTS (latest)",
       "url": "",
@@ -10039,18 +10093,6 @@
       "maxInputTokens": 0,
       "maxOutputTokens": 0,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "mistral-medium-2508",
-      "name": "Mistral Medium 3.1",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": false,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 262144,
-      "tooltip": "Price Per 1M token -- Input 0.4$, Output 2$, Cache 0$"
     },
     {
       "id": "mistral-large-latest",
@@ -10081,21 +10123,16 @@
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.015$"
     },
     {
-      "id": "zai-glm-5-2",
-      "name": "GLM-5.2",
+      "id": "ministral-8b-2512",
+      "name": "Ministral 3 8B",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
-      "supportsReasoningEffort": [
-        "none",
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.14$"
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 262144,
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.15$, Cache 0.015$"
     },
     {
       "id": "ministral-8b-latest",
@@ -10126,52 +10163,16 @@
       "tooltip": "Price Per 1M token -- Input 0.68$, Output 2.09$, Cache 0.07$"
     },
     {
-      "id": "open-mixtral-8x22b",
-      "name": "Mixtral 8x22B",
+      "id": "voxtral-small-2507",
+      "name": "Voxtral Small",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
       "thinking": false,
-      "maxInputTokens": 64000,
-      "maxOutputTokens": 64000,
-      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0$"
-    },
-    {
-      "id": "mistral-medium-2505",
-      "name": "Mistral Medium 3",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": false,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 131072,
-      "tooltip": "Price Per 1M token -- Input 0.4$, Output 2$, Cache 0$"
-    },
-    {
-      "id": "magistral-medium-latest",
-      "name": "Magistral Medium (latest)",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 16384,
-      "tooltip": "Price Per 1M token -- Input 2$, Output 5$, Cache 0$"
-    },
-    {
-      "id": "pixtral-12b",
-      "name": "Pixtral 12B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": false,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.15$, Cache 0$"
+      "maxInputTokens": 32768,
+      "maxOutputTokens": 32000,
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.4$, Cache 0$"
     },
     {
       "id": "mistral-embed",
@@ -10226,16 +10227,16 @@
       "tooltip": "Price Per 1M token -- Input 0.5$, Output 1.5$, Cache 0.05$"
     },
     {
-      "id": "pixtral-large-latest",
-      "name": "Pixtral Large (latest)",
+      "id": "ministral-14b-2512",
+      "name": "Ministral 3 14B",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
       "thinking": false,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 128000,
-      "tooltip": "Price Per 1M token -- Input 2$, Output 6$, Cache 0$"
+      "maxInputTokens": 262144,
+      "maxOutputTokens": 262144,
+      "tooltip": "Price Per 1M token -- Input 0.2$, Output 0.2$, Cache 0.02$"
     },
     {
       "id": "voxtral-small-latest",
@@ -10247,30 +10248,6 @@
       "thinking": false,
       "maxInputTokens": 32768,
       "maxOutputTokens": 32000,
-      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0$"
-    },
-    {
-      "id": "open-mixtral-8x7b",
-      "name": "Mixtral 8x7B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 32000,
-      "maxOutputTokens": 32000,
-      "tooltip": "Price Per 1M token -- Input 0.7$, Output 0.7$, Cache 0$"
-    },
-    {
-      "id": "mistral-small-2506",
-      "name": "Mistral Small 3.2",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": false,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 16384,
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.3$, Cache 0$"
     },
     {
@@ -10291,6 +10268,18 @@
       "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.14$"
     },
     {
+      "id": "ministral-3b-2512",
+      "name": "Ministral 3 3B",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 131072,
+      "maxOutputTokens": 262144,
+      "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.1$, Cache 0.01$"
+    },
+    {
       "id": "mistral-medium-2604",
       "name": "Mistral Medium 3.5",
       "url": "",
@@ -10307,16 +10296,16 @@
       "tooltip": "Price Per 1M token -- Input 1.5$, Output 7.5$, Cache 0.15$"
     },
     {
-      "id": "open-mistral-7b",
-      "name": "Mistral 7B",
+      "id": "codestral-2508",
+      "name": "Codestral 25.08",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
       "thinking": false,
-      "maxInputTokens": 8000,
-      "maxOutputTokens": 8000,
-      "tooltip": "Price Per 1M token -- Input 0.25$, Output 0.25$, Cache 0$"
+      "maxInputTokens": 256000,
+      "maxOutputTokens": 8192,
+      "tooltip": "Price Per 1M token -- Input 0.3$, Output 0.9$, Cache 0.03$"
     },
     {
       "id": "ministral-3b-latest",
