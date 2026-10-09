@@ -498,6 +498,25 @@
       "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$, Cache 2.5$ | Price Over 272k tokens -- Input 4$, Output 15$, Cache 0.2$, Cache 5$"
     },
     {
+      "id": "gpt-6.1-sol-ultrafast",
+      "name": "GPT-6.1 Sol Ultrafast",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 12$, Output 60$, Cache 0.6$, Cache 15$ | Price Over 272k tokens -- Input 4$, Output 15$, Cache 0.2$, Cache 5$"
+    },
+    {
       "id": "text-embedding-3-large",
       "name": "text-embedding-3-large",
       "url": "",

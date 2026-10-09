@@ -18,23 +18,6 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "fledge-alpha-free",
-      "name": "Fledge Alpha Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
-      "supportsReasoningEffort": [
-        "low",
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "ling-3.1-flash-free",
       "name": "Ling 3.1 Flash Free",
       "url": "https://opencode.ai/zen/v1",
@@ -148,6 +131,23 @@
       "thinking": true,
       "maxInputTokens": 200000,
       "maxOutputTokens": 32000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "step-5-preview-free",
+      "name": "Step 5 Preview Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {

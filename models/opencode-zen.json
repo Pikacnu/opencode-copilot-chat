@@ -37,23 +37,6 @@
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 15$, Cache 0.25$ | Price Over 272k tokens -- Input 5$, Output 22.5$, Cache 0.5$"
     },
     {
-      "id": "fledge-alpha-free",
-      "name": "Fledge Alpha Free",
-      "url": "https://opencode.ai/zen/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
-      "supportsReasoningEffort": [
-        "low",
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "claude-haiku-4-5",
       "name": "Claude Haiku 4.5",
       "url": "https://opencode.ai/zen/v1",
@@ -1248,6 +1231,23 @@
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 0.25$, Output 2$, Cache 0.025$"
+    },
+    {
+      "id": "step-5-preview-free",
+      "name": "Step 5 Preview Free",
+      "url": "https://opencode.ai/zen/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "glm-5.3",

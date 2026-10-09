@@ -413,6 +413,23 @@
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.2$, Cache 0.002$"
     },
     {
+      "id": "step-5-preview-free",
+      "name": "Step 5 Preview Free",
+      "url": "https://opencode.ai/zen/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "glm-5.3",
       "name": "GLM-5.3",
       "url": "https://opencode.ai/zen/go/v1",
