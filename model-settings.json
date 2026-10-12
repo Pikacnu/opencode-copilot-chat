@@ -4037,7 +4037,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.0126$, Output 1.28$, Cache 0.0126$"
+        "tooltip": "Price Per 1M token -- Input 0.0099$, Output 1.28$, Cache 0.0099$"
       },
       {
         "id": "deepseek/deepseek-v4.1-flash",
@@ -5629,7 +5629,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.0126$, Output 1.28$, Cache 0.0126$"
+        "tooltip": "Price Per 1M token -- Input 0.0099$, Output 1.28$, Cache 0.0099$"
       },
       {
         "id": "~x-ai/grok-latest",
@@ -6635,7 +6635,7 @@
           "high",
           "max"
         ],
-        "tooltip": "Price Per 1M token -- Input 0.8$, Output 12$, Cache 0.55$"
+        "tooltip": "Price Per 1M token -- Input 0.8$, Output 15$, Cache 0.55$"
       },
       {
         "id": "moonshotai/kimi-k2.6",
@@ -7926,8 +7926,8 @@
         "vision": false,
         "thinking": true,
         "maxInputTokens": 40960,
-        "maxOutputTokens": 16384,
-        "tooltip": "Price Per 1M token -- Input 0.12$, Output 0.24$, Cache 0$"
+        "maxOutputTokens": 36864,
+        "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.22$, Cache 0$"
       },
       {
         "id": "qwen/qwen3.7-plus",
