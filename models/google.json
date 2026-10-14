@@ -542,6 +542,23 @@
       "tooltip": "Price Per 1M token -- Input 0.75$, Output 4.5$, Cache 0$"
     },
     {
+      "id": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 32768,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 2$, Output 10$, Cache 0.1$"
+    },
+    {
       "id": "gemini-3.1-flash-lite",
       "name": "Gemini 3.1 Flash Lite",
       "url": "",
