@@ -1,23 +1,6 @@
 
   "models": [
     {
-      "id": "ling-3.0-flash-fin-free",
-      "name": "Ling 3.0 Flash Fin Free",
-      "url": "https://opencode.ai/inference/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 32768,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "gpt-5.4",
       "name": "GPT-5.4",
       "url": "https://opencode.ai/inference/v1",
@@ -68,23 +51,6 @@
         "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 30$, Output 180$, Cache 30$"
-    },
-    {
-      "id": "ling-3.1-flash-free",
-      "name": "Ling 3.1 Flash Free",
-      "url": "https://opencode.ai/inference/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 262144,
-      "maxOutputTokens": 32768,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "muse-spark-1.3",
@@ -383,21 +349,6 @@
       "maxInputTokens": 204800,
       "maxOutputTokens": 131072,
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.06$"
-    },
-    {
-      "id": "exo-free",
-      "name": "Exo Free",
-      "url": "https://opencode.ai/inference/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
-      "supportsReasoningEffort": [
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "gpt-5-nano",

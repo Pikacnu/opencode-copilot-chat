@@ -60,6 +60,23 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
+      "id": "gemini-4-argon-contributor",
+      "name": "Gemini 4 Argon Contributor",
+      "url": "https://opencode.ai/inference/go/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 4$, Output 20$, Cache 0.2$"
+    },
+    {
       "id": "glm-5.3-flash",
       "name": "GLM-5.3-Flash",
       "url": "https://opencode.ai/inference/go/v1",
@@ -114,23 +131,6 @@
     {
       "id": "deepseek-v4.1-flash",
       "name": "DeepSeek V4.1 Flash",
-      "url": "https://opencode.ai/inference/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 384000,
-      "supportsReasoningEffort": [
-        "low",
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
-    },
-    {
-      "id": "deepseek-v4-flash-vision-exp",
-      "name": "DeepSeek V4 Flash Vision Exp",
       "url": "https://opencode.ai/inference/go/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -513,22 +513,5 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 0.4$, Output 1.6$, Cache 0.04$, Cache 0.5$ | Price Over 256k tokens -- Input 1.2$, Output 4.8$, Cache 0.12$, Cache 1.5$"
-    },
-    {
-      "id": "deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash",
-      "url": "https://opencode.ai/inference/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 384000,
-      "supportsReasoningEffort": [
-        "low",
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     }
   ]
