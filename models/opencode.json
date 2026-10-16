@@ -480,7 +480,7 @@
       "toolCalling": true,
       "vision": false,
       "thinking": true,
-      "maxInputTokens": 262144,
+      "maxInputTokens": 1048576,
       "maxOutputTokens": 131072,
       "supportsReasoningEffort": [
         "low",
@@ -1005,6 +1005,26 @@
       "tooltip": "Price Per 1M token -- Input 1.4$, Output 4.4$, Cache 0.26$"
     },
     {
+      "id": "nemotron-3.5-super-vl-free",
+      "name": "Nemotron 3.5 Super VL Free",
+      "url": "https://opencode.ai/inference/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "none",
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "glm-5.1",
       "name": "GLM-5.1",
       "url": "https://opencode.ai/inference/v1",
@@ -1027,6 +1047,23 @@
       "maxInputTokens": 256000,
       "maxOutputTokens": 256000,
       "tooltip": "Price Per 1M token -- Input 1$, Output 2$, Cache 0.2$"
+    },
+    {
+      "id": "deepseek-v4.1-flash-free",
+      "name": "DeepSeek V4.1 Flash Free",
+      "url": "https://opencode.ai/inference/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 200000,
+      "maxOutputTokens": 32000,
+      "supportsReasoningEffort": [
+        "low",
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "claude-haiku-5-5",
@@ -1201,23 +1238,6 @@
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 0.25$, Output 2$, Cache 0.025$"
-    },
-    {
-      "id": "step-5-preview-free",
-      "name": "Step 5 Preview Free",
-      "url": "https://opencode.ai/inference/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "glm-5.3",
