@@ -3,7 +3,7 @@
     {
       "id": "mimo-v2.6-pro",
       "name": "MiMo-V2.6-Pro",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -15,7 +15,7 @@
     {
       "id": "mimo-v2.5",
       "name": "MiMo V2.5",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -27,7 +27,7 @@
     {
       "id": "grok-4.7",
       "name": "Grok 4.7",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -45,7 +45,7 @@
     {
       "id": "longcat-2.5-preview-free",
       "name": "LongCat 2.5 Preview Free",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -62,7 +62,7 @@
     {
       "id": "gemini-4-argon-contributor",
       "name": "Gemini 4 Argon Contributor",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/google/v1beta",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -79,7 +79,7 @@
     {
       "id": "glm-5.3-flash",
       "name": "GLM-5.3-Flash",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -96,7 +96,7 @@
     {
       "id": "qwen3.8-max",
       "name": "Qwen3.8 Max",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/anthropic/v1",
       "apiType": "messages",
       "toolCalling": true,
       "vision": true,
@@ -113,7 +113,7 @@
     {
       "id": "kimi-k3",
       "name": "Kimi K3",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -131,7 +131,7 @@
     {
       "id": "deepseek-v4.1-flash",
       "name": "DeepSeek V4.1 Flash",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -148,7 +148,7 @@
     {
       "id": "step-5-preview",
       "name": "Step 5 Preview",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -165,7 +165,7 @@
     {
       "id": "longcat-2.0",
       "name": "LongCat-2.0",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
@@ -180,28 +180,9 @@
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
     },
     {
-      "id": "cat-jam-free",
-      "name": "Cat Jam Free",
-      "url": "https://opencode.ai/inference/go/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "space-bunny",
       "name": "Space Bunny",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -220,7 +201,7 @@
     {
       "id": "mimo-v2.5-pro",
       "name": "MiMo V2.5 Pro",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
@@ -232,7 +213,7 @@
     {
       "id": "mimo-v2.6-flash",
       "name": "MiMo-V2.6-Flash",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -244,7 +225,7 @@
     {
       "id": "minimax-m3",
       "name": "MiniMax-M3",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/anthropic/v1",
       "apiType": "messages",
       "toolCalling": true,
       "vision": true,
@@ -260,7 +241,7 @@
     {
       "id": "gpt-5.6-luna",
       "name": "GPT-5.6 Luna",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -280,7 +261,7 @@
     {
       "id": "qwen3.8-flash",
       "name": "Qwen3.8 Flash",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/anthropic/v1",
       "apiType": "messages",
       "toolCalling": true,
       "vision": true,
@@ -297,7 +278,7 @@
     {
       "id": "glm-5.2",
       "name": "GLM-5.2",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
@@ -313,7 +294,7 @@
     {
       "id": "hy3",
       "name": "Hy3",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
@@ -330,7 +311,7 @@
     {
       "id": "muse-spark-1.2-contributor",
       "name": "Muse Spark 1.2 Contributor",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -347,9 +328,28 @@
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.2$, Cache 0.002$"
     },
     {
+      "id": "beam-free",
+      "name": "Beam Free",
+      "url": "https://opencode.ai/inference/go/openai/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "claude-haiku-5-5",
       "name": "Claude Haiku 5.5",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/anthropic/v1",
       "apiType": "messages",
       "toolCalling": true,
       "vision": true,
@@ -368,7 +368,7 @@
     {
       "id": "gpt-6-luna",
       "name": "GPT-6 Luna",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -388,7 +388,7 @@
     {
       "id": "deepseek-v4-pro",
       "name": "DeepSeek V4 Pro (New)",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
@@ -404,7 +404,7 @@
     {
       "id": "hy4-preview",
       "name": "Hy4 preview",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
@@ -420,7 +420,7 @@
     {
       "id": "muse-spark-1.3-contributor",
       "name": "Muse Spark 1.3 Contributor",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -439,7 +439,7 @@
     {
       "id": "glm-5.3",
       "name": "GLM-5.3",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
@@ -456,7 +456,7 @@
     {
       "id": "kimi-k2.7-code",
       "name": "Kimi K2.7 Code",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/openai/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
@@ -471,7 +471,7 @@
     {
       "id": "qwen3.7-plus",
       "name": "Qwen3.7 Plus",
-      "url": "https://opencode.ai/inference/go/v1",
+      "url": "https://opencode.ai/inference/go/anthropic/v1",
       "apiType": "messages",
       "toolCalling": true,
       "vision": true,
