@@ -180,6 +180,25 @@
       "tooltip": "Price Per 1M token -- Input 0.3$, Output 1.2$, Cache 0.006$"
     },
     {
+      "id": "cat-jam-free",
+      "name": "Cat Jam Free",
+      "url": "https://opencode.ai/inference/go/openai/v1",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": true,
+      "maxInputTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "space-bunny",
       "name": "Space Bunny",
       "url": "https://opencode.ai/inference/go/openai/v1",
@@ -326,25 +345,6 @@
         "xhigh"
       ],
       "tooltip": "Price Per 1M token -- Input 0.1$, Output 0.2$, Cache 0.002$"
-    },
-    {
-      "id": "beam-free",
-      "name": "Beam Free",
-      "url": "https://opencode.ai/inference/go/openai/v1",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 1048576,
-      "maxOutputTokens": 131072,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "claude-haiku-5-5",
