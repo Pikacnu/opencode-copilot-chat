@@ -1,6 +1,23 @@
 
   "models": [
     {
+      "id": "deepseek-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "url": "https://api.deepseek.com",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 1000000,
+      "maxOutputTokens": 393216,
+      "supportsReasoningEffort": [
+        "low",
+        "high",
+        "max"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
+    },
+    {
       "id": "deepseek-v4-pro",
       "name": "DeepSeek V4 Pro",
       "url": "https://api.deepseek.com",
@@ -16,22 +33,5 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 0.66$, Output 1.98$, Cache 0.022$"
-    },
-    {
-      "id": "deepseek-flash",
-      "name": "DeepSeek V4.1 Flash 1017",
-      "url": "https://api.deepseek.com",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 1000000,
-      "maxOutputTokens": 393216,
-      "supportsReasoningEffort": [
-        "low",
-        "high",
-        "max"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.003$"
     }
   ]
