@@ -2,13 +2,13 @@
   "models": [
     {
       "id": "deepseek-flash",
-      "name": "DeepSeek V4.1 Flash",
+      "name": "DeepSeek V4.1 Flash 1017",
       "url": "https://api.deepseek.com",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 1000000,
+      "maxInputTokens": 1048576,
       "maxOutputTokens": 393216,
       "supportsReasoningEffort": [
         "low",
@@ -25,7 +25,7 @@
       "toolCalling": true,
       "vision": false,
       "thinking": true,
-      "maxInputTokens": 1000000,
+      "maxInputTokens": 1048576,
       "maxOutputTokens": 393216,
       "supportsReasoningEffort": [
         "low",

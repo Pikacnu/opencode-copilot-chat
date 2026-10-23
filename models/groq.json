@@ -1,30 +1,6 @@
 
   "models": [
     {
-      "id": "whisper-large-v3",
-      "name": "Whisper",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 0,
-      "maxOutputTokens": 0,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "llama-3.3-70b-versatile",
-      "name": "Llama 3.3 70B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 32768,
-      "tooltip": "Price Per 1M token -- Input 0.59$, Output 0.79$, Cache 0$"
-    },
-    {
       "id": "allam-2-7b",
       "name": "ALLaM-2-7b",
       "url": "",
@@ -37,6 +13,18 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
+      "id": "whisper-large-v3",
+      "name": "Whisper",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 448,
+      "maxOutputTokens": 448,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
       "id": "whisper-large-v3-turbo",
       "name": "Whisper Large V3 Turbo",
       "url": "",
@@ -44,45 +32,84 @@
       "toolCalling": false,
       "vision": false,
       "thinking": false,
-      "maxInputTokens": 0,
-      "maxOutputTokens": 0,
+      "maxInputTokens": 448,
+      "maxOutputTokens": 448,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "llama-3.1-8b-instant",
-      "name": "Llama 3.1 8B",
+      "id": "canopylabs/orpheus-v1-english",
+      "name": "Canopy Labs Orpheus V1 English",
+      "url": "https://api.groq.com/openai/v1",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 4000,
+      "maxOutputTokens": 50000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "canopylabs/orpheus-arabic-saudi",
+      "name": "Canopy Labs Orpheus Arabic Saudi",
+      "url": "https://api.groq.com/openai/v1",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 4000,
+      "maxOutputTokens": 50000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "openai/gpt-oss-safeguard-20b",
+      "name": "Safety GPT OSS 20B",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
-      "thinking": false,
+      "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 131072,
-      "tooltip": "Price Per 1M token -- Input 0.05$, Output 0.08$, Cache 0$"
+      "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.075$, Output 0.3$, Cache 0.0375$"
     },
     {
-      "id": "groq/compound-mini",
-      "name": "Compound Mini",
+      "id": "openai/gpt-oss-120b",
+      "name": "GPT OSS 120B",
       "url": "",
       "apiType": "chat-completions",
-      "toolCalling": false,
+      "toolCalling": true,
       "vision": false,
-      "thinking": false,
+      "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 8192,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.075$"
     },
     {
-      "id": "groq/compound",
-      "name": "Compound",
+      "id": "openai/gpt-oss-20b",
+      "name": "GPT OSS 20B",
       "url": "",
       "apiType": "chat-completions",
-      "toolCalling": false,
+      "toolCalling": true,
       "vision": false,
-      "thinking": false,
+      "thinking": true,
       "maxInputTokens": 131072,
-      "maxOutputTokens": 8192,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      "maxOutputTokens": 65536,
+      "supportsReasoningEffort": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.075$, Output 0.3$, Cache 0.0375$"
     },
     {
       "id": "meta-llama/llama-prompt-guard-2-86m",
@@ -109,30 +136,6 @@
       "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.03$, Cache 0$"
     },
     {
-      "id": "canopylabs/orpheus-v1-english",
-      "name": "Canopy Labs Orpheus V1 English",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 4000,
-      "maxOutputTokens": 50000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "canopylabs/orpheus-arabic-saudi",
-      "name": "Canopy Labs Orpheus Arabic Saudi",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 4000,
-      "maxOutputTokens": 50000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
       "id": "qwen/qwen3.8-27b",
       "name": "Qwen3.8 27B",
       "url": "",
@@ -140,7 +143,7 @@
       "toolCalling": true,
       "vision": true,
       "thinking": true,
-      "maxInputTokens": 131042,
+      "maxInputTokens": 131072,
       "maxOutputTokens": 16384,
       "supportsReasoningEffort": [
         "none",
@@ -150,72 +153,5 @@
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 0.8$, Output 4$, Cache 0$"
-    },
-    {
-      "id": "qwen/qwen3.6-27b",
-      "name": "Qwen3.6 27B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 16384,
-      "supportsReasoningEffort": [
-        "none",
-        "default"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0.6$, Output 3$, Cache 0.3$"
-    },
-    {
-      "id": "openai/gpt-oss-20b",
-      "name": "GPT OSS 20B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0.075$, Output 0.3$, Cache 0.0375$"
-    },
-    {
-      "id": "openai/gpt-oss-safeguard-20b",
-      "name": "Safety GPT OSS 20B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0.075$, Output 0.3$, Cache 0$"
-    },
-    {
-      "id": "openai/gpt-oss-120b",
-      "name": "GPT OSS 120B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": true,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 65536,
-      "supportsReasoningEffort": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.075$"
     }
   ]
