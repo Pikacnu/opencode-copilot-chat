@@ -1,6 +1,42 @@
 
   "models": [
     {
+      "id": "command-a-vision-07-2025",
+      "name": "Command A Vision",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": true,
+      "thinking": false,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 8000,
+      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
+    },
+    {
+      "id": "command-a-03-2025",
+      "name": "Command A",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 256000,
+      "maxOutputTokens": 8000,
+      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
+    },
+    {
+      "id": "command-r7b-arabic-02-2025",
+      "name": "Command R7B Arabic",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 4000,
+      "tooltip": "Price Per 1M token -- Input 0.0375$, Output 0.15$, Cache 0$"
+    },
+    {
       "id": "command-r-plus-08-2024",
       "name": "Command R+",
       "url": "",
@@ -13,33 +49,32 @@
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
     },
     {
-      "id": "command-a-reasoning-08-2025",
-      "name": "Command A Reasoning",
-      "url": "",
+      "id": "north-mini-code-1-0",
+      "name": "North Mini Code",
+      "url": "https://api.cohere.ai/compatibility/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
       "thinking": true,
       "maxInputTokens": 256000,
-      "maxOutputTokens": 32000,
+      "maxOutputTokens": 64000,
       "supportsReasoningEffort": [
         "none",
-        "high",
-        "max"
+        "high"
       ],
-      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "command-a-translate-08-2025",
-      "name": "Command A Translate",
+      "id": "command-r-08-2024",
+      "name": "Command R",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
       "thinking": false,
-      "maxInputTokens": 8000,
-      "maxOutputTokens": 8000,
-      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
+      "maxInputTokens": 128000,
+      "maxOutputTokens": 4000,
+      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0$"
     },
     {
       "id": "tiny-aya-global",
@@ -66,80 +101,21 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "tiny-aya-earth",
-      "name": "Tiny Aya Earth",
+      "id": "command-a-reasoning-08-2025",
+      "name": "Command A Reasoning",
       "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 8000,
-      "maxOutputTokens": 8000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "north-mini-code-1-0",
-      "name": "North Mini Code",
-      "url": "https://api.cohere.ai/compatibility/v1",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
       "thinking": true,
       "maxInputTokens": 256000,
-      "maxOutputTokens": 64000,
+      "maxOutputTokens": 32000,
       "supportsReasoningEffort": [
         "none",
-        "high"
+        "high",
+        "max"
       ],
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "north-small-translate-09-2026",
-      "name": "North Small Translate",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 32768,
-      "maxOutputTokens": 16000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "command-r-08-2024",
-      "name": "Command R",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 4000,
-      "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0$"
-    },
-    {
-      "id": "command-a-03-2025",
-      "name": "Command A",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 256000,
-      "maxOutputTokens": 8000,
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
-    },
-    {
-      "id": "tiny-aya-water",
-      "name": "Tiny Aya Water",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 8000,
-      "maxOutputTokens": 8000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "command-r7b-12-2024",
@@ -154,16 +130,16 @@
       "tooltip": "Price Per 1M token -- Input 0.0375$, Output 0.15$, Cache 0$"
     },
     {
-      "id": "command-a-vision-07-2025",
-      "name": "Command A Vision",
+      "id": "tiny-aya-earth",
+      "name": "Tiny Aya Earth",
       "url": "",
       "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": true,
+      "toolCalling": true,
+      "vision": false,
       "thinking": false,
-      "maxInputTokens": 128000,
+      "maxInputTokens": 8000,
       "maxOutputTokens": 8000,
-      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "c4ai-aya-expanse-32b",
@@ -190,16 +166,28 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "command-r7b-arabic-02-2025",
-      "name": "Command R7B Arabic",
+      "id": "command-a-translate-08-2025",
+      "name": "Command A Translate",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
       "vision": false,
       "thinking": false,
-      "maxInputTokens": 128000,
-      "maxOutputTokens": 4000,
-      "tooltip": "Price Per 1M token -- Input 0.0375$, Output 0.15$, Cache 0$"
+      "maxInputTokens": 8000,
+      "maxOutputTokens": 8000,
+      "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
+    },
+    {
+      "id": "tiny-aya-water",
+      "name": "Tiny Aya Water",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": true,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 8000,
+      "maxOutputTokens": 8000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "command-a-plus-05-2026",
@@ -217,5 +205,17 @@
         "max"
       ],
       "tooltip": "Price Per 1M token -- Input 2.5$, Output 10$, Cache 0$"
+    },
+    {
+      "id": "north-small-translate-09-2026",
+      "name": "North Small Translate",
+      "url": "",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 32768,
+      "maxOutputTokens": 16000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     }
   ]

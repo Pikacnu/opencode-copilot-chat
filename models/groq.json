@@ -1,15 +1,15 @@
 
   "models": [
     {
-      "id": "allam-2-7b",
-      "name": "ALLaM-2-7b",
+      "id": "whisper-large-v3-turbo",
+      "name": "Whisper Large V3 Turbo",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": false,
       "vision": false,
       "thinking": false,
-      "maxInputTokens": 4096,
-      "maxOutputTokens": 4096,
+      "maxInputTokens": 448,
+      "maxOutputTokens": 448,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
@@ -25,44 +25,39 @@
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "whisper-large-v3-turbo",
-      "name": "Whisper Large V3 Turbo",
+      "id": "allam-2-7b",
+      "name": "ALLaM-2-7b",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": false,
       "vision": false,
       "thinking": false,
-      "maxInputTokens": 448,
-      "maxOutputTokens": 448,
+      "maxInputTokens": 4096,
+      "maxOutputTokens": 4096,
       "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
-      "id": "canopylabs/orpheus-v1-english",
-      "name": "Canopy Labs Orpheus V1 English",
-      "url": "https://api.groq.com/openai/v1",
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "url": "",
       "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 4000,
-      "maxOutputTokens": 50000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+      "toolCalling": true,
+      "vision": true,
+      "thinking": true,
+      "maxInputTokens": 131072,
+      "maxOutputTokens": 16384,
+      "supportsReasoningEffort": [
+        "none",
+        "default",
+        "low",
+        "medium",
+        "high"
+      ],
+      "tooltip": "Price Per 1M token -- Input 0.8$, Output 4$, Cache 0$"
     },
     {
-      "id": "canopylabs/orpheus-arabic-saudi",
-      "name": "Canopy Labs Orpheus Arabic Saudi",
-      "url": "https://api.groq.com/openai/v1",
-      "apiType": "chat-completions",
-      "toolCalling": false,
-      "vision": false,
-      "thinking": false,
-      "maxInputTokens": 4000,
-      "maxOutputTokens": 50000,
-      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
-    },
-    {
-      "id": "openai/gpt-oss-safeguard-20b",
-      "name": "Safety GPT OSS 20B",
+      "id": "openai/gpt-oss-20b",
+      "name": "GPT OSS 20B",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -95,8 +90,8 @@
       "tooltip": "Price Per 1M token -- Input 0.15$, Output 0.6$, Cache 0.075$"
     },
     {
-      "id": "openai/gpt-oss-20b",
-      "name": "GPT OSS 20B",
+      "id": "openai/gpt-oss-safeguard-20b",
+      "name": "Safety GPT OSS 20B",
       "url": "",
       "apiType": "chat-completions",
       "toolCalling": true,
@@ -110,6 +105,30 @@
         "high"
       ],
       "tooltip": "Price Per 1M token -- Input 0.075$, Output 0.3$, Cache 0.0375$"
+    },
+    {
+      "id": "canopylabs/orpheus-v1-english",
+      "name": "Canopy Labs Orpheus V1 English",
+      "url": "https://api.groq.com/openai/v1",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 4000,
+      "maxOutputTokens": 50000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
+    },
+    {
+      "id": "canopylabs/orpheus-arabic-saudi",
+      "name": "Canopy Labs Orpheus Arabic Saudi",
+      "url": "https://api.groq.com/openai/v1",
+      "apiType": "chat-completions",
+      "toolCalling": false,
+      "vision": false,
+      "thinking": false,
+      "maxInputTokens": 4000,
+      "maxOutputTokens": 50000,
+      "tooltip": "Price Per 1M token -- Input 0$, Output 0$, Cache 0$"
     },
     {
       "id": "meta-llama/llama-prompt-guard-2-86m",
@@ -134,24 +153,5 @@
       "maxInputTokens": 512,
       "maxOutputTokens": 512,
       "tooltip": "Price Per 1M token -- Input 0.03$, Output 0.03$, Cache 0$"
-    },
-    {
-      "id": "qwen/qwen3.8-27b",
-      "name": "Qwen3.8 27B",
-      "url": "",
-      "apiType": "chat-completions",
-      "toolCalling": true,
-      "vision": true,
-      "thinking": true,
-      "maxInputTokens": 131072,
-      "maxOutputTokens": 16384,
-      "supportsReasoningEffort": [
-        "none",
-        "default",
-        "low",
-        "medium",
-        "high"
-      ],
-      "tooltip": "Price Per 1M token -- Input 0.8$, Output 4$, Cache 0$"
     }
   ]
